@@ -264,7 +264,7 @@ endif;
     <script type="text/javascript" src="__jsc/jspdf.js"></script>
     <script type="text/javascript" src="__jsc/pdfFromHTML.js"></script>
     <script type="text/javascript" src="__jsc/bootstrap-multiselect.js"></script>
-    <script src="__jsc/validacpfcnpj.js"></script>
+    <script src="__jsc/validacpfcnpj.js?v=2"></script>
     <script src="assets/plugins/iCheck/icheck.min.js"></script>
     <script src="__jsc/app.js"></script>
     <script>
