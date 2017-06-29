@@ -72,7 +72,7 @@ endif;
                         <?php
                         endif;
                             ?>
-                                especiesTitulo['<?=$codigo_banco?>'].push({ id: '<?=$id?>', descricao: '<?=$descricao?>' });          
+                                especiesTitulo['<?=$codigo_banco?>'].push({ id: '<?=$id?>', sigla_boleto: '<?=$sigla_boleto?>', descricao: '<?=$descricao?>' });          
                             <?php
                     endforeach;
                 endif;
@@ -87,7 +87,7 @@ endif;
                     if(especiesTitulo[codigoBanco] && especiesTitulo[codigoBanco].length > 0) {
                         for (var index = 0; index < especiesTitulo[codigoBanco].length; index++) {
                             var especie = especiesTitulo[codigoBanco][index];
-                            htmlOptions += ('<option value="' + especie.id + '">' + especie.descricao + '</option>');   
+                            htmlOptions += ('<option value="' + especie.id + '">' + especie.sigla_boleto + ' - ' + especie.descricao + '</option>');   
                         }
                     }
 
