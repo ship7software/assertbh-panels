@@ -525,7 +525,7 @@ endif;
                                 <div class="row form-inline">
                                     <div class="col-md-4">
                                         <label>Aplicar Multa de:</label>
-                                        <input class="form-control mask-money"
+                                        <input class="form-control mask-money2"
                                                type = "text"
                                                name = "multa"
                                                value="<?php if (!empty($ClienteData['multa'])) echo $ClienteData['multa']; else echo '0'?>"> %
@@ -539,7 +539,7 @@ endif;
                                 <div class="row form-inline">
                                     <div class="col-md-8">
                                         <label>Aplicar Juros Moratórios de:</label>
-                                        <input class="form-control mask-money"
+                                        <input class="form-control mask-money2"
                                                type = "text"
                                                name = "juros"
                                                value="<?php if (!empty($ClienteData['juros'])) echo $ClienteData['juros']; else echo '0'?>"> % a.m. Pro rata die
@@ -585,7 +585,7 @@ endif;
                                     <div class="col-md-8">
                                         <label>Valor Médio de Contribuição por Condômino</label>
                                         <div class="form-inline">
-                                            <input class="form-control mask-money"
+                                            <input class="form-control mask-money2"
                                                    type = "text"
                                                    name = "taxa_fundo1"
                                                    value="<?php if (!empty($ClienteData['taxa_fundo1'])) echo $ClienteData['taxa_fundo1']; else echo '0' ?>">
@@ -610,7 +610,7 @@ endif;
                                     <div class="col-md-8">
                                         <label>Valor Médio de Contribuição por Condômino</label>
                                         <div class="form-inline">
-                                            <input class="form-control mask-money"
+                                            <input class="form-control mask-money2"
                                                    type = "text"
                                                    name = "taxa_fundo2"
                                                    value="<?php if (!empty($ClienteData['taxa_fundo2'])) echo $ClienteData['taxa_fundo2']; else echo '0'?>">
@@ -635,7 +635,7 @@ endif;
                                     <div class="col-md-8">
                                         <label>Valor Médio de Contribuição por Condômino</label>
                                         <div class="form-inline">
-                                            <input class="form-control mask-money"
+                                            <input class="form-control mask-money2"
                                                    type = "text"
                                                    name = "taxa_fundo3"
                                                    value="<?php if (!empty($ClienteData['taxa_fundo3'])) echo $ClienteData['taxa_fundo3']; else echo '0'?>">
@@ -659,7 +659,7 @@ endif;
                                     <div class="col-md-8">
                                         <label>Valor Médio de Contribuição por Condômino</label>
                                         <div class="form-inline">
-                                            <input class="form-control mask-money"
+                                            <input class="form-control mask-money2"
                                                    type = "text"
                                                    name = "taxa_fundo4"
                                                    value="<?php if (!empty($ClienteData['taxa_fundo4'])) echo $ClienteData['taxa_fundo4']; else echo '0'?>">
@@ -683,7 +683,7 @@ endif;
                                     <div class="col-md-8">
                                         <label>Valor Médio de Contribuição por Condômino</label>
                                         <div class="form-inline">
-                                            <input class="form-control mask-money"
+                                            <input class="form-control mask-money2"
                                                    type = "text"
                                                    name = "taxa_fundo5"
                                                    value="<?php if (!empty($ClienteData['taxa_fundo5'])) echo $ClienteData['taxa_fundo5']; else echo '0'?>">
@@ -707,7 +707,7 @@ endif;
                                     <label class="radio-inline"><input type="radio" name="sindico_remuneracao" value="2" <?=($ClienteData['sindico_remuneracao'] == 2 ? 'checked="checked"' : '')?>>Não</label>
                                     <div class="input-group">
                                         <span class="input-group-addon">R$</span>
-                                        <input class="form-control mask-money"
+                                        <input class="form-control mask-money2"
                                                type = "text"
                                                name = "sindico_remu_valor"
                                                value="<?php if (!empty($ClienteData['sindico_remu_valor'])) echo $ClienteData['sindico_remu_valor']; else echo '0'?>"
@@ -724,7 +724,7 @@ endif;
                                     <label class="radio-inline"><input type="radio" name="sindico_desconto" value="2" <?=($ClienteData['sindico_desconto'] == 2 ? 'checked="checked"' : '')?>>Não</label>
                                     <div class="input-group">
                                         <span class="input-group-addon">%</span>
-                                        <input class="form-control mask-money"
+                                        <input class="form-control mask-money2"
                                                type = "text"
                                                name = "sindico_desc_valor"
                                                value="<?php if (!empty($ClienteData['sindico_desc_valor'])) echo $ClienteData['sindico_desc_valor']; else echo '0'?>"
@@ -803,7 +803,7 @@ endif;
                                 <div class="col-md-3">
                                     <div class="input-group">
                                         <span class="input-group-addon">R$</span>
-                                        <input class="form-control mask-money"
+                                        <input class="form-control mask-money2"
                                                type = "text"
                                                name = "subsindico_remu_valor"
                                                value="<?php if (!empty($ClienteData['subsindico_remu_valor'])) echo $ClienteData['subsindico_remu_valor']; else echo '0'?>"
@@ -820,7 +820,7 @@ endif;
                                     <label class="radio-inline"><input type="radio" name="subsindico_desconto" value="2" <?=($ClienteData['subsindico_desconto'] == 2 ? 'checked="checked"' : '')?>>Não</label>
                                     <div class="input-group">
                                         <span class="input-group-addon">%</span>
-                                        <input class="form-control mask-money"
+                                        <input class="form-control mask-money2"
                                                type = "text"
                                                name = "subsindico_desc_valor"
                                                value="<?php if (!empty($ClienteData['subsindico_desc_valor'])) echo $ClienteData['subsindico_desc_valor'];  else echo '0'?>"
@@ -1081,7 +1081,7 @@ endif;
                         <div class="row form-group">
                             <div class="col-md-3">
                                 <label>Taxa do Boleto</label>
-                                <input class="form-control mask-money"
+                                <input class="form-control mask-money2"
                                        type = "text"
                                        name = "taxa"
                                        value="<?php if (!empty($ClienteData['taxa'])) echo $ClienteData['taxa']; else echo '0' ?>"

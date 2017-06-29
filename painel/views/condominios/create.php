@@ -507,7 +507,7 @@ endif;
                                 <div class="row form-inline">
                                     <div class="col-md-4">
                                         <label>Aplicar Multa de:</label>
-                                        <input class="form-control mask-money"
+                                        <input class="form-control mask-money2"
                                                type = "text"
                                                name = "multa"
                                                value="0"> %
@@ -521,7 +521,7 @@ endif;
                                 <div class="row form-inline">
                                     <div class="col-md-8">
                                         <label>Aplicar Juros Moratórios de:</label>
-                                        <input class="form-control mask-money"
+                                        <input class="form-control mask-money2"
                                                type = "text"
                                                name = "juros"
                                                value="0"> % a.m. Pro rata die
@@ -592,7 +592,7 @@ endif;
                                     <div class="col-md-8">
                                         <label>Valor Médio de Contribuição por Condômino</label>
                                         <div class="form-inline">
-                                            <input class="form-control mask-money"
+                                            <input class="form-control mask-money2"
                                                    type = "text"
                                                    name = "taxa_fundo2"
                                                    value=0>
@@ -617,7 +617,7 @@ endif;
                                     <div class="col-md-8">
                                         <label>Valor Médio de Contribuição por Condômino</label>
                                         <div class="form-inline">
-                                            <input class="form-control mask-money"
+                                            <input class="form-control mask-money2"
                                                    type = "text"
                                                    name = "taxa_fundo3"
                                                    value=0>
@@ -641,7 +641,7 @@ endif;
                                     <div class="col-md-8">
                                         <label>Valor Médio de Contribuição por Condômino</label>
                                         <div class="form-inline">
-                                            <input class="form-control mask-money"
+                                            <input class="form-control mask-money2"
                                                    type = "text"
                                                    name = "taxa_fundo4"
                                                    value=0>
@@ -665,7 +665,7 @@ endif;
                                     <div class="col-md-8">
                                         <label>Valor Médio de Contribuição por Condômino</label>
                                         <div class="form-inline">
-                                            <input class="form-control mask-money"
+                                            <input class="form-control mask-money2"
                                                    type = "text"
                                                    name = "taxa_fundo5"
                                                    value=0>
@@ -689,7 +689,7 @@ endif;
                                     <label class="radio-inline"><input type="radio" name="sindico_remuneracao" value="2" checked="checked" >Não</label>
                                     <div class="input-group">
                                         <span class="input-group-addon">R$</span>
-                                        <input class="form-control mask-money"
+                                        <input class="form-control mask-money2"
                                                type = "text"
                                                name = "sindico_remu_valor"
                                                value=0
@@ -706,7 +706,7 @@ endif;
                                     <label class="radio-inline"><input type="radio" name="sindico_desconto" value="2" checked="checked">Não</label>
                                     <div class="input-group">
                                         <span class="input-group-addon">%</span>
-                                        <input class="form-control mask-money"
+                                        <input class="form-control mask-money2"
                                                type = "text"
                                                name = "sindico_desc_valor"
                                                value=0
@@ -780,7 +780,7 @@ endif;
                                     <label class="radio-inline"><input type="radio" name="subsindico_remuneracao" value="2"checked="checked">Não</label>
                                     <div class="input-group">
                                         <span class="input-group-addon">R$</span>
-                                        <input class="form-control mask-money"
+                                        <input class="form-control mask-money2"
                                                type = "text"
                                                name = "subsindico_remu_valor"
                                                value=0
@@ -797,7 +797,7 @@ endif;
                                     <label class="radio-inline"><input type="radio" name="subsindico_desconto" value="2" checked="checked">Não</label>
                                     <div class="input-group">
                                         <span class="input-group-addon">%</span>
-                                        <input class="form-control mask-money"
+                                        <input class="form-control mask-money2"
                                                type = "text"
                                                name = "subsindico_desc_valor"
                                                value=0
@@ -1057,7 +1057,7 @@ endif;
                         <div class="row form-group">
                             <div class="col-md-3">
                                 <label>Taxa do Boleto</label>
-                                <input class="form-control mask-money"
+                                <input class="form-control mask-money2"
                                        type = "text"
                                        name = "taxa"
                                        value="0"

@@ -151,7 +151,7 @@ $banco = new AdminCobranca();
                     </div>
                     <div class="col-md-3">
                         <label>Valor: R$</label>
-                        <input class="form-control mask-money"
+                        <input class="form-control mask-money2"
                                type = "text"
                                name = "valor"
                                value="<?php if (!empty($ClienteData['valor'])) echo $ClienteData['valor'];?>"
