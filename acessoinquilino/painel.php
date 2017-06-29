@@ -184,7 +184,7 @@ endif;
     
     <script type="text/javascript" src="__jsc/jquery.mask.min.js"></script>
     <script type="text/javascript" src="__jsc/jquery.maskedinput-1.3.1.min.js"></script>
-    <script src="__jsc/validacpfcnpj.js?v=2"></script>
+    <script src="__jsc/validacpfcnpj.js?v=3"></script>
 
     <script src="__jsc/moment.js"></script>
     <script src="__jsc/app.js"></script>

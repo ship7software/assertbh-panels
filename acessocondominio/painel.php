@@ -271,7 +271,7 @@ endif;
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
 
-    <script src="__jsc/validacpfcnpj.js?v=2"></script>
+    <script src="__jsc/validacpfcnpj.js?v=3"></script>
 
     <script src="__jsc/moment.js"></script>
     <script src="__jsc/app.js"></script>

@@ -283,7 +283,7 @@ endif;
     <script src="assets/plugins/slimScroll/jquery.slimscroll.min.js"></script>
     <script src="assets/plugins/fastclick/fastclick.min.js"></script>
 
-    <script src="__jsc/validacpfcnpj.js?v=2"></script>
+    <script src="__jsc/validacpfcnpj.js?v=3"></script>
 
     <script src="__jsc/moment.js"></script>
     <script src="__jsc/app.js"></script>

@@ -112,7 +112,7 @@ function valida_cpf( valor ) {
     var primeiroDigito = valor.substr(0,1);
 
     if (digitos2.replace(new RegExp(primeiroDigito, 'g'), '') === '') {
-        return true;
+        return false;
     }
 
 
