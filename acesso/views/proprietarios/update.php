@@ -291,7 +291,7 @@ if ($ClienteData['alterar'] && $sendPostForm):
             endif;
         endforeach;
     endif;
-    if ($existeUnidade = 0):
+    if ($existeUnidade < 1):
         $texto = '<h3>Sr. Condômino,</h3>';
         $texto .= '<p>Obrigado pelo preenchimento do seu cadastro.</p>';
         $texto .= '<p>Para qualquer alteração dos dados, entre em contato com a administradora.</p>';

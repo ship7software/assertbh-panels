@@ -137,6 +137,7 @@ endif;
             <!-- /.sidebar -->
         </aside>
 <script src="assets/plugins/jQuery/jQuery-2.1.4.min.js"></script>
+<script type="text/javascript" src="__jsc/sweetalert.min.js"></script>
         <div class="content-wrapper">
             <div class="row">
                 <div class="container-fluid">
@@ -282,7 +283,6 @@ endif;
     <script src="assets/plugins/slimScroll/jquery.slimscroll.min.js"></script>
     <script src="assets/plugins/fastclick/fastclick.min.js"></script>
 
-    <script type="text/javascript" src="__jsc/sweetalert.min.js"></script>
     <script src="__jsc/validacpfcnpj.js"></script>
 
     <script src="__jsc/moment.js"></script>
