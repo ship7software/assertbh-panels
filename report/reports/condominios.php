@@ -333,7 +333,7 @@ $html = '
 		  ( '.($read->getResult()[0]['subsindico_inss_paga']==2?'X':' ').' ) Pago pelo Síndico ( '.($read->getResult()[0]['subsindico_inss_paga']==3?'X':' ').' ) Não Aplicável</th>
     </tr>
     <tr>
-		<th><span style="font-weight: bold;">Síndico recebe algum outro benefício ?: </span>( '.($read->getResult()[0]['subsindico_beneficio']==1?'X':' ').' ) Sim
+		<th><span style="font-weight: bold;">Subsíndico recebe algum outro benefício ?: </span>( '.($read->getResult()[0]['subsindico_beneficio']==1?'X':' ').' ) Sim
 		  ( '.($read->getResult()[0]['subsindico_beneficio']==2?'X':' ').') Não '.($read->getResult()[0]['subsindico_beneficio']==1?' - <span style="font-weight: bold;">Benefício: </span>'.$read->getResult()[0]['subsindico_bene_nome']:' ').'</th>
     </tr>
     <br>

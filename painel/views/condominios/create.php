@@ -538,13 +538,13 @@ endif;
                                 <div class="col-md-10">
                                     <label>Enviar e-mails de cobrança para:</label>
                                     <label class="radio-inline"><input type="radio" name="cobranca" value="1" checked="checked">Proprietário</label>
-                                    <label class="radio-inline"><input type="radio" name="cobranca" value="2" >Inquilino</label>
+                                    <label class="radio-inline"><input type="radio" name="cobranca" value="2" >Morador</label>
                                     <label class="radio-inline"><input type="radio" name="cobranca" value="3" >Ambos</label>
                                 </div>
                                 <div class="col-md-10">
                                     <label>Se ambos, direcionado ao: </label>
                                     <label class="radio-inline"><input type="radio" name="ambos" value="1" >Proprietário</label>
-                                    <label class="radio-inline"><input type="radio" name="ambos" value="2" >Inquilino</label>
+                                    <label class="radio-inline"><input type="radio" name="ambos" value="2" >Morador</label>
                                     <label class="radio-inline"><input type="radio" name="ambos" value="3" checked="checked">Não Aplicável</label>
                                 </div>
                             </div>
@@ -683,12 +683,10 @@ endif;
                         <h4>Síndico: </h4>
                         <div class="row form-group">
                             <div class="col-md-12">
-                                <div class="col-md-3">
+                                <div class="col-md-8">
                                     <label>Recebe Remuneração ?:</label>
                                     <label class="radio-inline"><input type="radio" name="sindico_remuneracao" value="1" >Sim</label>
                                     <label class="radio-inline"><input type="radio" name="sindico_remuneracao" value="2" checked="checked" >Não</label>
-                                </div>
-                                <div class="col-md-3">
                                     <div class="input-group">
                                         <span class="input-group-addon">R$</span>
                                         <input class="form-control mask-money"
@@ -702,12 +700,10 @@ endif;
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <div class="col-md-4">
+                                <div class="col-md-8">
                                     <label>Recebe Desconto no Condomínio ?:</label>
                                     <label class="radio-inline"><input type="radio" name="sindico_desconto" value="1" >Sim</label>
                                     <label class="radio-inline"><input type="radio" name="sindico_desconto" value="2" checked="checked">Não</label>
-                                </div>
-                                <div class="col-md-3">
                                     <div class="input-group">
                                         <span class="input-group-addon">%</span>
                                         <input class="form-control mask-money"
@@ -761,12 +757,10 @@ endif;
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <div class="col-md-4">
+                                <div class="col-md-8">
                                     <label>Síndico recebe algum outro benefício ?:</label>
                                     <label class="radio-inline"><input type="radio" name="sindico_beneficio" value="1" >Sim</label>
                                     <label class="radio-inline"><input type="radio" name="sindico_beneficio" value="2" checked="checked">Não</label>
-                                </div>
-                                <div class="col-md-4">
                                     <input class="form-control"
                                            type = "text"
                                            name = "sindico_bene_nome"
@@ -780,12 +774,10 @@ endif;
                         <h4>Subsíndico: </h4>
                         <div class="row form-group">
                             <div class="col-md-12">
-                                <div class="col-md-3">
+                                <div class="col-md-8">
                                     <label>Recebe Remuneração ?:</label>
                                     <label class="radio-inline"><input type="radio" name="subsindico_remuneracao" value="1">Sim</label>
                                     <label class="radio-inline"><input type="radio" name="subsindico_remuneracao" value="2"checked="checked">Não</label>
-                                </div>
-                                <div class="col-md-3">
                                     <div class="input-group">
                                         <span class="input-group-addon">R$</span>
                                         <input class="form-control mask-money"
@@ -799,12 +791,10 @@ endif;
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <div class="col-md-4">
+                                <div class="col-md-8">
                                     <label>Recebe Desconto no Condomínio ?:</label>
                                     <label class="radio-inline"><input type="radio" name="subsindico_desconto" value="1" >Sim</label>
                                     <label class="radio-inline"><input type="radio" name="subsindico_desconto" value="2" checked="checked">Não</label>
-                                </div>
-                                <div class="col-md-3">
                                     <div class="input-group">
                                         <span class="input-group-addon">%</span>
                                         <input class="form-control mask-money"
@@ -858,12 +848,10 @@ endif;
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <div class="col-md-4">
-                                    <label>Síndico recebe algum outro benefício ?:</label>
+                                <div class="col-md-8">
+                                    <label>Subsíndico recebe algum outro benefício ?:</label>
                                     <label class="radio-inline"><input type="radio" name="subsindico_beneficio" value="1" >Sim</label>
                                     <label class="radio-inline"><input type="radio" name="subsindico_beneficio" value="2" checked="checked">Não</label>
-                                </div>
-                                <div class="col-md-4">
                                     <input class="form-control"
                                            type = "text"
                                            name = "subsindico_bene_nome"

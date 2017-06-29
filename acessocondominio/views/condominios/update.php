@@ -549,7 +549,7 @@ endif;
                                     <label class="radio-inline"><input type="radio" name="cobranca" value="1" <?=($ClienteData['cobranca'] == 1 ? 'checked="checked"' : '')?>
                                             <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>Proprietário</label>
                                     <label class="radio-inline"><input type="radio" name="cobranca" value="2" <?=($ClienteData['cobranca'] == 2 ? 'checked="checked"' : '')?>
-                                            <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>Inquilino</label>
+                                            <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>Morador</label>
                                     <label class="radio-inline"><input type="radio" name="cobranca" value="3" <?=($ClienteData['cobranca'] == 3 ? 'checked="checked"' : '')?>
                                             <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>Ambos</label>
                                 </div>
@@ -558,7 +558,7 @@ endif;
                                     <label class="radio-inline"><input type="radio" name="ambos" value="1" <?=($ClienteData['ambos'] == 1 ? 'checked="checked"' : '')?>
                                             <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>Proprietário</label>
                                     <label class="radio-inline"><input type="radio" name="ambos" value="2" <?=($ClienteData['ambos'] == 2 ? 'checked="checked"' : '')?>
-                                            <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>Inquilino</label>
+                                            <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>Morador</label>
                                     <label class="radio-inline"><input type="radio" name="ambos" value="3" <?=($ClienteData['ambos'] == 3 ? 'checked="checked"' : '')?>
                                             <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>Não Aplicável</label>
                                 </div>
@@ -708,14 +708,12 @@ endif;
                         <h4>Síndico: </h4>
                         <div class="row form-group">
                             <div class="col-md-12">
-                                <div class="col-md-3">
+                                <div class="col-md-8">
                                     <label>Recebe Remuneração ?:</label>
                                     <label class="radio-inline"><input type="radio" name="sindico_remuneracao" value="1" <?=($ClienteData['sindico_remuneracao'] == 1 ? 'checked="checked"' : '')?>
                                             <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>Sim</label>
                                     <label class="radio-inline"><input type="radio" name="sindico_remuneracao" value="2" <?=($ClienteData['sindico_remuneracao'] == 2 ? 'checked="checked"' : '')?>
                                             <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>Não</label>
-                                </div>
-                                <div class="col-md-3">
                                     <div class="input-group">
                                         <span class="input-group-addon">R$</span>
                                         <input class="form-control mask-money"
@@ -729,14 +727,12 @@ endif;
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <div class="col-md-4">
+                                <div class="col-md-8">
                                     <label>Recebe Desconto no Condomínio ?:</label>
                                     <label class="radio-inline"><input type="radio" name="sindico_desconto" value="1" <?=($ClienteData['sindico_desconto'] == 1 ? 'checked="checked"' : '')?>
                                             <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>Sim</label>
                                     <label class="radio-inline"><input type="radio" name="sindico_desconto" value="2" <?=($ClienteData['sindico_desconto'] == 2 ? 'checked="checked"' : '')?>
                                             <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>Não</label>
-                                </div>
-                                <div class="col-md-3">
                                     <div class="input-group">
                                         <span class="input-group-addon">%</span>
                                         <input class="form-control mask-money"
@@ -803,14 +799,12 @@ endif;
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <div class="col-md-4">
+                                <div class="col-md-8">
                                     <label>Síndico recebe algum outro benefício ?:</label>
                                     <label class="radio-inline"><input type="radio" name="sindico_beneficio" value="1" <?=($ClienteData['sindico_beneficio'] == 1 ? 'checked="checked"' : '')?>
                                             <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>Sim</label>
                                     <label class="radio-inline"><input type="radio" name="sindico_beneficio" value="2" <?=($ClienteData['sindico_beneficio'] == 2 ? 'checked="checked"' : '')?>
                                             <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>Não</label>
-                                </div>
-                                <div class="col-md-4">
                                     <input class="form-control"
                                            type = "text"
                                            name = "sindico_bene_nome"
@@ -824,14 +818,12 @@ endif;
                         <h4>Subsíndico: </h4>
                         <div class="row form-group">
                             <div class="col-md-12">
-                                <div class="col-md-3">
+                                <div class="col-md-8">
                                     <label>Recebe Remuneração ?:</label>
                                     <label class="radio-inline"><input type="radio" name="subsindico_remuneracao" value="1" <?=($ClienteData['subsindico_remuneracao'] == 1 ? 'checked="checked"' : '')?>
                                             <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>Sim</label>
                                     <label class="radio-inline"><input type="radio" name="subsindico_remuneracao" value="2" <?=($ClienteData['subsindico_remuneracao'] == 2 ? 'checked="checked"' : '')?>
                                             <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>Não</label>
-                                </div>
-                                <div class="col-md-3">
                                     <div class="input-group">
                                         <span class="input-group-addon">R$</span>
                                         <input class="form-control mask-money"
@@ -845,14 +837,12 @@ endif;
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <div class="col-md-4">
+                                <div class="col-md-8">
                                     <label>Recebe Desconto no Condomínio ?:</label>
                                     <label class="radio-inline"><input type="radio" name="subsindico_desconto" value="1" <?=($ClienteData['subsindico_desconto'] == 1 ? 'checked="checked"' : '')?>
                                             <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>Sim</label>
                                     <label class="radio-inline"><input type="radio" name="subsindico_desconto" value="2" <?=($ClienteData['subsindico_desconto'] == 2 ? 'checked="checked"' : '')?>
                                             <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>Não</label>
-                                </div>
-                                <div class="col-md-3">
                                     <div class="input-group">
                                         <span class="input-group-addon">%</span>
                                         <input class="form-control mask-money"
@@ -919,14 +909,12 @@ endif;
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <div class="col-md-4">
-                                    <label>Síndico recebe algum outro benefício ?:</label>
+                                <div class="col-md-8">
+                                    <label>Subsíndico recebe algum outro benefício ?:</label>
                                     <label class="radio-inline"><input type="radio" name="subsindico_beneficio" value="1" <?=($ClienteData['subsindico_beneficio'] == 1 ? 'checked="checked"' : '')?>
                                             <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>Sim</label>
                                     <label class="radio-inline"><input type="radio" name="subsindico_beneficio" value="2" <?=($ClienteData['subsindico_beneficio'] == 2 ? 'checked="checked"' : '')?>
                                             <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>Não</label>
-                                </div>
-                                <div class="col-md-4">
                                     <input class="form-control"
                                            type = "text"
                                            name = "subsindico_bene_nome"
