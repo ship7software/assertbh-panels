@@ -295,7 +295,7 @@ endif;
                             </div>
                             <div class="col-md-4">
                                 <label>CEP</label>
-                                <input class="form-control cep"
+                                <input class="form-control mask-cep"
                                        type = "text"
                                        name = "cep"
                                        value="<?php if (!empty($ClienteData['cep'])) echo $ClienteData['cep']; ?>"
