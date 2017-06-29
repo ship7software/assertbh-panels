@@ -108,6 +108,13 @@ function valida_cpf( valor ) {
     // Captura os 9 primeiros dígitos do CPF
     // Ex.: 02546288423 = 025462884
     var digitos = valor.substr(0, 9);
+    var digitos2 = valor.substr(0, 9);
+    var primeiroDigito = valor.substr(0,1);
+
+    if (digitos2.replace(new RegExp(primeiroDigito, 'g'), '') === '') {
+        return true;
+    }
+
 
     // Faz o cálculo dos 9 primeiros dígitos do CPF para obter o primeiro dígito
     var novo_cpf = calc_digitos_posicoes( digitos );

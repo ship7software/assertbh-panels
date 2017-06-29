@@ -1,4 +1,4 @@
-$(document).ready(function() {
+/*$(document).ready(function() {
     $('#usuariostable').DataTable({
         responsive: true,
         "language": {
@@ -174,7 +174,7 @@ $(document).ready(function() {
             { "data": "acoes", "orderable": false, "searchable": false, "width":"60px"}
         ]
     });
-});
+});*/
 
 $(document).on('click', '#delete_btn', function(){
     var thisElement = this;
