@@ -1,0 +1,1308 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Avartan Slider Lite\n"
+"POT-Creation-Date: 2016-03-08 15:37+0530\n"
+"PO-Revision-Date: 2016-03-08 15:37+0530\n"
+"Last-Translator: \n"
+"Language-Team: Solwin Infotech <info@solwininfotech.com>\n"
+"Language: en_EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n;_x;_ex;_nx;esc_attr_e;"
+"_n_noop\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/"
+"plugins/avartan-slider-lite\n"
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/avartanslider.php:83
+msgid "If you like "
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/avartanslider.php:84
+msgid "Avartan Slider Lite "
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/avartanslider.php:85
+msgid "please leave us a "
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/avartanslider.php:87
+msgid " rating. A huge thank you from Solwin Infotech in advance!"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/avartanslider.php:154
+msgid "Select Avartan Slider to insert into post/page"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/avartanslider.php:157
+msgid "Add Avartan slider"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/avartanslider.php:196
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/avartanslider.php:203
+msgid "Insert Avartan Slider"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/avartanslider.php:198
+msgid "Choose Avartan Slider"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/avartanslider.php:205
+msgid "No sliders found"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:95
+msgid "Add Text/HTML"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:96
+msgid "Add Image"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:97
+msgid "Add Video"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:98
+msgid "Add Shortcode"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:99
+msgid "Add Button"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:102
+msgid "Element Timing"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:103
+msgid "Live Preview"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:104
+msgid "Delete Element"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:105
+msgid "Duplicate Element"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:106
+msgid "Delete All Element"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:112
+msgid "All Elements Timing"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:116
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:302
+msgid "Show/Hide Element"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:117
+msgid "Element List"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:118
+msgid "Delay Time"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:118
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:119
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:120
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:469
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:478
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:527
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:536
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:720
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:729
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:778
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:787
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1131
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1140
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1189
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1198
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:272
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:285
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:298
+msgid "ms"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:119
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:525
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:776
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1187
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:279
+msgid "Ease In"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:120
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:534
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:785
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1196
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:292
+msgid "Ease Out"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:121
+msgid "Z-index"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:134
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:322
+msgid "No element found."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:201
+msgid "Text Element"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:206
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:304
+msgid "Image Element"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:210
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:329
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:303
+msgid "Video Element"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:214
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:334
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:326
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/shortcode.php:184
+msgid "Html5 Video"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:393
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:626
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:875
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:32
+msgid "Slide Down"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:394
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:627
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:876
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:31
+msgid "Slide Up"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:395
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:628
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:877
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:29
+msgid "Slide Left"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:396
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:629
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:878
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:30
+msgid "Slide Right"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:397
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:630
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:879
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:26
+msgid "Fade"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:398
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:631
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:880
+msgid "Fade Down"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:399
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:632
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:881
+msgid "Fade Up"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:400
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:633
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:882
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:27
+msgid "Fade Left"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:401
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:634
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:883
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:28
+msgid "Fade Right"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:402
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:635
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:884
+msgid "Fade Small Down"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:403
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:636
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:885
+msgid "Fade Small Up"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:404
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:637
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:886
+msgid "Fade Small Left"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:405
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:638
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:887
+msgid "Fade Small Right"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:412
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:645
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:894
+msgid "General Parameter"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:415
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:648
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:897
+msgid "Animation Parameter"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:418
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:651
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:900
+msgid "Advanced Parameter"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:425
+msgid "Text"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:427
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:321
+msgid "Text element"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:430
+msgid "Write the text or the HTML."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:434
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:685
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1096
+msgid "Left"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:436
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:445
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:687
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:696
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:958
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:961
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1007
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1010
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1084
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1087
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1098
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1107
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:128
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:137
+msgid "px"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:439
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:690
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1101
+msgid "Left distance in px from the start width."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:443
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:694
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1105
+msgid "Top"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:448
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:699
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1110
+msgid "Top distance in px from the start height."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:452
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:703
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1114
+msgid "Z - index"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:457
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:708
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1119
+msgid ""
+"An element with an high z-index will cover an element with a lower z-index "
+"if they overlap."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:467
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:718
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1129
+msgid "Delay"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:472
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:723
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1134
+msgid "How long will the element wait before the entrance. Default : 300ms"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:476
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:727
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1138
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:266
+msgid "Time"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:481
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:732
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1143
+msgid ""
+"How long will the element be displayed during the slide execution. Write "
+"\"all\" to set the entire time. Default:all"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:485
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:736
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1147
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:228
+msgid "In Animation"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:500
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:751
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1162
+msgid "The in animation of the element."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:504
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:755
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1166
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:247
+msgid "Out Animation"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:518
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:769
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1180
+msgid "Disable synchronization with slide out animation"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:521
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:772
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1183
+msgid ""
+"The out animation of the element.<br /><br />Disable synchronization with "
+"slide out animation: if not checked, the slide out animation won't start "
+"until all the elements that have this option unchecked are animated out."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:530
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:781
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1192
+msgid "How long will the in animation take. Default : 300ms"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:539
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:790
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1201
+msgid "How long will the out animation take. Default : 300ms"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:549
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:800
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1211
+msgid "ID"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:554
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:805
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1216
+msgid "Add ID attribute to element."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:558
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:809
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1220
+msgid "Classes"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:563
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:814
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1225
+msgid "Add Class attribute to element."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:567
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:818
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1229
+msgid "Title"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:572
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:823
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1234
+msgid "Add Title attribute to element."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:576
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:827
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1238
+msgid "Rel"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:581
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:832
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1243
+msgid "Add Rel attribute to element."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:585
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:836
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1247
+msgid "Link"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:589
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:840
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1251
+msgid "Open link in a new tab"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:592
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:843
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1254
+msgid ""
+"Open the link (e.g.: http://www.google.com) on click. Leave it empty if you "
+"don't want it."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:596
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:847
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1258
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:305
+msgid "Custom CSS"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:601
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:852
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1263
+msgid "Style the element."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:658
+msgid "Modify Image"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:660
+msgid "Open Gallery"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:663
+msgid "Change the image source or the alt text."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:667
+msgid "Image Alt"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:672
+msgid "Add image alt text."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:676
+msgid "Scale Proportional"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:681
+msgid ""
+"An element with Scale Proportional will scalling width and height with "
+"respect to slider width and height."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:907
+msgid "Choose Video Type "
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:910
+msgid "Youtube"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:911
+msgid "Vimeo"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:912
+msgid "HTML5"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:916
+msgid "Choose video type "
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:933
+msgid "Enter Youtube ID or URL "
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:936
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:984
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1061
+msgid "Search"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:939
+msgid "example: E5ln4uR4TwQ "
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:943
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:992
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1069
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:15
+msgid "Full Width"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:958
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1007
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1084
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:126
+msgid "Width"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:961
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1010
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1087
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:135
+msgid "Height"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:964
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1013
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1090
+msgid ""
+"Checked full width checkbox for get full width video which will neglate "
+"width and height which you have enter. If full width is not checked then "
+"video will take width and height from textbox."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:968
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1017
+msgid "Set Preview image"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:970
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1019
+msgid "Set Preview"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:971
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1020
+msgid "Remove Preview"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:974
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1023
+msgid ""
+"Set the preivew image for video and remove preview image on select remove "
+"preview button."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:981
+msgid "Enter Vimeo ID or URL "
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:987
+msgid "example: 6370469 "
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1030
+msgid "Enter Poster Image Url"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1035
+msgid "Example: http://video-js.zencoder.com/oceans-clip.png"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1039
+msgid "Enter MP4 Url"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1044
+msgid "Example: http://video-js.zencoder.com/oceans-clip.mp4"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1048
+msgid "Enter WEBM Url"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1053
+msgid "Example: http://video-js.zencoder.com/oceans-clip.webm"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1057
+msgid "Enter OGV Url"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/elements.php:1064
+msgid "Example: http://video-js.zencoder.com/oceans-clip.ogv"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:16
+msgid "Fixed"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:19
+msgid "Yes"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:20
+msgid "No"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:37
+msgid "Bottom Center"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:38
+msgid "Bottom Left"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:39
+msgid "Bottom Right"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:52
+msgid "Slider Info"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:55
+msgid "General"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:58
+msgid "Loader"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:61
+msgid "Controls"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:64
+msgid "Navigation"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:70
+msgid "Slider Setting Options"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:76
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:104
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:232
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:286
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:376
+msgid "Reset Settings"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:79
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:81
+msgid "Slider Name"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:85
+msgid "Alias"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:89
+msgid "Shortcode"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:93
+msgid "PHP Function"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:107
+msgid "Layout"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:122
+msgid "Modify the layout type of the slider."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:131
+msgid "The content initial width of the slider."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:140
+msgid "The content initial height of the slider."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:144
+msgid "Automatic Slide"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:159
+msgid "The slides loop is automatic."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:163
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:86
+msgid "Background Color"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:165
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:90
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:95
+msgid "Transparent"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:170
+msgid "The background of slider."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:175
+msgid "Shadow"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:177
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:110
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:113
+msgid "None"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:178
+msgid "Select Default Shadow"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:202
+msgid "Choose to display shadow."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:206
+msgid "Pause on Hover"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:221
+msgid "Pause the current slide when hovered."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:235
+msgid "Upload Loader Image"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:237
+msgid "Select Default Loader"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:238
+msgid "Upload New Loader"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:275
+msgid "The loader of the slider."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:289
+msgid "Show Controls"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:304
+msgid "Show the previous and next arrows."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:308
+msgid "Select Controls"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:310
+msgid "Select Default Controls"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:346
+msgid "Select Previous and Next control to display on slider."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:350
+msgid "Enable Swipe and Drag"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:365
+msgid "Enable swipe left, swipe right, drag left, drag right commands."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:379
+msgid "Show Navigation"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:394
+msgid "Show the links buttons to change slide."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:398
+msgid "Select Navigation"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:400
+msgid "Select Default Navigation"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:436
+msgid "Select navigation to display on slider."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:440
+msgid "Navigation Position"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:455
+msgid "Show navigation position on slider."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slider.php:464
+msgid "Save Settings"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/avartan_widget.php:12
+msgid "Add slider to your sidebar."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/avartan_widget.php:13
+msgid "Avartan Slider Widget"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/avartan_widget.php:86
+msgid "Title:"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/avartan_widget.php:92
+msgid "Select Slider:"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/avartan_widget.php:94
+msgid "select avartan slider"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/avartan_widget.php:103
+msgid "No sliders found."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:38
+msgid "center top"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:39
+msgid "center right"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:40
+msgid "center bottom"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:41
+msgid "center center"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:42
+msgid "left top"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:43
+msgid "left center"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:44
+msgid "left bottom"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:45
+msgid "right top"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:46
+msgid "right center"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:47
+msgid "right bottom"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:48
+msgid "(x%, y%)"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:51
+msgid "cover"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:52
+msgid "contain"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:53
+msgid "percentage"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:54
+msgid "normal"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:57
+msgid "No Repeat"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:58
+msgid "Repeat"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:59
+msgid "Repeat-x"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:60
+msgid "Repeat-y"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:68
+msgid "Slide General Options"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:69
+msgid "Export Slide"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:70
+msgid "Copy & Move Slide"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:71
+msgid "Duplicate Slide"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:77
+msgid "Slide Name"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:79
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:363
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:301
+msgid "Slide"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:82
+msgid "Enter your favorite slide name. Default : Slide"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:102
+msgid "Set Background color in slide if image is none or image type is png."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:106
+msgid "Background Image"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:111
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:114
+msgid "Select Image"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:119
+msgid ""
+"Set Background image to slide. Background color will be ignore if image type "
+"is not png."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:123
+msgid "Background Position"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:148
+msgid "Set backgound image position. Default : center center"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:152
+msgid "Background Repeat"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:169
+msgid "Set backgound image repeat. Default : no-repeat"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:173
+msgid "Background Size"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:198
+msgid "Set backgound image position. Default : cover"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:202
+msgid "Color Overlay"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:209
+msgid "Set color overlay on background image or color. Default : transparent"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:213
+msgid "Patterns Overlay"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:224
+msgid "Set Pattern overlay on background image or color. Default : none"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:243
+msgid "The in animation of the slide."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:262
+msgid "The out animation of the slide."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:275
+msgid "The time that the slide will remain on the screen. Default : 9000ms"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:288
+msgid "The time that the slide will take to get in. Default : 300ms"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:301
+msgid "The time that the slide will take to get out. Default : 300ms"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:313
+msgid "Apply CSS to the slide."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:336
+msgid "Save Slide"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/slides.php:392
+msgid "Add New Slide"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:56
+msgid "JavaScript must be enabled to view this page correctly."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:60
+msgid ""
+"When you'll click \"Save Settings\", you'll be able to add slides and "
+"elements."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:64
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:65
+msgid "Avartan Slider"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:80
+msgid "Buy Pro Extensions"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:81
+msgid "Avartan Slider Pro Features"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:83
+msgid "Shortcode Element"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:84
+msgid "One click Import/Export Slider"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:85
+msgid "Duplicate Slide/Slides"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:87
+msgid "and much more!"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:90
+msgid "Buy pro extensions now!"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:94
+msgid "Get Help"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:97
+msgid "View Live Demo"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:100
+msgid "Read the documentation"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:103
+msgid "24/7 Free Support"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:108
+msgid "Share & Follow Us"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:218
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/home.php:37
+msgid "Settings"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:224
+msgid "Edit Slides "
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:231
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/home.php:42
+msgid "Import Single Slide"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:233
+msgid "Import Slide"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:239
+msgid "Back to List"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:305
+msgid "Slider name can not be empty."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:306
+msgid "Slider has been generated successfully."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:307
+msgid "Slider has been saved successfully."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:308
+msgid "Something went wrong during save slider!"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:309
+msgid "Some other slider with alias"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:310
+msgid "already exists."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:311
+msgid "Slider has been deleted successfully."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:312
+msgid "Something went wrong during delete slider!"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:313
+msgid "Slide has been saved successfully."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:314
+msgid "Something went wrong during save slide!"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:315
+msgid "Slide has been deleted successfully."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:316
+msgid "Something went wrong during delete slide!"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:317
+msgid "Something went wrong during update slides position!"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:318
+msgid "The slide will be deleted. Are you sure?"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:319
+msgid "You can not delete this. You must have at least one slide."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:320
+msgid "The slider will be deleted. Are you sure?"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:323
+msgid "Stop Preview"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:324
+msgid "This feature is available for pro version only."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:325
+msgid "Youtube Video"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/admin.php:383
+msgid "Thank you for your subscription."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/shortcode.php:39
+msgid "You have to insert a valid alias in the shortcode"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/shortcode.php:234
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/shortcode.php:237
+msgid "The slider has not been found"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/home.php:11
+msgid "Avartan Slider List"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/home.php:12
+msgid "Import Slider"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/home.php:13
+msgid "Create New Slider"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/home.php:21
+msgid "No Sliders found. Please add a new one."
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/home.php:35
+msgid "Slides"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/home.php:38
+msgid "Edit Slides"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/home.php:39
+msgid "Export Slider"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/home.php:40
+msgid "Delete Slider"
+msgstr ""
+
+#: /opt/lampp/htdocs/seema/work/wp-plugins/wp-content/plugins/avartan-slider-lite/includes/home.php:41
+msgid "Duplicate Slider"
+msgstr ""

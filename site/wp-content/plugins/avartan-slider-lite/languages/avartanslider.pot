@@ -1,0 +1,1541 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Avartan Slider Lite\n"
+"POT-Creation-Date: 2016-09-28 15:27+0530\n"
+"PO-Revision-Date: 2016-09-28 15:27+0530\n"
+"Last-Translator: \n"
+"Language-Team: Solwin Infotech <info@solwininfotech.com>\n"
+"Language: en_EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n;_x:1,2c;_ex;_nx;"
+"esc_attr_e;_n_noop:1,2;esc_attr__;esc_attr_x;esc_html_e;esc_html__;"
+"esc_html_x\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: wp-content/plugins/avartan-slider-lite\n"
+
+#: avartan-slider-lite/avartanslider.php:99
+#: avartan-slider-lite/avartanslider.php:110
+msgid "News From Solwin Infotech"
+msgstr ""
+
+#: avartan-slider-lite/avartanslider.php:123
+msgid "Latest Product"
+msgstr ""
+
+#: avartan-slider-lite/avartanslider.php:127
+msgid "Something went wrong"
+msgstr ""
+
+#: avartan-slider-lite/avartanslider.php:173
+msgid "If you like "
+msgstr ""
+
+#: avartan-slider-lite/avartanslider.php:174
+msgid "Avartan Slider Lite "
+msgstr ""
+
+#: avartan-slider-lite/avartanslider.php:175
+msgid "please leave us a "
+msgstr ""
+
+#: avartan-slider-lite/avartanslider.php:177
+msgid " rating. A huge thank you from Solwin Infotech in advance!"
+msgstr ""
+
+#: avartan-slider-lite/avartanslider.php:246
+msgid "Select Avartan Slider to insert into post/page"
+msgstr ""
+
+#: avartan-slider-lite/avartanslider.php:249
+msgid "Add Avartan slider"
+msgstr ""
+
+#: avartan-slider-lite/avartanslider.php:288
+#: avartan-slider-lite/avartanslider.php:295
+msgid "Insert Avartan Slider"
+msgstr ""
+
+#: avartan-slider-lite/avartanslider.php:290
+msgid "Choose Avartan Slider"
+msgstr ""
+
+#: avartan-slider-lite/avartanslider.php:297
+msgid "No sliders found"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:94
+msgid "Add New Layer"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:97
+msgid "Text/HTML"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:100
+msgid "Image"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:103
+msgid "Video"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:106
+#: avartan-slider-lite/includes/slider.php:72
+msgid "Shortcode"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:109
+msgid "Button"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:112
+msgid "Icon"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:115
+msgid "Shape"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:119
+msgid "Delete All Element"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:120
+msgid "Duplicate Element"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:121
+msgid "Delete Element"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:122
+msgid "Live Preview"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:123
+msgid "Element Timing"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:127
+msgid "All Elements Timing"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:131
+#: avartan-slider-lite/includes/elements.php:215
+#: avartan-slider-lite/includes/elements.php:220
+#: avartan-slider-lite/includes/elements.php:240
+#: avartan-slider-lite/includes/admin.php:272
+msgid "Show/Hide Element"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:132
+msgid "Element List"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:133
+msgid "Delay Time"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:133
+#: avartan-slider-lite/includes/elements.php:134
+#: avartan-slider-lite/includes/elements.php:135
+#: avartan-slider-lite/includes/elements.php:488
+#: avartan-slider-lite/includes/elements.php:497
+#: avartan-slider-lite/includes/elements.php:546
+#: avartan-slider-lite/includes/elements.php:555
+#: avartan-slider-lite/includes/elements.php:739
+#: avartan-slider-lite/includes/elements.php:748
+#: avartan-slider-lite/includes/elements.php:797
+#: avartan-slider-lite/includes/elements.php:806
+#: avartan-slider-lite/includes/elements.php:1150
+#: avartan-slider-lite/includes/elements.php:1159
+#: avartan-slider-lite/includes/elements.php:1208
+#: avartan-slider-lite/includes/elements.php:1217
+#: avartan-slider-lite/includes/slides.php:275
+#: avartan-slider-lite/includes/slides.php:288
+#: avartan-slider-lite/includes/slides.php:301
+msgid "ms"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:134
+#: avartan-slider-lite/includes/elements.php:544
+#: avartan-slider-lite/includes/elements.php:795
+#: avartan-slider-lite/includes/elements.php:1206
+#: avartan-slider-lite/includes/slides.php:282
+msgid "Ease In"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:135
+#: avartan-slider-lite/includes/elements.php:553
+#: avartan-slider-lite/includes/elements.php:804
+#: avartan-slider-lite/includes/elements.php:1215
+#: avartan-slider-lite/includes/slides.php:295
+msgid "Ease Out"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:136
+msgid "Z-index"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:149
+#: avartan-slider-lite/includes/admin.php:292
+msgid "No element found."
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:216
+msgid "Text Element"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:221
+#: avartan-slider-lite/includes/admin.php:274
+msgid "Image Element"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:225
+#: avartan-slider-lite/includes/elements.php:348
+#: avartan-slider-lite/includes/admin.php:273
+msgid "Video Element"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:229
+#: avartan-slider-lite/includes/elements.php:353
+#: avartan-slider-lite/includes/admin.php:297
+#: avartan-slider-lite/includes/shortcode.php:211
+msgid "Html5 Video"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:412
+#: avartan-slider-lite/includes/elements.php:645
+#: avartan-slider-lite/includes/elements.php:894
+#: avartan-slider-lite/includes/slides.php:32
+msgid "Slide Down"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:413
+#: avartan-slider-lite/includes/elements.php:646
+#: avartan-slider-lite/includes/elements.php:895
+#: avartan-slider-lite/includes/slides.php:31
+msgid "Slide Up"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:414
+#: avartan-slider-lite/includes/elements.php:647
+#: avartan-slider-lite/includes/elements.php:896
+#: avartan-slider-lite/includes/slides.php:29
+msgid "Slide Left"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:415
+#: avartan-slider-lite/includes/elements.php:648
+#: avartan-slider-lite/includes/elements.php:897
+#: avartan-slider-lite/includes/slides.php:30
+msgid "Slide Right"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:416
+#: avartan-slider-lite/includes/elements.php:649
+#: avartan-slider-lite/includes/elements.php:898
+#: avartan-slider-lite/includes/slides.php:26
+msgid "Fade"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:417
+#: avartan-slider-lite/includes/elements.php:650
+#: avartan-slider-lite/includes/elements.php:899
+msgid "Fade Down"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:418
+#: avartan-slider-lite/includes/elements.php:651
+#: avartan-slider-lite/includes/elements.php:900
+msgid "Fade Up"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:419
+#: avartan-slider-lite/includes/elements.php:652
+#: avartan-slider-lite/includes/elements.php:901
+#: avartan-slider-lite/includes/slides.php:27
+msgid "Fade Left"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:420
+#: avartan-slider-lite/includes/elements.php:653
+#: avartan-slider-lite/includes/elements.php:902
+#: avartan-slider-lite/includes/slides.php:28
+msgid "Fade Right"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:421
+#: avartan-slider-lite/includes/elements.php:654
+#: avartan-slider-lite/includes/elements.php:903
+msgid "Fade Small Down"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:422
+#: avartan-slider-lite/includes/elements.php:655
+#: avartan-slider-lite/includes/elements.php:904
+msgid "Fade Small Up"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:423
+#: avartan-slider-lite/includes/elements.php:656
+#: avartan-slider-lite/includes/elements.php:905
+msgid "Fade Small Left"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:424
+#: avartan-slider-lite/includes/elements.php:657
+#: avartan-slider-lite/includes/elements.php:906
+msgid "Fade Small Right"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:431
+#: avartan-slider-lite/includes/elements.php:664
+#: avartan-slider-lite/includes/elements.php:913
+msgid "General Parameter"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:434
+#: avartan-slider-lite/includes/elements.php:667
+#: avartan-slider-lite/includes/elements.php:916
+msgid "Animation Parameter"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:437
+#: avartan-slider-lite/includes/elements.php:670
+#: avartan-slider-lite/includes/elements.php:919
+msgid "Advanced Parameter"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:444
+msgid "Text"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:446
+#: avartan-slider-lite/includes/admin.php:291
+msgid "Text element"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:449
+msgid "Write the text or the HTML."
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:453
+#: avartan-slider-lite/includes/elements.php:704
+#: avartan-slider-lite/includes/elements.php:1115
+#: avartan-slider-lite/includes/slider.php:41
+msgid "Left"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:455
+#: avartan-slider-lite/includes/elements.php:464
+#: avartan-slider-lite/includes/elements.php:706
+#: avartan-slider-lite/includes/elements.php:715
+#: avartan-slider-lite/includes/elements.php:977
+#: avartan-slider-lite/includes/elements.php:980
+#: avartan-slider-lite/includes/elements.php:1026
+#: avartan-slider-lite/includes/elements.php:1029
+#: avartan-slider-lite/includes/elements.php:1103
+#: avartan-slider-lite/includes/elements.php:1106
+#: avartan-slider-lite/includes/elements.php:1117
+#: avartan-slider-lite/includes/elements.php:1126
+#: avartan-slider-lite/includes/slider.php:164
+#: avartan-slider-lite/includes/slider.php:165
+#: avartan-slider-lite/includes/slider.php:555
+#: avartan-slider-lite/includes/slider.php:564
+#: avartan-slider-lite/includes/slider.php:624
+#: avartan-slider-lite/includes/slider.php:633
+#: avartan-slider-lite/includes/slider.php:740
+#: avartan-slider-lite/includes/slider.php:794
+#: avartan-slider-lite/includes/slider.php:803
+msgid "px"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:458
+#: avartan-slider-lite/includes/elements.php:709
+#: avartan-slider-lite/includes/elements.php:1120
+msgid "Left distance in px from the start width."
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:462
+#: avartan-slider-lite/includes/elements.php:713
+#: avartan-slider-lite/includes/elements.php:1124
+#: avartan-slider-lite/includes/slider.php:46
+msgid "Top"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:467
+#: avartan-slider-lite/includes/elements.php:718
+#: avartan-slider-lite/includes/elements.php:1129
+msgid "Top distance in px from the start height."
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:471
+#: avartan-slider-lite/includes/elements.php:722
+#: avartan-slider-lite/includes/elements.php:1133
+msgid "Z - index"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:476
+#: avartan-slider-lite/includes/elements.php:727
+#: avartan-slider-lite/includes/elements.php:1138
+msgid ""
+"An element with an high z-index will cover an element with a lower z-index "
+"if they overlap."
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:486
+#: avartan-slider-lite/includes/elements.php:737
+#: avartan-slider-lite/includes/elements.php:1148
+msgid "Delay"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:491
+#: avartan-slider-lite/includes/elements.php:742
+#: avartan-slider-lite/includes/elements.php:1153
+msgid "How long will the element wait before the entrance. Default : 300ms"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:495
+#: avartan-slider-lite/includes/elements.php:746
+#: avartan-slider-lite/includes/elements.php:1157
+#: avartan-slider-lite/includes/slides.php:269
+msgid "Time"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:500
+#: avartan-slider-lite/includes/elements.php:751
+#: avartan-slider-lite/includes/elements.php:1162
+msgid ""
+"How long will the element be displayed during the slide execution. Write "
+"\"all\" to set the entire time. Default:all"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:504
+#: avartan-slider-lite/includes/elements.php:755
+#: avartan-slider-lite/includes/elements.php:1166
+#: avartan-slider-lite/includes/slides.php:231
+msgid "In Animation"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:519
+#: avartan-slider-lite/includes/elements.php:770
+#: avartan-slider-lite/includes/elements.php:1181
+msgid "The in animation of the element."
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:523
+#: avartan-slider-lite/includes/elements.php:774
+#: avartan-slider-lite/includes/elements.php:1185
+#: avartan-slider-lite/includes/slides.php:250
+msgid "Out Animation"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:537
+#: avartan-slider-lite/includes/elements.php:788
+#: avartan-slider-lite/includes/elements.php:1199
+msgid "Disable synchronization with slide out animation"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:540
+#: avartan-slider-lite/includes/elements.php:791
+#: avartan-slider-lite/includes/elements.php:1202
+msgid ""
+"The out animation of the element.<br /><br />Disable synchronization with "
+"slide out animation: if not checked, the slide out animation won't start "
+"until all the elements that have this option unchecked are animated out."
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:549
+#: avartan-slider-lite/includes/elements.php:800
+#: avartan-slider-lite/includes/elements.php:1211
+msgid "How long will the in animation take. Default : 300ms"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:558
+#: avartan-slider-lite/includes/elements.php:809
+#: avartan-slider-lite/includes/elements.php:1220
+msgid "How long will the out animation take. Default : 300ms"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:568
+#: avartan-slider-lite/includes/elements.php:819
+#: avartan-slider-lite/includes/elements.php:1230
+msgid "ID"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:573
+#: avartan-slider-lite/includes/elements.php:824
+#: avartan-slider-lite/includes/elements.php:1235
+msgid "Add ID attribute to element."
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:577
+#: avartan-slider-lite/includes/elements.php:828
+#: avartan-slider-lite/includes/elements.php:1239
+msgid "Classes"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:582
+#: avartan-slider-lite/includes/elements.php:833
+#: avartan-slider-lite/includes/elements.php:1244
+msgid "Add Class attribute to element."
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:586
+#: avartan-slider-lite/includes/elements.php:837
+#: avartan-slider-lite/includes/elements.php:1248
+msgid "Title"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:591
+#: avartan-slider-lite/includes/elements.php:842
+#: avartan-slider-lite/includes/elements.php:1253
+msgid "Add Title attribute to element."
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:595
+#: avartan-slider-lite/includes/elements.php:846
+#: avartan-slider-lite/includes/elements.php:1257
+msgid "Rel"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:600
+#: avartan-slider-lite/includes/elements.php:851
+#: avartan-slider-lite/includes/elements.php:1262
+msgid "Add Rel attribute to element."
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:604
+#: avartan-slider-lite/includes/elements.php:855
+#: avartan-slider-lite/includes/elements.php:1266
+msgid "Link"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:608
+#: avartan-slider-lite/includes/elements.php:859
+#: avartan-slider-lite/includes/elements.php:1270
+msgid "Open link in a new tab"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:611
+msgid ""
+"Open the link (e.g.: http://avartanslider.com) on click. Leave it empty if "
+"you don't want it."
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:615
+#: avartan-slider-lite/includes/elements.php:866
+#: avartan-slider-lite/includes/elements.php:1277
+#: avartan-slider-lite/includes/slides.php:308
+msgid "Custom CSS"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:620
+#: avartan-slider-lite/includes/elements.php:871
+#: avartan-slider-lite/includes/elements.php:1282
+msgid "Style the element."
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:677
+msgid "Modify Image"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:679
+msgid "Open Gallery"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:682
+msgid "Change the image source or the alt text."
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:686
+msgid "Image Alt"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:691
+msgid "Add image alt text."
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:695
+msgid "Scale Proportional"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:700
+msgid ""
+"An element with Scale Proportional will scalling width and height with "
+"respect to slider width and height."
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:862
+#: avartan-slider-lite/includes/elements.php:1273
+msgid ""
+"Open the link (e.g.: http://www.google.com) on click. Leave it empty if you "
+"don't want it."
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:926
+msgid "Choose Video Type "
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:929
+msgid "Youtube"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:930
+msgid "Vimeo"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:931
+msgid "HTML5"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:935
+msgid "Choose video type "
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:952
+msgid "Enter Youtube ID or URL "
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:955
+#: avartan-slider-lite/includes/elements.php:1003
+#: avartan-slider-lite/includes/elements.php:1080
+msgid "Search"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:958
+msgid "example: iNJdPyoqt8U "
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:962
+#: avartan-slider-lite/includes/elements.php:1011
+#: avartan-slider-lite/includes/elements.php:1088
+#: avartan-slider-lite/includes/slider.php:15
+msgid "Full Width"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:977
+#: avartan-slider-lite/includes/elements.php:1026
+#: avartan-slider-lite/includes/elements.php:1103
+msgid "Width"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:980
+#: avartan-slider-lite/includes/elements.php:1029
+#: avartan-slider-lite/includes/elements.php:1106
+msgid "Height"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:983
+#: avartan-slider-lite/includes/elements.php:1032
+#: avartan-slider-lite/includes/elements.php:1109
+msgid ""
+"Checked full width checkbox for get full width video which will neglate "
+"width and height which you have enter. If full width is not checked then "
+"video will take width and height from textbox."
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:987
+#: avartan-slider-lite/includes/elements.php:1036
+msgid "Set Preview image"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:989
+#: avartan-slider-lite/includes/elements.php:1038
+msgid "Set Preview"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:990
+#: avartan-slider-lite/includes/elements.php:1039
+msgid "Remove Preview"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:993
+#: avartan-slider-lite/includes/elements.php:1042
+msgid ""
+"Set the preivew image for video and remove preview image on select remove "
+"preview button."
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:1000
+msgid "Enter Vimeo ID or URL "
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:1006
+msgid "example: 35545973 "
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:1049
+msgid "Enter Poster Image Url"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:1054
+msgid "Example: http://video-js.zencoder.com/oceans-clip.png"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:1058
+msgid "Enter MP4 Url"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:1063
+msgid "Example: http://video-js.zencoder.com/oceans-clip.mp4"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:1067
+msgid "Enter WEBM Url"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:1072
+msgid "Example: http://video-js.zencoder.com/oceans-clip.webm"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:1076
+msgid "Enter OGV Url"
+msgstr ""
+
+#: avartan-slider-lite/includes/elements.php:1083
+msgid "Example: http://video-js.zencoder.com/oceans-clip.ogv"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:16
+msgid "Fixed"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:19
+msgid "Yes"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:20
+msgid "No"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:37
+msgid "Horizontal"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:38
+msgid "Vertical"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:42
+#: avartan-slider-lite/includes/slider.php:47
+msgid "Center"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:43
+msgid "Right"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:48
+msgid "Bottom"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:60
+#: avartan-slider-lite/includes/slider.php:62
+msgid "Slider Name"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:66
+#: avartan-slider-lite/includes/slider.php:68
+msgid "Alias"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:78
+msgid "PHP Function"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:89
+msgid "General"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:92
+msgid "Loader"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:95
+msgid "Navigation"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:98
+msgid "Timer Bar"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:101
+msgid "Mobile Visibility"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:104
+msgid "Callbacks"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:110
+msgid "Slider Setting Options"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:111
+msgid "Reset Settings"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:112
+msgid "Save Settings"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:119
+msgid "Layout"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:134
+msgid "Modify the layout type of the slider."
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:139
+msgid "Force full width"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:158
+msgid "If yes then it will strech to slider up to window width otherwise not."
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:162
+msgid "Layer Grid Size"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:168
+msgid "The initial width & height of the slider."
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:172
+msgid "Mobile Custom Size"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:191
+msgid ""
+"If No, then Default Layer Grid Size is the basic of Linear Responsive "
+"calculations."
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:195
+msgid "Automatic Slide"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:210
+msgid "The slides loop is automatic."
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:214
+msgid "Random Slide"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:232
+msgid "The slide will be visible randomly."
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:236
+#: avartan-slider-lite/includes/slider.php:240
+#: avartan-slider-lite/includes/slides.php:87
+#: avartan-slider-lite/includes/slides.php:92
+msgid "Background Color"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:239
+#: avartan-slider-lite/includes/slides.php:91
+msgid "Transparent"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:248
+msgid "The background of slider."
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:252
+#: avartan-slider-lite/includes/slider.php:256
+msgid "Shadow"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:255
+#: avartan-slider-lite/includes/slides.php:111
+msgid "None"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:262
+msgid "Select Default Shadow"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:287
+msgid "Choose to display shadow."
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:291
+msgid "Pause on Hover"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:306
+msgid "Pause the current slide when hovered."
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:323
+#: avartan-slider-lite/includes/slider.php:437
+#: avartan-slider-lite/includes/slider.php:649
+msgid "Enable"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:341
+msgid "Enable/Disable loader on slider."
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:351
+msgid "Type"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:354
+msgid "Select Default Loader"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:355
+msgid "Upload New Loader Image"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:359
+msgid "Select Loader Type."
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:363
+#: avartan-slider-lite/includes/slider.php:407
+#: avartan-slider-lite/includes/slider.php:460
+#: avartan-slider-lite/includes/slider.php:672
+msgid "Style"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:365
+msgid "Change Loader Style"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:403
+msgid "Change Loader style from default loader collection."
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:409
+msgid "Change Loader Image"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:412
+msgid "Upload new loader image."
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:452
+msgid "Show the navigation arrows on slider."
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:462
+msgid "Change Arrows Style"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:498
+msgid "Select Previous and Next arrows to display on slider."
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:502
+msgid "Left Arrow"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:508
+#: avartan-slider-lite/includes/slider.php:577
+#: avartan-slider-lite/includes/slider.php:747
+msgid "Horizontal Position"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:527
+msgid "Set horizontal position for left arrow."
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:531
+#: avartan-slider-lite/includes/slider.php:600
+#: avartan-slider-lite/includes/slider.php:770
+msgid "Vertical Position"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:549
+msgid "Set vertical position for left arrow."
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:553
+#: avartan-slider-lite/includes/slider.php:622
+#: avartan-slider-lite/includes/slider.php:792
+msgid "Horizontal Offset"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:558
+msgid "Set horizontal offset for left arrow."
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:562
+#: avartan-slider-lite/includes/slider.php:631
+#: avartan-slider-lite/includes/slider.php:801
+msgid "Vertical Offset"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:567
+msgid "Set vertical offset for left arrow."
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:571
+msgid "Right Arrow"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:596
+msgid "Set horizontal position for right arrow."
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:618
+msgid "Set vertical position for right arrow."
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:627
+msgid "Set horizontal offset for right arrow."
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:636
+msgid "Set vertical offset for right arrow."
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:664
+msgid "Show bullets on slide."
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:674
+msgid "Change Bullet Style"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:710
+msgid "Select bullets to display on slider."
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:714
+msgid "Direction"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:734
+msgid "Set navigation bullets direction."
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:738
+msgid "Gap"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:743
+msgid "The gap between bullets."
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:766
+msgid "Set horizontal position for bullets."
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:788
+msgid "Set vertical position for bullets."
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:797
+msgid "Set horizontal offset for bullets."
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:806
+msgid "Set vertical offset for bullets."
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:814
+msgid "Enable Swipe and Drag"
+msgstr ""
+
+#: avartan-slider-lite/includes/slider.php:829
+msgid "Enable swipe left, swipe right, drag left, drag right commands."
+msgstr ""
+
+#: avartan-slider-lite/includes/avartan_widget.php:12
+msgid "Add slider to your sidebar."
+msgstr ""
+
+#: avartan-slider-lite/includes/avartan_widget.php:13
+msgid "Avartan Slider Widget"
+msgstr ""
+
+#: avartan-slider-lite/includes/avartan_widget.php:86
+msgid "Title:"
+msgstr ""
+
+#: avartan-slider-lite/includes/avartan_widget.php:92
+msgid "Select Slider:"
+msgstr ""
+
+#: avartan-slider-lite/includes/avartan_widget.php:94
+msgid "select avartan slider"
+msgstr ""
+
+#: avartan-slider-lite/includes/avartan_widget.php:103
+msgid "No sliders found."
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:38
+msgid "center top"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:39
+msgid "center right"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:40
+msgid "center bottom"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:41
+msgid "center center"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:42
+msgid "left top"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:43
+msgid "left center"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:44
+msgid "left bottom"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:45
+msgid "right top"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:46
+msgid "right center"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:47
+msgid "right bottom"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:48
+msgid "(x%, y%)"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:51
+msgid "cover"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:52
+msgid "contain"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:53
+msgid "percentage"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:54
+msgid "normal"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:57
+msgid "No Repeat"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:58
+msgid "Repeat"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:59
+msgid "Repeat-x"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:60
+msgid "Repeat-y"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:68
+msgid "Slide General Options"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:69
+msgid "Export Slide"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:70
+msgid "Copy & Move Slide"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:71
+msgid "Duplicate Slide"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:72
+msgid "Save Slide"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:78
+msgid "Slide Name"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:80
+#: avartan-slider-lite/includes/slides.php:363
+#: avartan-slider-lite/includes/admin.php:271
+msgid "Slide"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:83
+msgid "Enter your favorite slide name. Default : Slide"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:103
+msgid "Set Background color in slide if image is none or image type is png."
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:107
+#: avartan-slider-lite/includes/slides.php:112
+msgid "Background Image"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:117
+msgid "Select Image"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:122
+msgid ""
+"Set Background image to slide. Background color will be ignore if image type "
+"is not png."
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:126
+msgid "Background Position"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:151
+msgid "Set backgound image position. Default : center center"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:155
+msgid "Background Repeat"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:172
+msgid "Set backgound image repeat. Default : no-repeat"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:176
+msgid "Background Size"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:201
+msgid "Set backgound image position. Default : cover"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:205
+msgid "Color Overlay"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:212
+msgid "Set color overlay on background image or color. Default : transparent"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:216
+msgid "Patterns Overlay"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:227
+msgid "Set Pattern overlay on background image or color. Default : none"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:246
+msgid "The in animation of the slide."
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:265
+msgid "The out animation of the slide."
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:278
+msgid "The time that the slide will remain on the screen. Default : 9000ms"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:291
+msgid "The time that the slide will take to get in. Default : 300ms"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:304
+msgid "The time that the slide will take to get out. Default : 300ms"
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:316
+msgid "Apply CSS to the slide."
+msgstr ""
+
+#: avartan-slider-lite/includes/slides.php:392
+msgid "Add New Slide"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:56
+msgid "JavaScript must be enabled to view this page correctly."
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:60
+msgid ""
+"When you'll click \"Save Settings\", you'll be able to add slides and "
+"elements."
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:63
+msgid "Avartan Animation Slider"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:64
+#: avartan-slider-lite/includes/admin.php:65
+msgid "Avartan Slider"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:78
+msgid "Avartan Slider Pro Features"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:80
+msgid "6 Type of Element Support"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:81
+msgid "One click Import/Export Slider/Single Slide"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:82
+msgid "Duplicate Slide/Slides"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:84
+msgid "and much more!"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:87
+#: avartan-slider-lite/includes/admin.php:298
+msgid "Upgrade to PRO!"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:91
+msgid "Get Help"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:94
+msgid "View Live Demo"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:97
+msgid "Read the documentation"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:100
+msgid "24/7 Free Support"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:103
+msgid "Lite & Pro Comparison"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:106
+msgid "FAQ"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:109
+msgid "Facing any issue?"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:109
+msgid "Contact Us"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:115
+msgid "Looking for an Avartan themes?"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:117
+msgid "FoodFork"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:118
+msgid "RealEstaty"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:119
+msgid "Veriyas PRO"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:120
+msgid "MyAppix"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:121
+msgid "Biznetic"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:122
+msgid "JewelUX"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:188
+#: avartan-slider-lite/includes/home.php:37
+msgid "Settings"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:194
+msgid "Edit Slides "
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:201
+#: avartan-slider-lite/includes/home.php:43
+msgid "Import Single Slide"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:203
+msgid "Import Slide"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:209
+msgid "Back to List"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:275
+msgid "Slider name can not be empty."
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:276
+msgid "Slider has been generated successfully."
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:277
+msgid "Slider has been saved successfully."
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:278
+msgid "Something went wrong during save slider!"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:279
+msgid "Some other slider with alias"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:280
+msgid "already exists."
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:281
+msgid "Slider has been deleted successfully."
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:282
+msgid "Something went wrong during delete slider!"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:283
+msgid "Slide has been saved successfully."
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:284
+msgid "Something went wrong during save slide!"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:285
+msgid "Slide has been deleted successfully."
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:286
+msgid "Something went wrong during delete slide!"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:287
+msgid "Something went wrong during update slides position!"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:288
+msgid "The slide will be deleted. Are you sure?"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:289
+msgid "You can not delete this. You must have at least one slide."
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:290
+msgid "The slider will be deleted. Are you sure?"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:293
+msgid "Stop Preview"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:294
+msgid "This feature is available for pro version only."
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:295
+msgid "Youtube Video"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:296
+#: avartan-slider-lite/includes/admin.php:299
+msgid "All elements will be deleted. Are you sure?"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:300
+msgid "Element will be deleted. Are you sure?"
+msgstr ""
+
+#: avartan-slider-lite/includes/admin.php:357
+msgid "Thank you for your subscription."
+msgstr ""
+
+#: avartan-slider-lite/includes/shortcode.php:39
+msgid "You have to insert a valid alias in the shortcode"
+msgstr ""
+
+#: avartan-slider-lite/includes/shortcode.php:318
+#: avartan-slider-lite/includes/shortcode.php:321
+msgid "The slider has not been found"
+msgstr ""
+
+#: avartan-slider-lite/includes/home.php:11
+msgid "Avartan Slider List"
+msgstr ""
+
+#: avartan-slider-lite/includes/home.php:12
+msgid "Import Slider"
+msgstr ""
+
+#: avartan-slider-lite/includes/home.php:13
+msgid "Create New Slider"
+msgstr ""
+
+#: avartan-slider-lite/includes/home.php:21
+msgid "No Sliders found. Please add a new one."
+msgstr ""
+
+#: avartan-slider-lite/includes/home.php:35
+msgid "Slides"
+msgstr ""
+
+#: avartan-slider-lite/includes/home.php:38
+msgid "Edit Slides"
+msgstr ""
+
+#: avartan-slider-lite/includes/home.php:39
+msgid "Export Slider"
+msgstr ""
+
+#: avartan-slider-lite/includes/home.php:40
+msgid "Delete Slider"
+msgstr ""
+
+#: avartan-slider-lite/includes/home.php:41
+msgid "Duplicate Slider"
+msgstr ""
+
+#: avartan-slider-lite/includes/home.php:42
+msgid "Preview Slider"
+msgstr ""

@@ -1,0 +1,3 @@
+[26-Mar-2017 23:52:19 America/Sao_Paulo] PHP Warning:  require(_app/Config.inc.php): failed to open stream: No such file or directory in /home/assertbh/public_html/acesso/index.php on line 5
+[26-Mar-2017 23:52:19 America/Sao_Paulo] PHP Warning:  require(_app/Config.inc.php): failed to open stream: No such file or directory in /home/assertbh/public_html/acesso/index.php on line 5
+[26-Mar-2017 23:52:19 America/Sao_Paulo] PHP Fatal error:  require(): Failed opening required '_app/Config.inc.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/assertbh/public_html/acesso/index.php on line 5

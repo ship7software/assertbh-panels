@@ -1,0 +1,786 @@
+# Copyright (C) 2017 ThemeGrill
+# This file is distributed under the GPLv3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: ThemeGrill Demo Importer 1.2.0\n"
+"Report-Msgid-Bugs-To: themegrill@gmail.com\n"
+"POT-Creation-Date: 2017-01-23 04:13:43+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#: includes/class-demo-importer.php:139
+#: includes/includes/admin/views/html-admin-page-importer.php:14
+#: includes/includes/admin/views/html-admin-page-installer.php:23
+#: themegrill-demo-importer.php:170
+msgid "Demo Importer"
+msgstr ""
+
+#: includes/class-demo-importer.php:186
+msgid "Importing..."
+msgstr ""
+
+#: includes/class-demo-importer.php:188
+msgid "Importing... please wait."
+msgstr ""
+
+#: includes/class-demo-importer.php:189
+msgid "Import completed successfully."
+msgstr ""
+
+#: includes/class-demo-importer.php:190
+msgid "Import Failed!"
+msgstr ""
+
+#: includes/class-demo-importer.php:191
+msgid "Import failed: %s"
+msgstr ""
+
+#: includes/class-demo-importer.php:194
+#: includes/includes/admin/views/html-admin-page-importer.php:58
+#: includes/includes/admin/views/html-admin-page-importer.php:110
+#: includes/includes/admin/views/html-admin-page-importer.php:222
+#: includes/includes/admin/views/html-admin-page-importer.php:231
+#: includes/includes/admin/views/html-admin-page-installer-uploads.php:40
+#: includes/includes/admin/views/html-admin-page-installer.php:124
+#: includes/includes/admin/views/html-admin-page-installer.php:236
+#: includes/includes/admin/views/html-admin-page-installer.php:245
+msgid "Live Preview"
+msgstr ""
+
+#: includes/class-demo-importer.php:196
+msgid "Imported!"
+msgstr ""
+
+#: includes/class-demo-importer.php:197
+msgid "Try this solution!"
+msgstr ""
+
+#: includes/class-demo-importer.php:207
+msgid ""
+"Are you sure you want to delete this demo?\n"
+"\n"
+"Click 'Cancel' to go back, 'OK' to confirm the delete."
+msgstr ""
+
+#: includes/class-demo-importer.php:208
+msgid ""
+"Importing demo content will replicate the live demo and overwrites your "
+"current customizer, widgets and other settings. It might take few minutes "
+"to complete the demo import. Are you sure you want to import this demo?"
+msgstr ""
+
+#: includes/class-demo-importer.php:213
+msgid "Add New Demo"
+msgstr ""
+
+#: includes/class-demo-importer.php:214
+msgid "Search Demos"
+msgstr ""
+
+#: includes/class-demo-importer.php:215
+msgid "Search demos..."
+msgstr ""
+
+#: includes/class-demo-importer.php:216
+msgid "Number of Demos found: %d"
+msgstr ""
+
+#: includes/class-demo-importer.php:217
+#: includes/includes/admin/views/html-admin-page-importer.php:81
+#: includes/includes/admin/views/html-admin-page-installer.php:94
+msgid "No demos found. Try a different search."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemeGrill"
+msgstr ""
+
+#: includes/class-demo-importer.php:401
+msgid "Sorry, you are not allowed to install demo on this site."
+msgstr ""
+
+#: includes/class-demo-importer.php:408
+msgid "Installing Demo from uploaded file: %s"
+msgstr ""
+
+#: includes/class-demo-importer.php:452
+#: includes/includes/functions-demo-importer.php:97
+msgid "No demo specified."
+msgstr ""
+
+#: includes/class-demo-importer.php:468
+msgid "Sorry, you are not allowed to import."
+msgstr ""
+
+#: includes/class-demo-importer.php:533
+msgid "The XML file dummy content is missing."
+msgstr ""
+
+#: includes/class-demo-importer.php:596
+msgid "The DAT file customizer data is missing."
+msgstr ""
+
+#: includes/class-demo-importer.php:620
+msgid "The WIE file widget content is missing."
+msgstr ""
+
+#: includes/includes/admin/class-demo-installer-skin.php:47
+#: includes/includes/admin/class-demo-installer-skin.php:49
+msgid "Return to Demo Importer"
+msgstr ""
+
+#: includes/includes/admin/class-demo-installer-skin.php:51
+msgid "Return to Demos page"
+msgstr ""
+
+#: includes/includes/admin/class-demo-upgrader.php:40
+msgid "Install package not available."
+msgstr ""
+
+#: includes/includes/admin/class-demo-upgrader.php:41
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: includes/includes/admin/class-demo-upgrader.php:42
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: includes/includes/admin/class-demo-upgrader.php:43
+msgid "Removing the old version of the demo&#8230;"
+msgstr ""
+
+#: includes/includes/admin/class-demo-upgrader.php:44
+msgid "Could not remove the old demo."
+msgstr ""
+
+#: includes/includes/admin/class-demo-upgrader.php:45
+msgid "Installing the demo&#8230;"
+msgstr ""
+
+#: includes/includes/admin/class-demo-upgrader.php:46
+msgid "The demo contains no files."
+msgstr ""
+
+#: includes/includes/admin/class-demo-upgrader.php:47
+msgid "Demo install failed."
+msgstr ""
+
+#: includes/includes/admin/class-demo-upgrader.php:48
+msgid "Demo installed successfully."
+msgstr ""
+
+#: includes/includes/admin/class-demo-upgrader.php:131
+msgid "No valid demos were found."
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-importer.php:17
+msgid "New Demos"
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-importer.php:22
+#: includes/includes/admin/views/html-admin-page-installer.php:30
+msgid ""
+"<strong>Notice</strong> &#8211; If you want to completely remove a demo "
+"installation after importing it, you can use a plugin like %1$sWordPress "
+"Reset%2$s."
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-importer.php:26
+#: includes/includes/admin/views/html-admin-page-installer.php:34
+msgid "The Demo Importer screen requires JavaScript."
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-importer.php:41
+#: includes/includes/admin/views/html-admin-page-importer.php:93
+#: includes/includes/admin/views/html-admin-page-installer-uploads.php:23
+#: includes/includes/admin/views/html-admin-page-installer.php:107
+msgid "Demo Details"
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-importer.php:44
+#: includes/includes/admin/views/html-admin-page-importer.php:96
+#: includes/includes/admin/views/html-admin-page-importer.php:156
+#: includes/includes/admin/views/html-admin-page-installer-preview.php:29
+#: includes/includes/admin/views/html-admin-page-installer-uploads.php:26
+#: includes/includes/admin/views/html-admin-page-installer.php:110
+#: includes/includes/admin/views/html-admin-page-installer.php:170
+#: includes/includes/admin/views/html-admin-page-installer.php:273
+#. translators: %s: Demo author name
+msgid "By %s"
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-importer.php:50
+#: includes/includes/admin/views/html-admin-page-importer.php:102
+#: includes/includes/admin/views/html-admin-page-installer-uploads.php:32
+#: includes/includes/admin/views/html-admin-page-installer.php:116
+#. translators: %s: Demo name
+msgid "<span>Imported:</span> %s"
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-importer.php:62
+#: includes/includes/admin/views/html-admin-page-importer.php:114
+#: includes/includes/admin/views/html-admin-page-importer.php:161
+#: includes/includes/admin/views/html-admin-page-installer-uploads.php:44
+#: includes/includes/admin/views/html-admin-page-installer.php:128
+#: includes/includes/admin/views/html-admin-page-installer.php:175
+msgid "Required %s theme must be activated to import this demo."
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-importer.php:62
+#: includes/includes/admin/views/html-admin-page-importer.php:64
+#: includes/includes/admin/views/html-admin-page-importer.php:71
+#: includes/includes/admin/views/html-admin-page-importer.php:114
+#: includes/includes/admin/views/html-admin-page-importer.php:116
+#: includes/includes/admin/views/html-admin-page-importer.php:123
+#: includes/includes/admin/views/html-admin-page-importer.php:233
+#: includes/includes/admin/views/html-admin-page-installer-uploads.php:44
+#: includes/includes/admin/views/html-admin-page-installer-uploads.php:46
+#: includes/includes/admin/views/html-admin-page-installer-uploads.php:53
+#: includes/includes/admin/views/html-admin-page-installer.php:128
+#: includes/includes/admin/views/html-admin-page-installer.php:130
+#: includes/includes/admin/views/html-admin-page-installer.php:137
+#: includes/includes/admin/views/html-admin-page-installer.php:247
+msgid "Import"
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-importer.php:73
+#: includes/includes/admin/views/html-admin-page-importer.php:125
+#: includes/includes/admin/views/html-admin-page-importer.php:236
+#: includes/includes/admin/views/html-admin-page-installer-preview.php:41
+#: includes/includes/admin/views/html-admin-page-installer-uploads.php:55
+#: includes/includes/admin/views/html-admin-page-installer.php:139
+#: includes/includes/admin/views/html-admin-page-installer.php:250
+#: includes/includes/admin/views/html-admin-page-installer.php:285
+msgid "Preview"
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-importer.php:138
+#: includes/includes/admin/views/html-admin-page-installer.php:152
+msgid "Show previous demo"
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-importer.php:139
+#: includes/includes/admin/views/html-admin-page-installer.php:153
+msgid "Show next demo"
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-importer.php:140
+#: includes/includes/admin/views/html-admin-page-installer.php:154
+msgid "Close details dialog"
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-importer.php:153
+#: includes/includes/admin/views/html-admin-page-installer.php:167
+msgid "Imported Demo"
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-importer.php:155
+#: includes/includes/admin/views/html-admin-page-installer.php:169
+msgid "Version: %s"
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-importer.php:163
+#: includes/includes/admin/views/html-admin-page-installer.php:177
+msgid "Required Plugin must be activated to import this demo."
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-importer.php:169
+#: includes/includes/admin/views/html-admin-page-installer.php:183
+msgid "Plugins Information"
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-importer.php:174
+#: includes/includes/admin/views/html-admin-page-installer.php:188
+msgid "Plugin Name"
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-importer.php:175
+#: includes/includes/admin/views/html-admin-page-installer.php:189
+msgid "Type"
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-importer.php:176
+#: includes/includes/admin/views/html-admin-page-installer.php:190
+msgid "Status"
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-importer.php:192
+#: includes/includes/admin/views/html-admin-page-installer.php:206
+msgid "Required"
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-importer.php:194
+#: includes/includes/admin/views/html-admin-page-installer.php:208
+msgid "Recommended"
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-importer.php:208
+#: includes/includes/admin/views/html-admin-page-installer.php:222
+msgid "No plugins are needed to import this demo."
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-importer.php:215
+#: includes/includes/admin/views/html-admin-page-installer.php:229
+msgid "Tags:"
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-importer.php:240
+#: includes/includes/admin/views/html-admin-page-installer.php:254
+msgid "Delete"
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-installer-preview.php:25
+#: includes/includes/admin/views/html-admin-page-installer.php:269
+msgid "Demo Preview"
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-installer-preview.php:39
+#: includes/includes/admin/views/html-admin-page-installer.php:283
+msgid "Download"
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-installer.php:15
+msgid "Welcome"
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-installer.php:16
+msgid "Installed Demos"
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-installer.php:17
+msgid "Theme Demos"
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-installer.php:25
+msgid "Upload Demo"
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-installer.php:38
+msgid ""
+"If you have a demo pack in a .zip format, you may install it by uploading "
+"it here."
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-installer.php:41
+msgid "Demo zip file"
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-installer.php:43
+msgid "Install Now"
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-installer.php:47
+msgid "Filter demos list"
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-installer.php:71
+msgid "Welcome to ThemeGrill Demo Importer!"
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-installer.php:72
+msgid "Get Started"
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-installer.php:76
+msgid ""
+"1. Visit <a href=\"%s\" target=\"_blank\"><strong>this page</strong></a> "
+"and download demo zip file."
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-installer.php:77
+msgid "2. Click <strong>Upload Demo</strong> button on the top of this Page."
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-installer.php:78
+msgid "3. Browse the demo zip file and click <strong>Install Now</strong>."
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-installer.php:79
+msgid "4. Go to <strong>Installed Demos</strong> tab."
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-installer.php:80
+msgid "5. Click <strong>Import</strong> button and wait for few minutes. Done!"
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-installer.php:87
+msgid "Available demos list"
+msgstr ""
+
+#: includes/includes/class-customizer-importer.php:42
+msgid ""
+"The customizer import file is not in a correct format. Please make sure to "
+"use the correct customizer import file."
+msgstr ""
+
+#: includes/includes/class-customizer-importer.php:46
+msgid ""
+"The customizer import file is not suitable for current theme. You can only "
+"import customizer settings for the same theme or a child theme."
+msgstr ""
+
+#: includes/includes/class-widget-importer.php:39
+msgid "Widget import data could not be read. Please try a different file."
+msgstr ""
+
+#: includes/includes/class-widget-importer.php:76
+msgid "Sidebar does not exist in theme (moving widget to Inactive)"
+msgstr ""
+
+#: includes/includes/class-widget-importer.php:98
+msgid "Site does not support widget"
+msgstr ""
+
+#: includes/includes/class-widget-importer.php:133
+msgid "Widget already exists"
+msgstr ""
+
+#: includes/includes/class-widget-importer.php:192
+msgid "Imported"
+msgstr ""
+
+#: includes/includes/class-widget-importer.php:195
+msgid "Imported to Inactive"
+msgstr ""
+
+#: includes/includes/class-widget-importer.php:201
+msgid "No Title"
+msgstr ""
+
+#: includes/includes/functions-demo-importer.php:108
+msgid "Sorry, you are not allowed to delete demo on this site."
+msgstr ""
+
+#: includes/includes/functions-demo-importer.php:121
+msgid "Unable to connect to the filesystem. Please confirm your credentials."
+msgstr ""
+
+#: includes/includes/functions-demo-importer.php:137
+msgid "Demo could not be deleted."
+msgstr ""
+
+#: includes/includes/functions-demo-importer.php:199
+msgid "Could not access filesystem."
+msgstr ""
+
+#: includes/includes/functions-demo-importer.php:203
+msgid "Filesystem error."
+msgstr ""
+
+#: includes/includes/functions-demo-importer.php:209
+msgid "Unable to locate ThemeGrill demo pack directory."
+msgstr ""
+
+#: includes/includes/functions-demo-importer.php:217
+msgid "Could not fully remove the demo %s."
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:126
+#: includes/includes/importers/class-wxr-importer.php:135
+#: includes/includes/importers/class-wxr-importer.php:186
+#: includes/includes/importers/class-wxr-importer.php:190
+#: includes/includes/importers/class-wxr-importer.php:199
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:127
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:170
+msgid "All done."
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:170
+msgid "Have fun!"
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:171
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:191
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:207
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:232
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:258
+msgid "Assign Authors"
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:259
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of "
+"this site. For example, you may want to import all the entries as "
+"<code>admin</code>s entries."
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:261
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually "
+"changing the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:271
+msgid "Import Attachments"
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:274
+msgid "Download and import file attachments"
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:278
+msgid "Submit"
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:291
+msgid "Import author:"
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:302
+msgid "or create new user with login name:"
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:305
+msgid "as a new user:"
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:313
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:315
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:316
+msgid "- Select -"
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:366
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:418
+msgid "Failed to import category %s"
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:461
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:510
+#: includes/includes/importers/class-wxr-importer.php:732
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:599
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:636
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:698
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:863
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:870
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:938
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:952
+msgid "Invalid file type"
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:1030
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:1043
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:1048
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:1054
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:1147
+msgid "Import WordPress"
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:1154
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:1169
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: includes/includes/importers/class-wxr-importer.php:1170
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: includes/includes/importers/class-wxr-parsers.php:44
+#: includes/includes/importers/class-wxr-parsers.php:74
+#: includes/includes/importers/class-wxr-parsers.php:82
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: includes/includes/importers/class-wxr-parsers.php:45
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: includes/includes/importers/class-wxr-parsers.php:86
+#: includes/includes/importers/class-wxr-parsers.php:91
+#: includes/includes/importers/class-wxr-parsers.php:308
+#: includes/includes/importers/class-wxr-parsers.php:497
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: themegrill-demo-importer.php:170
+msgid "View Demo Importer"
+msgstr ""
+
+#: themegrill-demo-importer.php:185
+msgid "View Demo Importer Documentation"
+msgstr ""
+
+#: themegrill-demo-importer.php:185
+msgid "Docs"
+msgstr ""
+
+#: themegrill-demo-importer.php:186
+msgid "Visit Free Customer Support Forum"
+msgstr ""
+
+#: themegrill-demo-importer.php:186
+msgid "Free Support"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "ThemeGrill Demo Importer"
+msgstr ""
+
+#: themegrill-demo-importer.php:201
+msgid "This plugin requires %s by ThemeGrill to work."
+msgstr ""
+
+#: themegrill-demo-importer.php:201
+msgid "Official Theme"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://themegrill.com/demo-importer/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Description: Import your demo content, widgets and theme settings with one "
+"click for ThemeGrill official themes."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://themegrill.com"
+msgstr ""
+
+#: includes/class-demo-importer.php:154
+msgctxt "Admin menu name"
+msgid "Demo Importer"
+msgstr ""
+
+#: includes/class-demo-importer.php:187
+msgctxt "demo"
+msgid "Importing %s..."
+msgstr ""
+
+#: includes/class-demo-importer.php:192
+msgctxt "demo"
+msgid "%s imported!"
+msgstr ""
+
+#: includes/class-demo-importer.php:193
+msgctxt "demo"
+msgid "%s import failed"
+msgstr ""
+
+#: includes/class-demo-importer.php:195
+msgctxt "demo"
+msgid "Live Preview %s"
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-importer.php:69
+#: includes/includes/admin/views/html-admin-page-importer.php:121
+#: includes/includes/admin/views/html-admin-page-importer.php:227
+#: includes/includes/admin/views/html-admin-page-installer-uploads.php:51
+#: includes/includes/admin/views/html-admin-page-installer.php:135
+#: includes/includes/admin/views/html-admin-page-installer.php:241
+#. translators: %s: Demo name
+msgctxt "demo"
+msgid "Import %s"
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-importer.php:130
+#: includes/includes/admin/views/html-admin-page-installer.php:144
+msgctxt "demo"
+msgid "Imported"
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-installer-preview.php:37
+#: includes/includes/admin/views/html-admin-page-installer.php:281
+#. translators: %s: Demo name
+msgctxt "demo"
+msgid "Download %s"
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-installer.php:289
+msgctxt "demo"
+msgid "Installed"
+msgstr ""
+
+#: includes/includes/admin/views/html-admin-page-installer-preview.php:45
+msgctxt "theme"
+msgid "Installed"
+msgstr ""
