@@ -978,7 +978,7 @@ endif;
                                             extract($dados);
                                                 ?>
                                                 <option value="<?=$id ?>" <?=($ClienteData['id_especie_titulo'] == $id ? 'selected="selected"' : '')?>>
-                                                    <?= $descricao ?></option>
+                                                    <?= $sigla ?> - <?= $descricao ?></option>
                                                 <?php
                                         endforeach;
                                     endif;
