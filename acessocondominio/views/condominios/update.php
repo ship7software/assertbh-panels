@@ -1036,7 +1036,7 @@ endif;
                                             extract($dados);
                                                 ?>
                                                 <option value="<?=$id ?>" <?=($ClienteData['id_especie_titulo'] == $id ? 'selected="selected"' : '')?>>
-                                                    <?= $sigla ?> - <?= $descricao ?></option>
+                                                    <?= $sigla_boleto ?> - <?= $descricao ?></option>
                                                 <?php
                                         endforeach;
                                     endif;
