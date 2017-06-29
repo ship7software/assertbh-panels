@@ -167,7 +167,7 @@ endif;
 
             $('.mask-phone9').mask(phone9Behavior, phone9options);
 
-            var cpfCnpjBehavior = function (val) {
+            /*var cpfCnpjBehavior = function (val) {
                 return val.replace(/\D/g, '').length > 11 ? '00.000.000/0000-00' : '000.000.000-00';
             };
 
@@ -177,7 +177,7 @@ endif;
                 }
             };
 
-            $('.mask-cpfCnpj').mask(cpfCnpjBehavior, cpfCnpjOptions);
+            $('.mask-cpfCnpj').mask(cpfCnpjBehavior, cpfCnpjOptions);*/
 
             $(".mask-cpfCnpj").keydown(function(ev){
                 try {
@@ -229,7 +229,7 @@ endif;
     <script src="assets/plugins/DataTables/extensions/Responsive/js/responsive.bootstrap.min.js"></script>
     <script src="__jsc/dataTables.responsive.min.js"></script>
 
-    <script type="text/javascript" src="__jsc/datatables-tabelas.js?version=20170629"></script>
+    <script type="text/javascript" src="__jsc/datatables-tabelas.js?version=20170629-2"></script>
 
     <script type="text/javascript" src="__jsc/fnReloadAjax.js"></script>
 
