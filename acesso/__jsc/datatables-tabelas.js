@@ -138,7 +138,6 @@ $(document).ready(function() {
         // Testa a validação e formata se estiver OK
         if ( formata_cpf_cnpj( cpf_cnpj ) ) {
             $(this).val( formata_cpf_cnpj( cpf_cnpj ) );
-            swal("CPF - CNPJ", "Validação de Documento OK !!")
         } else {
             swal("CPF - CNPJ", "Número de Documento Inválido, digite somente números, tente novamente...")
             $(this).val('');

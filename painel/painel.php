@@ -178,6 +178,20 @@ endif;
             };
 
             $('.mask-cpfCnpj').mask(cpfCnpjBehavior, cpfCnpjOptions);
+
+            $(".mask-cpfCnpj").keydown(function(ev){
+                try {
+                    $(ev.target).unmask();
+                } catch (e) {}
+
+                var tamanho = $(ev.target).val().length;
+
+                if(tamanho < 11){
+                   $(ev.target).mask("999.999.999-99", {reverse: true,selectOnFocus: true});
+                } else {
+                    $(ev.target).mask("99.999.999/9999-99", {reverse: true,selectOnFocus: true});
+                }                   
+            });
         });
     </script>
                     <?php
