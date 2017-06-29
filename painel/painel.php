@@ -115,7 +115,7 @@ endif;
                     <li><a href="painel.php?exe=unidades/index"><i class="fa fa-home fa-fw"></i> <span>Unidades</span></a></li>
                     <li><a href="painel.php?exe=boletos/index"><i class="fa fa-money fa-fw"></i> <span>Cobrança</span></a></li>
                     <li><a href="painel.php?exe=especies_titulo/index"><i class="fa fa-list-alt fa-fw"></i> <span>Espécie de Títulos</span></a></li>
-                    <li><a href="painel.php?exe=notificacao/index"><i class="fa fa-bell fa-fw"></i> <span>Notificações</span><span id="qtdeNotificacoesContainer"  class="pull-right-container">
+                    <li><a href="painel.php?exe=notificacao/index"><i class="fa fa-bell fa-fw"></i> <span>Notificações</span><span id="qtdeNotificacoesContainer"  class="pull-right-container" style="display: none">
               <span id="qtdeNotificacoes" class="label label-primary pull-right">4</span>
             </span></a></li>
                     <li><a href="painel.php?exe=remessa/index"><i class="fa fa-file-archive-o fa-fw"></i> <span>Remessas</span></a></li>
@@ -278,8 +278,8 @@ endif;
             dataType: 'json',
             success: function(naoLidas) {
                 $("#qtdeNotificacoes").html(naoLidas.length);
-                if(naoLidas.length < 1) {
-                    $("#qtdeNotificacoesContainer").hide();
+                if(naoLidas.length > 0) {
+                    $("#qtdeNotificacoesContainer").show();
                 }
             }
         })

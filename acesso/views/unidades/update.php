@@ -5,12 +5,13 @@ $idcond = filter_input(INPUT_GET, 'idcond', FILTER_VALIDATE_INT);
 $modulo = 'unidades';
 $title = 'Unidade';
 $sendPostForm = null;
+require('_app/Models/AdminUnidade.class.php');
+$Condominio = new AdminUnidade();
 
 if ($ClienteData && $ClienteData['SendPostForm']):
     $sendPostForm = $ClienteData['SendPostForm'];
     unset($ClienteData['SendPostForm']);
 
-    require('_app/Models/AdminUnidade.class.php');
     $cadastra = new AdminUnidade();
     $cadastra->ExeUpdate($userId, $ClienteData);
     DSErro($cadastra->getError()[0], $cadastra->getError()[1]);
@@ -369,31 +370,61 @@ endif;
 </section><!-- /.content -->
 <?php
 if ($ClienteData['alterar'] && $sendPostForm):
-    $texto = '<h3>Sr. Condômino,</h3>';
-    $texto .= '<p>Obrigado pelo preenchimento do seu cadastro.</p>';
-    $texto .= '<p>Para qualquer alteração dos dados, entre em contato com a administradora.</p>';
-    $texto .= '<p>Em caso de dúvidas, estamos à disposição.</p>';
-    $texto .= '<p>Atenciosamente,</p> <br /> <p>ASSERTBH Gestão de Condomínios</p>';
-
-    $link = 'https://boleto-assertbh.mybluemix.net/gerar/notificacao/inquilino/'.$userId.'?condominio='.$idcond;
-
-    echo '<script type="text/javascript">';
-    if ($ClienteData['alugado'] == 'Sim'):
-        echo '$.ajax({ type: "POST", url: "'.$link.'" });';
+    $read = new Read;
+    $existeUnidade = 0;
+    $read->ExeRead('unidades', "WHERE id_proprietario = {$userId} ORDER BY id_proprietario ASC");
+    if ($read->getResult()):
+        foreach ($read->getResult() as $user):
+            extract($user);
+            if ($alterar == 0):
+                echo '<script type="text/javascript">';
+                if ($ClienteData['alugado'] == 'Sim'):
+                    $link = 'https://boleto-assertbh.mybluemix.net/gerar/notificacao/inquilino/'.$userId.'?condominio='.$idcond;
+                    echo '$.ajax({ type: "POST", url: "'.$link.'" });';
+                endif;
+                echo 'setTimeout(function () { swal({  title: \'Informação\',
+                    text: \'Você precisa preencher todo o cadastro da propriedade: Condominio:'.$Condominio->getCondominio($id_condominio).' Bloco:'.$bloco.' Apto/Sala:'.$apto_sala.'\',  
+                    type: \'success\',    
+                    showCancelButton: false,   
+                    closeOnConfirm: true,   
+                    confirmButtonText: \'OK\', 
+                    showLoaderOnConfirm: true, }, 
+                    function(){   
+                        setTimeout(function(){     
+                            location = \'painel.php?exe=unidades/update&userid='.$id.'&idcond='.$id_condominio.'\';  
+                        });
+                            });';
+                echo '}, 10);</script>';
+                $existeUnidade = 1;
+            endif;
+        endforeach;
     endif;
-    echo 'setTimeout(function () { swal({  title: \'Informação\',
-                text: \''.$texto.'\',  
-                type: \'success\',   
-                 html: true,
-                showCancelButton: false,   
-                closeOnConfirm: true,   
-                confirmButtonText: \'OK\', 
-                showLoaderOnConfirm: true, }, 
-                function(){   
-                    setTimeout(function(){     
-                        // location = \'painel.php?exe=proprietarios/update&userid='.$id.'\';  
-                    });
-                     });';
-    echo '}, 10);</script>';
+    if ($existeUnidade = 0):
+        $texto = '<h3>Sr. Condômino,</h3>';
+        $texto .= '<p>Obrigado pelo preenchimento do seu cadastro.</p>';
+        $texto .= '<p>Para qualquer alteração dos dados, entre em contato com a administradora.</p>';
+        $texto .= '<p>Em caso de dúvidas, estamos à disposição.</p>';
+        $texto .= '<p>Atenciosamente,</p> <br /> <p>ASSERTBH Gestão de Condomínios</p>';
+
+        echo '<script type="text/javascript">';
+        if ($ClienteData['alugado'] == 'Sim'):
+            $link = 'https://boleto-assertbh.mybluemix.net/gerar/notificacao/inquilino/'.$userId.'?condominio='.$idcond;
+            echo '$.ajax({ type: "POST", url: "'.$link.'" });';
+        endif;
+        echo 'setTimeout(function () { swal({  title: \'Informação\',
+                    text: \''.$texto.'\',  
+                    type: \'success\',   
+                    html: true,
+                    showCancelButton: false,   
+                    closeOnConfirm: true,   
+                    confirmButtonText: \'OK\', 
+                    showLoaderOnConfirm: true, }, 
+                    function(){   
+                        setTimeout(function(){     
+                            // location = \'painel.php?exe=proprietarios/update&userid='.$id.'\';  
+                        });
+                        });';
+        echo '}, 10);</script>';
+    endif;
 endif;
 ?>
