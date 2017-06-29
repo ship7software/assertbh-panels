@@ -268,7 +268,7 @@ endif;
 if ($ClienteData['alterar'] && $sendPostForm):
     $read = new Read;
     $existeUnidade = 0;
-    $read->ExeRead('unidades', "WHERE id_proprietario = {$userId} ORDER BY id_proprietario ASC");
+    $read->ExeRead('unidades', "WHERE id_proprietario = {$userId} AND alterar = 0 ORDER BY id_proprietario ASC");
     if ($read->getResult()):
         foreach ($read->getResult() as $user):
             extract($user);
@@ -283,7 +283,7 @@ if ($ClienteData['alterar'] && $sendPostForm):
                     showLoaderOnConfirm: true, }, 
                     function(){   
                         setTimeout(function(){     
-                            location = \'painel.php?exe=unidades/update&userid='.$id.'&idcond='.$id_condominio.'\';  
+                            location = \'painel.php?exe=unidades/update&userid='.$id.'&idprop='.$userId.'&idcond='.$id_condominio.'\';  
                         });
                             });';
                 echo '}, 10);</script>';

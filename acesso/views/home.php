@@ -14,31 +14,33 @@ $prop = new Read;
 $prop->ExeRead('proprietarios','WHERE id = :condo',"condo={$_SESSION['userlogin']['id']}");
 
 extract($prop->getResult());
+foreach ($prop->getResult() as $user):
+    extract($user);
+    if ($alterar == 0):
+        $texto = '<h3>Sr. Condômino,</h3>';
+        $texto .= '<p>Para nos comunicarmos com maior eficiência e assim podermos fazer uma administração transparente e de qualidade, solicitamos, por gentileza, que preencha os dados em branco do seu cadastro e salve as informações.</p>';
+        $texto .= '<p>A seguir, entre na opção “MINHAS PROPRIEDADES”, preencha os dados em branco e salve as informações.</p>';
+        $texto .= '<p>Em caso de dúvidas, entre em contato com a administradora.</p>';
+        $texto .= '<p>Atenciosamente, ASSERTBH Gestão de Condomínios”</p>';
 
-if ($prop->getResult()[0]['alterar'] == 0):
-    $texto = '<h3>Sr. Condômino,</h3>';
-    $texto .= '<p>Para nos comunicarmos com maior eficiência e assim podermos fazer uma administração transparente e de qualidade, solicitamos, por gentileza, que preencha os dados em branco do seu cadastro e salve as informações.</p>';
-    $texto .= '<p>A seguir, entre na opção “MINHAS PROPRIEDADES”, preencha os dados em branco e salve as informações.</p>';
-    $texto .= '<p>Em caso de dúvidas, entre em contato com a administradora.</p>';
-    $texto .= '<p>Atenciosamente, ASSERTBH Gestão de Condomínios”</p>';
 
-
-    echo '<script type="text/javascript">';
-    echo 'setTimeout(function () { swal({  title: \'Informação\',
-                text: \''.$texto.'\',  
-                type: \'success\',   
-                 html: true,
-                showCancelButton: false,   
-                closeOnConfirm: true,   
-                confirmButtonText: \'OK\', 
-                showLoaderOnConfirm: true, }, 
-                function(){   
-                    setTimeout(function(){     
-                        location = \'painel.php?exe=proprietarios/update&userid='.$id.'\';  
-                    });
-                     });';
-    echo '}, 10);</script>';
-endif;
+        echo '<script type="text/javascript">';
+        echo 'setTimeout(function () { swal({  title: \'Informação\',
+                    text: \''.$texto.'\',  
+                    type: \'success\',   
+                    html: true,
+                    showCancelButton: false,   
+                    closeOnConfirm: true,   
+                    confirmButtonText: \'OK\', 
+                    showLoaderOnConfirm: true, }, 
+                    function(){   
+                        setTimeout(function(){     
+                            location = \'painel.php?exe=proprietarios/update&userid='.$id.'\';  
+                        });
+                        });';
+        echo '}, 10);</script>';
+    endif;
+endforeach;
 ?>
 
 

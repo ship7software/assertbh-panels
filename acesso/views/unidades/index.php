@@ -89,20 +89,20 @@ endif;
                                     showLoaderOnConfirm: true, }, 
                                     function(){   
                                         setTimeout(function(){     
-                                            location = \'painel.php?exe=unidades/update&userid='.$id.'&idcond='.$id_condominio.'\';  
+                                            location = \'painel.php?exe=unidades/update&userid='.$id.'&idprop='.$userid.'&idcond='.$id_condominio.'\';  
                                         });
                                          });';
                                 echo '}, 10);</script>';
                             endif;
                             ?>
                             <tr>
-                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&userid=<?= $id; ?>&idcond="<?= $id_condominio; ?>><?= $Condominio->getCondominio($id_condominio)?></td>
-                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&userid=<?= $id; ?>&idcond="<?= $id_condominio; ?>>Bloco:<?=$bloco?> - Apto/Sala:<?=$apto_sala?></td>
-                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&userid=<?= $id; ?>&idcond="<?= $id_condominio; ?>><?= $contato_emergencia ?></td>
+                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&userid=<?= $id; ?>&idprop=<?= $userid; ?>&idcond="<?= $id_condominio; ?>><?= $Condominio->getCondominio($id_condominio)?></td>
+                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&userid=<?= $id; ?>&idprop=<?= $userid; ?>&idcond="<?= $id_condominio; ?>>Bloco:<?=$bloco?> - Apto/Sala:<?=$apto_sala?></td>
+                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&userid=<?= $id; ?>&idprop=<?= $userid; ?>&idcond="<?= $id_condominio; ?>><?= $contato_emergencia ?></td>
                                 <td>
                                     <a class="btn btn-xs btn-success" href="painel.php?exe=documentos/index&unidadeid=<?= $id; ?>" title="Documentos"><i class="glyphicon glyphicon-file" ></i> Acesso Documentos</a>
                                     <a class="btn btn-xs btn-success" href="painel.php?exe=boletos/index&id=<?= $id; ?>" title="Boletos"><i class="glyphicon glyphicon-usd" ></i> Boletos</a>
-                                    <a class="btn btn-xs btn-primary" href="painel.php?exe=<?= $modulo; ?>/update&userid=<?= $id; ?>&idcond="<?= $id_condominio; ?> title="Vizualizar"><i class="glyphicon glyphicon-edit" ></i></a>
+                                    <a class="btn btn-xs btn-primary" href="painel.php?exe=<?= $modulo; ?>/update&userid=<?= $id; ?>&idprop=<?= $userid; ?>&idcond="<?= $id_condominio; ?> title="Vizualizar"><i class="glyphicon glyphicon-edit" ></i></a>
                                 </td>
                             </tr>
 

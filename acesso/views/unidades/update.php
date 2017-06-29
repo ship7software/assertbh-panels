@@ -2,6 +2,7 @@
 $ClienteData = filter_input_array(INPUT_POST, FILTER_DEFAULT);
 $userId = filter_input(INPUT_GET, 'userid', FILTER_VALIDATE_INT);
 $idcond = filter_input(INPUT_GET, 'idcond', FILTER_VALIDATE_INT);
+$idprop = filter_input(INPUT_GET, 'idprop', FILTER_VALIDATE_INT);
 $modulo = 'unidades';
 $title = 'Unidade';
 $sendPostForm = null;
@@ -372,7 +373,7 @@ endif;
 if ($ClienteData['alterar'] && $sendPostForm):
     $read = new Read;
     $existeUnidade = 0;
-    $read->ExeRead('unidades', "WHERE id_proprietario = {$userId} ORDER BY id_proprietario ASC");
+    $read->ExeRead('unidades', "WHERE id_proprietario = {$idprop} AND alterar = 0 ORDER BY id_proprietario ASC");
     if ($read->getResult()):
         foreach ($read->getResult() as $user):
             extract($user);
@@ -391,7 +392,7 @@ if ($ClienteData['alterar'] && $sendPostForm):
                     showLoaderOnConfirm: true, }, 
                     function(){   
                         setTimeout(function(){     
-                            location = \'painel.php?exe=unidades/update&userid='.$id.'&idcond='.$id_condominio.'\';  
+                            location = \'painel.php?exe=unidades/update&userid='.$id.'&idprop='.$idprop.'&idcond='.$id_condominio.'\';  
                         });
                             });';
                 echo '}, 10);</script>';
