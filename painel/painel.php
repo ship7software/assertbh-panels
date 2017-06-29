@@ -166,29 +166,47 @@ endif;
             };
 
             $('.mask-phone9').mask(phone9Behavior, phone9options);
+            $('.mask-cpfCnpj').on('keypress', function(evt) {
+                setTimeout(function() {
+                    $(evt.target).val(cpfCnpj($(evt.target).val()));
+                }, 1);
+            });
 
-            /*var cpfCnpjBehavior = function (val) {
-                return val.replace(/\D/g, '').length > 11 ? '00.000.000/0000-00' : '000.000.000-00';
-            };
+            function cpfCnpj(v){
 
-            var cpfCnpjOptions = {
-                onKeyPress: function(val, e, field, options) {
-                    field.mask(cpfCnpjBehavior.apply({}, arguments), options);
+                //Remove tudo o que não é dígito
+                v=v.replace(/\D/g,"")
+
+                if (v.length <= 14) { //CPF
+
+                    //Coloca um ponto entre o terceiro e o quarto dígitos
+                    v=v.replace(/(\d{3})(\d)/,"$1.$2")
+
+                    //Coloca um ponto entre o terceiro e o quarto dígitos
+                    //de novo (para o segundo bloco de números)
+                    v=v.replace(/(\d{3})(\d)/,"$1.$2")
+
+                    //Coloca um hífen entre o terceiro e o quarto dígitos
+                    v=v.replace(/(\d{3})(\d{1,2})$/,"$1-$2")
+
+                } else { //CNPJ
+
+                    //Coloca ponto entre o segundo e o terceiro dígitos
+                    v=v.replace(/^(\d{2})(\d)/,"$1.$2")
+
+                    //Coloca ponto entre o quinto e o sexto dígitos
+                    v=v.replace(/^(\d{2})\.(\d{3})(\d)/,"$1.$2.$3")
+
+                    //Coloca uma barra entre o oitavo e o nono dígitos
+                    v=v.replace(/\.(\d{3})(\d)/,".$1/$2")
+
+                    //Coloca um hífen depois do bloco de quatro dígitos
+                    v=v.replace(/(\d{4})(\d)/,"$1-$2")
+
                 }
-            };
 
-            $('.mask-cpfCnpj').mask(cpfCnpjBehavior, cpfCnpjOptions);*/
-
-
-            var options =  {selectOnFocus: true,
-                onKeyPress: function(cpfCnpj, e, field, options){
-                    var masks = ['000.000.000-00', '00.000.000/0000-00'];
-                        mask = (cpfCnpj.length>14) ? masks[1] : masks[0];
-                    $(e.target).mask(mask, options);
-                }
-            };
-
-            $(".mask-cpfCnpj").mask('000.000.000-00', options);
+                return v.substring(0, 18);
+            }
         });
     </script>
                     <?php
