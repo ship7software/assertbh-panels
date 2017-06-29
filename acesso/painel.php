@@ -224,7 +224,7 @@ endif;
     <script src="assets/plugins/DataTables/extensions/Responsive/js/responsive.jqueryui.min.js"></script>
     <script src="__jsc/dataTables.responsive.min.js"></script>
 
-    <script type="text/javascript" src="__jsc/datatables-tabelas.js"></script>
+    <script type="text/javascript" src="__jsc/datatables-tabelas.js?version=20170629"></script>
 
     <script type="text/javascript" src="__jsc/fnReloadAjax.js"></script>
 
