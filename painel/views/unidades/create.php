@@ -119,7 +119,7 @@ endif;
                     </div>
                     <div class="col-md-4">
                         <label>Telefone para Emergência</label>
-                        <input class="form-control"
+                        <input class="form-control mask-phone9"
                                type = "tel"
                                name = "telefone_emergencia"
                                value="<?php if (!empty($ClienteData['telefone_emergencia'])) echo $ClienteData['telefone_emergencia']; ?>"
