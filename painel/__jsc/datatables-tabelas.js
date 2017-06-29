@@ -337,7 +337,7 @@ $(document).on('click', '#delete_documentos', function(){
 $(document).ready(function() {
     $('#multiple-checkboxes').multiselect();
 
-    $('.cpf_cnpj').blur(function(){
+    $('.mask-cpfCnpj').blur(function(){
         // O CPF ou CNPJ
         var cpf_cnpj = $(this).val();
 

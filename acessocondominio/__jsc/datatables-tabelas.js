@@ -131,7 +131,7 @@ $(document).ready(function() {
 
 
 $(document).ready(function() {
-    $('.cpf_cnpj').blur(function(){
+    $('.mask-cpfCnpj').blur(function(){
         // O CPF ou CNPJ
         var cpf_cnpj = $(this).val();
 
