@@ -179,19 +179,16 @@ endif;
 
             $('.mask-cpfCnpj').mask(cpfCnpjBehavior, cpfCnpjOptions);*/
 
-            $(".mask-cpfCnpj").keydown(function(ev){
-                try {
-                    $(ev.target).unmask();
-                } catch (e) {}
 
-                var tamanho = $(ev.target).val().length;
+            var options =  {selectOnFocus: true,
+                onKeyPress: function(cpfCnpj, e, field, options){
+                    var masks = ['000.000.000-00', '00.000.000/0000-00'];
+                        mask = (cpfCnpj.length>14) ? masks[1] : masks[0];
+                    $(e.target).mask(mask, options);
+                }
+            };
 
-                if(tamanho < 11){
-                   $(ev.target).mask("999.999.999-99", {reverse: true,selectOnFocus: true});
-                } else {
-                    $(ev.target).mask("99.999.999/9999-99", {reverse: true,selectOnFocus: true});
-                }                   
-            });
+            $(".mask-cpfCnpj").mask('000.000.000-00', options);
         });
     </script>
                     <?php

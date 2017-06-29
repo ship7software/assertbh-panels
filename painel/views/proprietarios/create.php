@@ -77,7 +77,7 @@ endif;
                         <label>CPF/CNPJ</label>
                         <input class="form-control mask-cpfCnpj"
                                type = "text"
-                               name = "cpf_cnpj"
+                               name = "cpf_cnpj" maxlenght="18"
                                value="<?php if (!empty($ClienteData['cpf_cnpj'])) echo $ClienteData['cpf_cnpj']; ?>"
                                title = "Informe o CPF/CNPJ do <?= $title; ?>"
                                placeholder="CPF/CNPJ do <?= $title; ?>">
