@@ -133,6 +133,8 @@ endif;
             </section>
             <!-- /.sidebar -->
         </aside><script src="assets/plugins/jQuery/jQuery-2.1.4.min.js"></script>
+        <script src="assets/plugins/datepicker/bootstrap-datepicker.js"></script>
+        <script src="assets/plugins/datepicker/locales/bootstrap-datepicker.pt-BR.js"></script>
 <script type="text/javascript" src="__jsc/sweetalert.min.js"></script>
         <div class="content-wrapper">
             <div class="row">
@@ -177,6 +179,11 @@ endif;
                 setTimeout(function() {
                     $(evt.target).val(cpfCnpj($(evt.target).val()));
                 }, 1);
+            });
+            $('.mask-date').datepicker({
+                format: "dd/mm/yyyy",
+                language: "pt-BR",
+                autoclose: true
             });
 
             function cpfCnpj(v){
@@ -261,8 +268,6 @@ endif;
 
     <script src="assets/plugins/knob/jquery.knob.js"></script>
     <script src="assets/plugins/daterangepicker/daterangepicker.js"></script>
-
-    <script src="assets/plugins/datepicker/bootstrap-datepicker.js"></script>
 
     <script src="assets/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
 

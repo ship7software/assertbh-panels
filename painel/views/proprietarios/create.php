@@ -64,8 +64,8 @@ endif;
                     </div>
                     <div class="col-md-2">
                         <label>Data de Nascimento</label>
-                        <input class="form-control"
-                               type = "date"
+                        <input class="form-control mask-date"
+                               type = "text"
                                name = "data_nascimento"
                                value="<?php if (!empty($ClienteData['data_nascimento'])) echo $ClienteData['data_nascimento']; ?>"
                                title = "Informe a Data de Nascimento do <?= $title; ?>"
@@ -263,7 +263,7 @@ endif;
         <div class="box-footer">
             <div class="row form-group col-lg-12">
                 <span class="icon-input-btn"><span class="fa fa-hdd-o"></span><input type="submit" name="SendPostForm" value="Salvar" class="btn btn-primary" /></span>
-                <a href="painel.php?exe=<?= $modulo; ?>/index&id=<?= $id_cond; ?>" class="btn btn-danger"><i class="fa fa-ban"></i> Cancelar</a>
+                <a href="painel.php?exe=<?= $modulo; ?>/indexcond" class="btn btn-danger"><i class="fa fa-ban"></i> Cancelar</a>
             </div>
             </form>
         </div><!-- /.box-footer-->

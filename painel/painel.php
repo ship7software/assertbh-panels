@@ -39,6 +39,7 @@ endif;
         <link href="assets/plugins/DataTables/media/css/dataTables.bootstrap.min.css" rel="stylesheet" >
         <link href="assets/plugins/DataTables/extensions/Responsive/css/responsive.bootstrap.min.css" rel="stylesheet" >
         <link href="assets/plugins/iCheck/all.css" rel="stylesheet" >
+        <link href="assets/plugins/datepicker/datepicker3.css" rel="stylesheet" >
         <link href="css/AdminLTE.min.css" rel="stylesheet">
         <link href="css/skins/_all-skins.min.css" rel="stylesheet">
         <link href="css/sweetalert.css" rel="stylesheet" >
@@ -130,6 +131,8 @@ endif;
         </aside>
         <script src="assets/plugins/jQuery/jQuery-2.1.4.min.js"></script>
         <script type="text/javascript" src="__jsc/sweetalert.min.js"></script>
+        <script src="assets/plugins/datepicker/bootstrap-datepicker.js"></script>
+        <script src="assets/plugins/datepicker/locales/bootstrap-datepicker.pt-BR.js"></script>
         <script src="__jsc/moment.js"></script>
         <div class="content-wrapper">
             <div class="row">
@@ -173,6 +176,11 @@ endif;
                 setTimeout(function() {
                     $(evt.target).val(cpfCnpj($(evt.target).val()));
                 }, 1);
+            });
+            $('.mask-date').datepicker({
+                format: "dd/mm/yyyy",
+                language: "pt-BR",
+                autoclose: true
             });
 
             function cpfCnpj(v){
@@ -232,7 +240,7 @@ endif;
     </body>
 
     
-    <script src="assets/plugins/jQueryUI/jquery-ui.min.js"></script>
+    <!--<script src="assets/plugins/jQueryUI/jquery-ui.min.js"></script>-->
     <script type="text/javascript" src="__jsc/bootstrap.min.js"></script>
     <script>
         $.widget.bridge('uibutton', $.ui.button);
@@ -252,8 +260,6 @@ endif;
     <script type="text/javascript" src="__jsc/fnReloadAjax.js"></script>
 
     <script src="assets/plugins/daterangepicker/daterangepicker.js"></script>
-
-    <script src="assets/plugins/datepicker/bootstrap-datepicker.js"></script>
 
     <script src="assets/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
 
