@@ -1046,7 +1046,7 @@ endif;
                         </div>
 
                         <div class="row form-group">
-                            <div class="col-md-3">
+                            <div class="col-md-4">
                                 <label>Dia de Vencimento do Boleto</label>
                                 <input class="form-control"
                                        type = "text"
@@ -1056,20 +1056,25 @@ endif;
                                        placeholder="Dia de Vencimento do Boleto do <?= $title; ?>" >
                             </div>
 
-                            <div class="col-md-2">
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-md-4">
                                 <label>Próximo Nosso Número</label>
                                 <input class="form-control"
                                        type = "text"
                                        name = "proximo_nosso_numero"
+                                        <?php if($userLogin['email'] != 'admin@assertbh.com.br') echo 'disabled'; ?>
                                        value="<?php if (!empty($ClienteData['proximo_nosso_numero'])) echo $ClienteData['proximo_nosso_numero']; ?>"
                                        title = "Informe o Próximo Nosso Número do <?= $title; ?>"
                                        placeholder="Próximo Nosso Número do <?= $title; ?>" >
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-4">
                                 <label>Próximo Número Remessa</label>
                                 <input class="form-control"
                                        type = "text"
                                        name = "proximo_numero_remessa"
+                                        <?php if($userLogin['email'] != 'admin@assertbh.com.br') echo 'disabled'; ?>
                                        value="<?php if (!empty($ClienteData['proximo_numero_remessa'])) echo $ClienteData['proximo_numero_remessa']; ?>"
                                        title = "Informe o Próximo Número Remessa do <?= $title; ?>"
                                        placeholder="Próximo Número Remessa do <?= $title; ?>" >
