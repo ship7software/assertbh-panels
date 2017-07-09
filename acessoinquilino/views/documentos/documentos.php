@@ -61,9 +61,9 @@ $Condominio = new AdminDocumento();
                                     elseif ($tipo_doc == 'contabilinc'): echo "Contabilidade";
                                     endif;
                                     ?></td>
-                                <td><a href="<?= BASE.'/uploads/documentos/'.$tipo_doc.'/'.$unidade->getResult()[0]['id_condominio'].'/'.$arquivo ?>" target="_blank"><?= $arquivo ?></a></td>
+                                <td><a href="../painel/download.php?file=documentos/<?= $tipo_doc.'/'.$id_condominio.'/'.$arquivo ?>" target="_blank"><?= $arquivo ?></a></td>
                                 <td>
-                                    <a class="btn btn-xs btn-primary" href="<?= BASE.'/uploads/documentos/'.$tipo_doc.'/'.$unidade->getResult()[0]['id_condominio'].'/'.$arquivo ?>" target="_blank" title="Download"><i class="glyphicon glyphicon-download-alt" ></i></a>
+                                    <a class="btn btn-xs btn-primary" href="../painel/download.php?file=documentos/<?= $tipo_doc.'/'.$id_condominio.'/'.$arquivo ?>" target="_blank" title="Download"><i class="glyphicon glyphicon-download-alt" ></i></a>
                                 </td>
                             </tr>
 

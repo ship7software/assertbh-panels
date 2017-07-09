@@ -335,7 +335,9 @@ $(document).on('click', '#delete_documentos', function(){
 });
 
 $(document).ready(function() {
-    $('#multiple-checkboxes').multiselect();
+    $('#multiple-checkboxes').multiselect({
+        nonSelectedText: 'Nenhum selecionado'
+    });
 
     $('.mask-cpfCnpj').blur(function(){
         // O CPF ou CNPJ
