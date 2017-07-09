@@ -753,14 +753,14 @@ endif;
                                             <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>Extraordinárias</label>
                                     <label class="radio-inline"><input type="radio" name="sindico_desc_despesas" value="3" <?=($ClienteData['sindico_desc_despesas'] == 3 ? 'checked="checked"' : '')?>
                                             <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>Ambos</label>
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="col-md-2">
+                                            
                                     <label class="radio-inline"><input type="radio" name="sindico_desc_despesas" value="4" <?=($ClienteData['sindico_desc_despesas'] == 4 ? 'checked="checked"' : '')?>
                                             <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>Não Aplicável</label>
                                 </div>
-                                <div class="col-md-3">
+                            </div>
+                            <div class="col-md-12">
+                                <div class="col-md-7">
+                                    <label>Outros Descontos:</label>
                                     <input class="form-control"
                                            type = "text"
                                            name = "sindico_desc_desp_outro"

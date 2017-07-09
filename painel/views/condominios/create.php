@@ -724,7 +724,10 @@ endif;
                                     <label class="radio-inline"><input type="radio" name="sindico_desc_despesas" value="3" >Ambos</label>
                                     <label class="radio-inline"><input type="radio" name="sindico_desc_despesas" value="4" >Não Aplicável</label>
                                 </div>
-                                <div class="col-md-5">
+                            </div>
+                            <div class="col-md-12">
+                                <div class="col-md-7">
+                                    <label>Outros Descontos:</label>
                                     <div class="input-group">
                                         <input class="form-control"
                                                type = "text"
@@ -815,7 +818,10 @@ endif;
                                     <label class="radio-inline"><input type="radio" name="subsindico_desc_despesas" value="3" >Ambos</label>
                                     <label class="radio-inline"><input type="radio" name="subsindico_desc_despesas" value="4" >Não Aplicável</label>
                                 </div>
-                                <div class="col-md-5">
+                            </div>
+                            <div class="col-md-12">
+                                <div class="col-md-7">
+                                    <label>Outros Descontos:</label>
                                     <div class="input-group">
                                         <input class="form-control"
                                                type = "text"

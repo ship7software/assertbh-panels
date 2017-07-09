@@ -739,14 +739,12 @@ endif;
                                     <label class="radio-inline"><input type="radio" name="sindico_desc_despesas" value="1" <?=($ClienteData['sindico_desc_despesas'] == 1 ? 'checked="checked"' : '')?>>Ordinárias</label>
                                     <label class="radio-inline"><input type="radio" name="sindico_desc_despesas" value="2" <?=($ClienteData['sindico_desc_despesas'] == 2 ? 'checked="checked"' : '')?>>Extraordinárias</label>
                                     <label class="radio-inline"><input type="radio" name="sindico_desc_despesas" value="3" <?=($ClienteData['sindico_desc_despesas'] == 3 ? 'checked="checked"' : '')?>>Ambos</label>
-
+                                    <label class="radio-inline"><input type="radio" name="sindico_desc_despesas" value="4" <?=($ClienteData['sindico_desc_despesas'] == 4 ? 'checked="checked"' : '')?>>Não Aplicável</label>
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <div class="col-md-2">
-                                    <label class="radio-inline"><input type="radio" name="sindico_desc_despesas" value="4" <?=($ClienteData['sindico_desc_despesas'] == 4 ? 'checked="checked"' : '')?>>Não Aplicável</label>
-                                </div>
-                                <div class="col-md-3">
+                                <div class="col-md-7">
+                                    <label>Outros Descontos:</label>
                                     <input class="form-control"
                                            type = "text"
                                            name = "sindico_desc_desp_outro"
@@ -835,13 +833,12 @@ endif;
                                     <label class="radio-inline"><input type="radio" name="subsindico_desc_despesas" value="1" <?=($ClienteData['subsindico_desc_despesas'] == 1 ? 'checked="checked"' : '')?>>Ordinárias</label>
                                     <label class="radio-inline"><input type="radio" name="subsindico_desc_despesas" value="2" <?=($ClienteData['subsindico_desc_despesas'] == 2 ? 'checked="checked"' : '')?>>Extraordinárias</label>
                                     <label class="radio-inline"><input type="radio" name="subsindico_desc_despesas" value="3" <?=($ClienteData['subsindico_desc_despesas'] == 3 ? 'checked="checked"' : '')?>>Ambos</label>
+                                    <label class="radio-inline"><input type="radio" name="subsindico_desc_despesas" value="4" <?=($ClienteData['subsindico_desc_despesas'] == 4 ? 'checked="checked"' : '')?>>Não Aplicável</label>
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <div class="col-md-2">
-                                    <label class="radio-inline"><input type="radio" name="subsindico_desc_despesas" value="4" <?=($ClienteData['subsindico_desc_despesas'] == 4 ? 'checked="checked"' : '')?>>Não Aplicável</label>
-                                </div>
-                                <div class="col-md-3">
+                                <div class="col-md-7">
+                                    <label>Outros Descontos:</label>
                                     <input class="form-control"
                                            type = "text"
                                            name = "subsindico_desc_desp_outro"
