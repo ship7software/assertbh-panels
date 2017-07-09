@@ -82,7 +82,7 @@ endif;
 
                 <div class="row form-group">
                     <div class="col-md-8">
-                        <label>E-email</label>
+                        <label>E-mail</label>
                         <input class="form-control"
                                type = "text"
                                name = "email"

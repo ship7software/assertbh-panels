@@ -141,7 +141,7 @@ class AdminUser {
             $this->Error = ["Existem campos em branco. Favor preencha todos os campos!", DS_ALERT];
             $this->Result = false;
         elseif (!Check::Email($this->Data['email'])):
-            $this->Error = ["O e-email informado não parece ter um formato válido!", DS_ALERT];
+            $this->Error = ["O E-mail informado não parece ter um formato válido!", DS_ALERT];
             $this->Result = false;
         elseif (isset($this->Data['senha']) && (strlen($this->Data['senha']) < 6 || strlen($this->Data['senha']) > 12)):
             $this->Error = ["A senha deve ter entre 6 e 12 caracteres!", DS_INFOR];
@@ -159,7 +159,7 @@ class AdminUser {
         $readUser->ExeRead(self::Entity, "WHERE {$Where} email = :email", "email={$this->Data['email']}");
 
         if ($readUser->getRowCount()):
-            $this->Error = ["O e-email informado foi cadastrado no sistema por outro usuário! Informe outro e-mail!", DS_ERROR];
+            $this->Error = ["O E-mail informado foi cadastrado no sistema por outro usuário! Informe outro e-mail!", DS_ERROR];
             $this->Result = false;
         else:
             $this->Result = true;
