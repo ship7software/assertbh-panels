@@ -4,7 +4,7 @@ $ClienteData = filter_input_array(INPUT_POST, FILTER_DEFAULT);
 $userId = filter_input(INPUT_GET, 'userid', FILTER_VALIDATE_INT);
 $modulo = 'condominios';
 $title = 'Condomínio';
-
+$userLogin = $_SESSION['userloginPainel'];
 if ($ClienteData && $ClienteData['SendPostForm']):
     $ClienteData['imagem'] = ( $_FILES['imagem']['tmp_name'] ? $_FILES['imagem'] : 'null' );
     $ClienteData['juros_naoaplicar'] = (isset($ClienteData['juros_naoaplicar']) ? true : null);
