@@ -187,7 +187,7 @@ endif;
                                        name = "telefone"
                                        value="<?php if (!empty($ClienteData['telefone'])) echo $ClienteData['telefone']; ?>"
                                        title = "Informe o Telefone do <?= $title; ?>"
-                                       placeholder="Telefone do <?= $title; ?>" >
+                                       placeholder="Telefone do <?= $title; ?>"  <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>
                             </div>
                         </div>
                         <hr>
