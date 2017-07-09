@@ -1082,17 +1082,6 @@ endif;
                                        placeholder="DV" <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>
                             </div>
                         </div>
-                        <div class="row form-group">
-                            <div class="col-md-2">
-                                <label>DV - Agência e Conta</label>
-                                <input class="form-control"
-                                       type = "text"
-                                       name = "dv_agencia_conta"
-                                       value="<?php echo $ClienteData['dv_agencia_conta']; ?>"
-                                       title = "Informe o DV da Agência e Conta <?= $title; ?>"
-                                       placeholder="DV" <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>
-                            </div>
-                        </div>
 
                         <div class="row form-group">
                             <div class="col-md-4">
