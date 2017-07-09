@@ -154,7 +154,7 @@ $banco = new AdminCobranca();
                         <input class="form-control mask-money2"
                                type = "text"
                                name = "valor"
-                               value="<?php if (!empty($ClienteData['valor'])) echo $ClienteData['valor'];?>"
+                               value="<?php if (!empty($ClienteData['valor'])) echo number_format($ClienteData['valor'], 2, ',', ''); else echo '0,00'?>"
                                title = "Informe o Valor da <?= $title; ?>"
                                required
                                placeholder="Valor da <?= $title; ?>" >

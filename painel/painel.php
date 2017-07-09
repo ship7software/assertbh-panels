@@ -157,13 +157,45 @@ endif;
             $('.mask-phone').mask('(00) 0000-0000', {selectOnFocus: true});
             $('.mask-cpf').mask('000.000.000-00', {reverse: true,selectOnFocus: true});
             $('.mask-cnpj').mask('00.000.000/0000-00', {reverse: true,selectOnFocus: true});
-            $('.mask-money').mask('000.000.000.000.000,00', {reverse: true,selectOnFocus: true});
-            $('.mask-money2').mask("#.##0,00", {reverse: true,selectOnFocus: true});
+            //$('.mask-money').mask('000.000.000.000.000,00', {reverse: true,selectOnFocus: true});
+            //$('.mask-money2').mask("#.##0,00", {reverse: true,selectOnFocus: true});
             $('.mask-ip_address').mask('099.099.099.099');
             $('.mask-percent').mask('##0,00%', {reverse: true,selectOnFocus: true});
             var phone9Behavior = function (val) {
                 return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 0000-00009';
             };
+
+            $(".mask-money").maskMoney({
+                decimal: ",",
+                thousands: '',
+                allowNegative: true,
+                affixesStay: false,
+                formatOnBlur: true,
+                allowEmpty: true,
+                allowZero: true
+            });
+
+            $(".mask-money2").maskMoney({
+                decimal: ",",
+                thousands: '',
+                allowNegative: true,
+                affixesStay: false,
+                formatOnBlur: true,
+                allowEmpty: true,
+                allowZero: true
+            });
+
+            $(".mask-money").on('blur', function(evt){
+                if(evt.target.value == '') {
+                    $(evt.target).val("0,00");
+                }
+            });
+
+            $(".mask-money2").on('blur', function(evt){
+                if(evt.target.value == '') {
+                    $(evt.target).val("0,00");
+                }
+            });
 
             var phone9options = {
                 onKeyPress: function(val, e, field, options) {
@@ -273,6 +305,7 @@ endif;
     <script src="__jsc/validacpfcnpj.js?v=3"></script>
     <script src="assets/plugins/iCheck/icheck.min.js"></script>
     <script src="__jsc/app.js"></script>
+    <script src="__jsc/jquery.maskMoney.min.js"></script>
     <script>
         $.ajax({
             type: 'POST',

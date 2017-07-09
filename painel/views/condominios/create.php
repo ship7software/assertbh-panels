@@ -511,7 +511,7 @@ endif;
                                         <input class="form-control mask-money2"
                                                type = "text"
                                                name = "multa"
-                                               value="0"> %
+                                               value="0,00"> %
                                     </div>
                                     <div class="col-md-3">
                                          <div class="checkbox">
@@ -525,7 +525,7 @@ endif;
                                         <input class="form-control mask-money2"
                                                type = "text"
                                                name = "juros"
-                                               value="0"> % a.m. Pro rata die
+                                               value="0,00"> % a.m. Pro rata die
                                         <div class="checkbox" style="margin-left: 10px">
                                              <label><input type="checkbox" name = "juros_naoaplicar" value="on"> Não Aplicar</label>
                                          </div>
@@ -596,7 +596,7 @@ endif;
                                             <input class="form-control mask-money2"
                                                    type = "text"
                                                    name = "taxa_fundo2"
-                                                   value=0>
+                                                   value="0,00">
                                             <label class="radio-inline"><input type="radio" name="tipofundo2" value="1" checked="checked">Valor Fixo em R$(reais)</label>
                                             <label class="radio-inline"><input type="radio" name="tipofundo2" value="2" >% da Taxa de Condomínio</label>
                                         </div>
@@ -621,7 +621,7 @@ endif;
                                             <input class="form-control mask-money2"
                                                    type = "text"
                                                    name = "taxa_fundo3"
-                                                   value=0>
+                                                   value="0,00">
                                             <label class="radio-inline"><input type="radio" name="tipofundo3" value="1" checked="checked">Valor Fixo em R$(reais)</label>
                                             <label class="radio-inline"><input type="radio" name="tipofundo3" value="2" >% da Taxa de Condomínio</label>
                                         </div>
@@ -645,7 +645,7 @@ endif;
                                             <input class="form-control mask-money2"
                                                    type = "text"
                                                    name = "taxa_fundo4"
-                                                   value=0>
+                                                   value="0,00">
                                             <label class="radio-inline"><input type="radio" name="tipofundo4" value="1" checked="checked">Valor Fixo em R$(reais)</label>
                                             <label class="radio-inline"><input type="radio" name="tipofundo4" value="2" >% da Taxa de Condomínio</label>
                                         </div>
@@ -669,7 +669,7 @@ endif;
                                             <input class="form-control mask-money2"
                                                    type = "text"
                                                    name = "taxa_fundo5"
-                                                   value=0>
+                                                   value="0,00">
                                             <label class="radio-inline"><input type="radio" name="tipofundo5" value="1" checked="checked">Valor Fixo em R$(reais)</label>
                                             <label class="radio-inline"><input type="radio" name="tipofundo5" value="2" >% da Taxa de Condomínio</label>
                                         </div>
@@ -693,7 +693,7 @@ endif;
                                         <input class="form-control mask-money2"
                                                type = "text"
                                                name = "sindico_remu_valor"
-                                               value=0
+                                               value="0,00"
                                                title = "Valor da Remuneração"
                                                placeholder="Valor da Remuneração">
                                     </div>
@@ -710,7 +710,7 @@ endif;
                                         <input class="form-control mask-money2"
                                                type = "text"
                                                name = "sindico_desc_valor"
-                                               value=0
+                                               value="0,00"
                                                title = "Valor do Desconto"
                                                placeholder="Valor do Desconto">
                                     </div>
@@ -784,7 +784,7 @@ endif;
                                         <input class="form-control mask-money2"
                                                type = "text"
                                                name = "subsindico_remu_valor"
-                                               value=0
+                                               value="0,00"
                                                title = "Valor da Remuneração"
                                                placeholder="Valor da Remuneração">
                                     </div>
@@ -801,7 +801,7 @@ endif;
                                         <input class="form-control mask-money2"
                                                type = "text"
                                                name = "subsindico_desc_valor"
-                                               value=0
+                                               value="0,00"
                                                title = "Valor do Desconto"
                                                placeholder="Valor do Desconto">
                                     </div>
@@ -1065,7 +1065,7 @@ endif;
                                 <input class="form-control mask-money2"
                                        type = "text"
                                        name = "taxa"
-                                       value="0"
+                                       value="0,00"
                                        title = "Taxa do Boleto"
                                        required
                                        placeholder="Taxa do Boleto" >

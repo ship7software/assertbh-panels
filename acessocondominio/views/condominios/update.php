@@ -519,7 +519,7 @@ endif;
                                         <input class="form-control mask-money2"
                                                type = "text"
                                                name = "multa"
-                                               value="<?php if (!empty($ClienteData['multa'])) echo $ClienteData['multa']; else echo '0'?>" <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>> %
+                                               value="<?php if (!empty($ClienteData['multa'])) echo number_format($ClienteData['multa'], 2, ',', ''); else echo '0,00'?>" <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>> %
                                     </div>
                                     <div class="col-md-3">
                                         <div class="checkbox">
@@ -533,7 +533,7 @@ endif;
                                         <input class="form-control mask-money2"
                                                type = "text"
                                                name = "juros"
-                                               value="<?php if (!empty($ClienteData['juros'])) echo $ClienteData['juros']; else echo '0'?>" <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>> % a.m. Pro rata die
+                                               value="<?php if (!empty($ClienteData['juros'])) echo number_format($ClienteData['juros'], 2, ',', ''); else echo '0,00'?>" <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>> % a.m. Pro rata die
                                         <div class="checkbox" style="margin-left: 10px">
                                             <label><input type="checkbox" name = "juros_naoaplicar" value="on" <?= ($ClienteData['juros_naoaplicar'])? "checked='checked'" : null ?><?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>> Não Aplicar</label>
                                         </div>
@@ -585,7 +585,7 @@ endif;
                                             <input class="form-control mask-money2"
                                                    type = "text"
                                                    name = "taxa_fundo1"
-                                                   value="<?php if (!empty($ClienteData['taxa_fundo1'])) echo $ClienteData['taxa_fundo1']; else echo '0' ?>" <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>
+                                                   value="<?php if (!empty($ClienteData['taxa_fundo1'])) echo number_format($ClienteData['taxa_fundo1'], 2, ',', ''); else echo '0,00' ?>" <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>
                                             <label class="radio-inline"><input type="radio" name="tipofundo1" value="1" <?=($ClienteData['tipofundo1'] == 1 ? 'checked="checked"' : '')?>
                                                     <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>Valor Fixo em R$(reais)</label>
                                             <label class="radio-inline"><input type="radio" name="tipofundo1" value="2" <?=($ClienteData['tipofundo1'] == 2 ? 'checked="checked"' : '')?>
@@ -612,7 +612,7 @@ endif;
                                             <input class="form-control mask-money2"
                                                    type = "text"
                                                    name = "taxa_fundo2"
-                                                   value="<?php if (!empty($ClienteData['taxa_fundo2'])) echo $ClienteData['taxa_fundo2']; else echo '0'?>" <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>
+                                                   value="<?php if (!empty($ClienteData['taxa_fundo2'])) echo number_format($ClienteData['taxa_fundo2'], 2, ',', ''); else echo '0,00'?>" <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>
                                             <label class="radio-inline"><input type="radio" name="tipofundo2" value="1" <?=($ClienteData['tipofundo2'] == 1 ? 'checked="checked"' : '')?>
                                                     <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>Valor Fixo em R$(reais)</label>
                                             <label class="radio-inline"><input type="radio" name="tipofundo2" value="2" <?=($ClienteData['tipofundo2'] == 2 ? 'checked="checked"' : '')?>
@@ -639,7 +639,7 @@ endif;
                                             <input class="form-control mask-money2"
                                                    type = "text"
                                                    name = "taxa_fundo3"
-                                                   value="<?php if (!empty($ClienteData['taxa_fundo3'])) echo $ClienteData['taxa_fundo3']; else echo '0'?>" <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>
+                                                   value="<?php if (!empty($ClienteData['taxa_fundo3'])) echo number_format($ClienteData['taxa_fundo3'], 2, ',', ''); else echo '0,00'?>" <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>
                                             <label class="radio-inline"><input type="radio" name="tipofundo3" value="1" <?=($ClienteData['tipofundo3'] == 1 ? 'checked="checked"' : '')?>
                                                     <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>Valor Fixo em R$(reais)</label>
                                             <label class="radio-inline"><input type="radio" name="tipofundo3" value="2" <?=($ClienteData['tipofundo3'] == 2 ? 'checked="checked"' : '')?>
@@ -665,7 +665,7 @@ endif;
                                             <input class="form-control mask-money2"
                                                    type = "text"
                                                    name = "taxa_fundo4"
-                                                   value="<?php if (!empty($ClienteData['taxa_fundo4'])) echo $ClienteData['taxa_fundo4']; else echo '0'?>" <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>
+                                                   value="<?php if (!empty($ClienteData['taxa_fundo4'])) echo number_format($ClienteData['taxa_fundo4'], 2, ',', ''); else echo '0,00'?>" <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>
                                             <label class="radio-inline"><input type="radio" name="tipofundo4" value="1" <?=($ClienteData['tipofundo4'] == 1 ? 'checked="checked"' : '')?>
                                                     <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>Valor Fixo em R$(reais)</label>
                                             <label class="radio-inline"><input type="radio" name="tipofundo4" value="2" <?=($ClienteData['tipofundo4'] == 2 ? 'checked="checked"' : '')?>
@@ -691,7 +691,7 @@ endif;
                                             <input class="form-control mask-money2"
                                                    type = "text"
                                                    name = "taxa_fundo5"
-                                                   value="<?php if (!empty($ClienteData['taxa_fundo5'])) echo $ClienteData['taxa_fundo5']; else echo '0'?>" <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>
+                                                   value="<?php if (!empty($ClienteData['taxa_fundo5'])) echo number_format($ClienteData['taxa_fundo5'], 2, ',', ''); else echo '0,00'?>" <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>
                                             <label class="radio-inline"><input type="radio" name="tipofundo5" value="1" <?=($ClienteData['tipofundo5'] == 1 ? 'checked="checked"' : '')?>
                                                     <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>Valor Fixo em R$(reais)</label>
                                             <label class="radio-inline"><input type="radio" name="tipofundo5" value="2" <?=($ClienteData['tipofundo5'] == 2 ? 'checked="checked"' : '')?>
@@ -719,7 +719,7 @@ endif;
                                         <input class="form-control mask-money2"
                                                type = "text"
                                                name = "sindico_remu_valor"
-                                               value="<?php if (!empty($ClienteData['sindico_remu_valor'])) echo $ClienteData['sindico_remu_valor']; else echo '0'?>"
+                                               value="<?php if (!empty($ClienteData['sindico_remu_valor'])) echo number_format($ClienteData['sindico_remu_valor'], 2, ',', ''); else echo '0,00'?>"
                                                title = "Valor da Remuneração"
                                                placeholder="Valor da Remuneração" <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>
                                     </div>
@@ -738,7 +738,7 @@ endif;
                                         <input class="form-control mask-money2"
                                                type = "text"
                                                name = "sindico_desc_valor"
-                                               value="<?php if (!empty($ClienteData['sindico_desc_valor'])) echo $ClienteData['sindico_desc_valor']; else echo '0'?>"
+                                               value="<?php if (!empty($ClienteData['sindico_desc_valor'])) echo number_format($ClienteData['sindico_desc_valor'], 2, ',', ''); else echo '0,00'?>"
                                                title = "Valor do Desconto"
                                                placeholder="Valor do Desconto" <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>
                                     </div>
@@ -829,7 +829,7 @@ endif;
                                         <input class="form-control mask-money2"
                                                type = "text"
                                                name = "subsindico_remu_valor"
-                                               value="<?php if (!empty($ClienteData['subsindico_remu_valor'])) echo $ClienteData['subsindico_remu_valor']; else echo '0'?>"
+                                               value="<?php if (!empty($ClienteData['subsindico_remu_valor'])) echo number_format($ClienteData['subsindico_remu_valor'], 2, ',', ''); else echo '0,00'?>"
                                                title = "Valor da Remuneração"
                                                placeholder="Valor da Remuneração" <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>
                                     </div>
@@ -848,7 +848,7 @@ endif;
                                         <input class="form-control mask-money2"
                                                type = "text"
                                                name = "subsindico_desc_valor"
-                                               value="<?php if (!empty($ClienteData['subsindico_desc_valor'])) echo $ClienteData['subsindico_desc_valor'];  else echo '0'?>"
+                                               value="<?php if (!empty($ClienteData['subsindico_desc_valor'])) echo number_format($ClienteData['subsindico_desc_valor'], 2, ',', '');  else echo '0,00'?>"
                                                title = "Valor do Desconto"
                                                placeholder="Valor do Desconto" <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>
                                     </div>
@@ -1125,7 +1125,7 @@ endif;
                                 <input class="form-control"
                                        type = "text"
                                        name = "taxa"
-                                       value="<?php if (!empty($ClienteData['taxa'])) echo $ClienteData['taxa']; else echo '0' ?>"
+                                       value="<?php if (!empty($ClienteData['taxa'])) echo $ClienteData['taxa']; else echo '0,00' ?>"
                                        title = "Taxa do Boleto"
                                        placeholder="Taxa do Boleto" <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>
                             </div>
