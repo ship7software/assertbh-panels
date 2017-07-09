@@ -170,7 +170,7 @@ endif;
                 thousands: '',
                 allowNegative: true,
                 affixesStay: false,
-                formatOnBlur: true,
+                formatOnBlur: false,
                 allowEmpty: true,
                 allowZero: true
             });
@@ -180,7 +180,7 @@ endif;
                 thousands: '',
                 allowNegative: true,
                 affixesStay: false,
-                formatOnBlur: true,
+                formatOnBlur: false,
                 allowEmpty: true,
                 allowZero: true
             });
