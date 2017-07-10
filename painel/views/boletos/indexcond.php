@@ -46,14 +46,14 @@ $banco = new AdminCobranca();
                                     <input class="form-control mask-date"
                                            type = "text"
                                            name = "data"
-                                           value="<?= date("Y-m-d");?>"
+                                           value="<?= date("d/m/Y");?>"
                                            title = "Informe a Data de Início do Filtro ?>">
 
                                     <label>Fim:</label>
                                     <input class="form-control mask-date"
                                            type = "text"
                                            name = "data"
-                                           value="<?= date("Y-m-d");?>"
+                                           value="<?= date("d/m/Y");?>"
                                            title = "Informe a Data de Início do Filtro ?>">
                                 <span class="icon-input-btn"><span class="fa fa-filter"></span><input type="submit" name="SendFilterForm" value="Filtrar" class="btn btn-primary" /></span>
                             </div>
