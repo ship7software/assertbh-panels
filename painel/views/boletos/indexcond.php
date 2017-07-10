@@ -95,7 +95,8 @@ $banco = new AdminCobranca();
                                 <td><a href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>&id2=<?= $idcond; ?>"><?= $Condominio->getCondominio($id_condominio)?></td>
                                 <td><a href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>&id2=<?= $idcond; ?>"><?= $Unidade->getUnidade($id_unidade)?></td>
                                 <td><a href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>&id2=<?= $idcond; ?>"><?= date('d/m/Y', strtotime($vencimento)); ?></td>
-                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>&id2=<?= $idcond; ?>"><?= $valor ?></td>
+                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>&id2=<?= $idcond; ?>"><?= $valorOriginal ?></td>
+                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>&id2=<?= $idcond; ?>"><?= $valorTotal ?></td>
                                 <td><a href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>&id2=<?= $idcond; ?>"><?= (!empty($pagamento))?date('d/m/Y', strtotime($pagamento)): ''; ?></td>
                                 <td><a href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>&id2=<?= $idcond; ?>"><?= $valor_pago ?></td>
                                 <td>
