@@ -111,7 +111,7 @@ $banco = new AdminCobranca();
                         vencimento.add(1, 'y');
                     }
 
-                    $("#vencimento").val(vencimento.format('YYYY-MM-DD'));
+                    $("#vencimento").val(vencimento.format('DD/MM/YYYY'));
                 }
             </script>
             <input type="hidden" id="vencimentoPadrao" value="<?= $readCondominio->getResult()[0]['vencimento'] ?>">
