@@ -144,7 +144,7 @@ $banco = new AdminCobranca();
                         <input class="form-control mask-date"
                                type = "text"
                                name = "data"
-                               value="<?= date("Y-m-d");?>"
+                               value="<?= date("d/m/Y");?>"
                                title = "Informe a Data de Lançamento da <?= $title; ?>"
                                required
                                placeholder="Data de Lançamento da <?= $title; ?>" >
