@@ -18,7 +18,13 @@ else:
     $ReadUser->ExeRead($modulo, "WHERE id = :userid", "userid={$userId}");
     if ($ReadUser->getResult()):
         $ClienteData = $ReadUser->getResult()[0];
+        $ClienteData['alterarInquilino'] = 1;
         unset($ClienteData['senha']);
+        require('_app/Models/AdminUnidade.class.php');
+        $cadastra = new AdminUnidade();
+        $cadastra->ExeUpdate($userId, $ClienteData);
+        DSErro($cadastra->getError()[0], $cadastra->getError()[1]);
+
     endif;
     $botaoCR = 'Cancelar';
     $botaoClass = 'fa fa-ban';
