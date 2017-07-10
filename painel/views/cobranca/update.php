@@ -6,7 +6,8 @@ $title = 'Cobrança';
 
 if ($ClienteData && $ClienteData['SendPostForm']):
     unset($ClienteData['SendPostForm']);
-
+    $ClienteData['data'] = date('Y-m-d', strtotime(str_replace('/', '-', $ClienteData['data'])));
+    $ClienteData['vencimento'] = date('Y-m-d', strtotime(str_replace('/', '-', $ClienteData['vencimento'])));
     require('_app/Models/AdminCobranca.class.php');
     $cadastra = new AdminCobranca();
     $cadastra->ExeUpdate($idboleto, $ClienteData);

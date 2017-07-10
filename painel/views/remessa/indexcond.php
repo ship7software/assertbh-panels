@@ -38,7 +38,7 @@ $title = 'Remessa';
 
                     <?php
                     $read = new Read;
-                    $read->ExeRead($modulo, "WHERE id_condominio = {$idcond} ORDER BY dataGeracao DESC, id DESC");
+                    $read->ExeRead($modulo, "WHERE id_condominio = {$idcond} AND EXISTS(SELECT 1 FROM cobranca cob WHERE cob.id_remessa = remessa.id AND baixa = 0) ORDER BY dataGeracao DESC, id DESC");
                     if ($read->getResult()):
                         foreach ($read->getResult() as $user):
                             extract($user);

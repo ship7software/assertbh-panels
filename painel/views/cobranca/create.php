@@ -5,13 +5,15 @@ $modulo = 'cobranca';
 $title = 'Cobrança';
 if ($ClienteData && $ClienteData['SendPostForm']):
     unset($ClienteData['SendPostForm']);
+    $ClienteData['data'] = date('Y-m-d', strtotime(str_replace('/', '-', $ClienteData['data'])));
+    $ClienteData['vencimento'] = date('Y-m-d', strtotime(str_replace('/', '-', $ClienteData['vencimento'])));
 
     require('_app/Models/AdminCobranca.class.php');
     $cadastra = new AdminCobranca();
     $cadastra->ExeCreate($ClienteData);
 
     if ($cadastra->getResult()):
-        header("Location: painel.php?exe={$modulo}/update&create=true&id={$cadastra->getResult()}");
+        header("Location: painel.php?exe={$modulo}/update&create=true&id1={$cadastra->getResult()}");
     else:
         DSErro($cadastra->getError()[0], $cadastra->getError()[1]);
     endif;

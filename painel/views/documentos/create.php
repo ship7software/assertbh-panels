@@ -8,6 +8,7 @@ if ($ClienteData && $ClienteData['SendPostForm']):
     echo $_FILES;
     $ClienteData['arquivo'] = ( $_FILES['arquivo']['tmp_name'] ? $_FILES['arquivo'] : null );
     unset($ClienteData['SendPostForm']);
+    $ClienteData['data'] = date('Y-m-d', strtotime(str_replace('/', '-', $ClienteData['data'])));
 
     require('_app/Models/AdminDocumento.class.php');
     $cadastra = new AdminDocumento();
