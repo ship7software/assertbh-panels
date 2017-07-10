@@ -137,3 +137,37 @@
     </div>
 
 </section>
+<?php
+
+$prop = new Read;
+$prop->ExeRead('unidades','WHERE id = :condo',"condo={$_SESSION['userlogininquilino']['id']}");
+
+extract($prop->getResult());
+foreach ($prop->getResult() as $user):
+    extract($user);
+    if ($alterarInquilino == 0):
+        $texto = '<h3>Sr. Inquilino,</h3>';
+        $texto .= '<p>Pedimos que confira os seus dados na tela de Dados Cadastrais.</p>';
+        $texto .= '<p>Para qualquer alteração dos dados, entre em contato com a administradora.</p>';
+        $texto .= '<p>Em caso de dúvidas, estamos à disposição.</p>';
+        $texto .= '<p>Atenciosamente,</p> <br /> <p>ASSERTBH Gestão de Condomínios</p>';
+
+
+        echo '<script type="text/javascript">';
+        echo 'setTimeout(function () { swal({  title: \'Informação\',
+                    text: \''.$texto.'\',  
+                    type: \'success\',   
+                    html: true,
+                    showCancelButton: false,   
+                    closeOnConfirm: true,   
+                    confirmButtonText: \'OK\', 
+                    showLoaderOnConfirm: true, }, 
+                    function(){   
+                        setTimeout(function(){     
+                            location = \'painel.php?exe=unidades/update&userid='.$id.'\';  
+                        });
+                        });';
+        echo '}, 10);</script>';
+    endif;
+endforeach;
+?>
