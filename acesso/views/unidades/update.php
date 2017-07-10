@@ -161,8 +161,8 @@ endif;
                     </div>
                     <div class="col-md-2">
                         <label>Data de Nascimento</label>
-                        <input class="form-control"
-                               type = "date"
+                        <input class="form-control mask-date"
+                               type = "text"
                                name = "data_nascimento"
                                value="<?php if (!empty($ClienteData['data_nascimento'])) echo $ClienteData['data_nascimento']; ?>"
                                title = "Informe a Data de Nascimento do Inquilino da <?= $title; ?>"

@@ -141,8 +141,8 @@ $banco = new AdminCobranca();
                     </div>
                     <div class="col-md-3">
                         <label>Data de Lançamento:</label>
-                        <input class="form-control"
-                               type = "date"
+                        <input class="form-control mask-date"
+                               type = "text"
                                name = "data"
                                value="<?= date("Y-m-d");?>"
                                title = "Informe a Data de Lançamento da <?= $title; ?>"
@@ -154,8 +154,8 @@ $banco = new AdminCobranca();
                 <div class="row form-group">
                     <div class="col-md-3">
                         <label>Data de Vencimento:</label>
-                        <input class="form-control"
-                               type = "date"
+                        <input class="form-control mask-date"
+                               type = "text"
                                name = "vencimento"
                                id="vencimento"
                                value="<?=$vencimentoDefault?>"

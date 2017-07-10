@@ -60,8 +60,8 @@ $Condominio = new AdminDocumento();
                 <div class="row form-group">
                     <div class="col-md-4">
                         <label>Data</label>
-                        <input class="form-control"
-                               type = "date"
+                        <input class="form-control mask-date"
+                               type = "text"
                                name = "data"
                                value="<?php if (!empty($ClienteData['data'])) echo $ClienteData['data']; ?>"
                                title = "Informe a Data do <?= $title; ?>"

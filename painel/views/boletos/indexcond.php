@@ -43,15 +43,15 @@ $banco = new AdminCobranca();
                             <div class="row form-inline">
 
                                     <label>Início:</label>
-                                    <input class="form-control"
-                                           type = "date"
+                                    <input class="form-control mask-date"
+                                           type = "text"
                                            name = "data"
                                            value="<?= date("Y-m-d");?>"
                                            title = "Informe a Data de Início do Filtro ?>">
 
                                     <label>Fim:</label>
-                                    <input class="form-control"
-                                           type = "date"
+                                    <input class="form-control mask-date"
+                                           type = "text"
                                            name = "data"
                                            value="<?= date("Y-m-d");?>"
                                            title = "Informe a Data de Início do Filtro ?>">

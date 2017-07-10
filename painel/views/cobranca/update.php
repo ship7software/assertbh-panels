@@ -127,8 +127,8 @@ $banco = new AdminCobranca();
                     </div>
                     <div class="col-md-3">
                         <label>Data de Lançamento:</label>
-                        <input class="form-control"
-                               type = "date"
+                        <input class="form-control mask-date"
+                               type = "text"
                                name = "data"
                                value="<?php if (!empty($ClienteData['data'])) echo $ClienteData['data']; ?>"
                                title = "Informe a Data de Lançamento da <?= $title; ?>"
@@ -140,8 +140,8 @@ $banco = new AdminCobranca();
                 <div class="row form-group">
                     <div class="col-md-3">
                         <label>Data de Vencimento:</label>
-                        <input class="form-control"
-                               type = "date"
+                        <input class="form-control mask-date"
+                               type = "text"
                                name = "vencimento"
                                id = "vencimento"
                                value="<?php if (!empty($ClienteData['vencimento'])) echo $ClienteData['vencimento']; ?>"
