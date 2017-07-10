@@ -59,7 +59,7 @@ endif;
                                     <a class="btn btn-xs btn-success" href="painel.php?exe=documentos/index&id=<?= $id; ?>" title="Documentos"><i class="glyphicon glyphicon-file" ></i> Documentos</a>
                                     <a class="btn btn-xs btn-primary" href="painel.php?exe=<?= $modulo; ?>/update&userid=<?= $id; ?>" title="Editar"><i class="glyphicon glyphicon-edit" ></i></a>
                                     <a class="btn btn-xs btn-default" href="https://www.assertbh.com.br/report/reports/condominios.php?userid=<?= $id; ?>" target="_blanks" title="Imprimir"><i class="glyphicon glyphicon-print" ></i></a>
-                                    <a class="btn btn-xs btn-default" href="https://www.assertbh.com.br/report/reports/cobrancas.php?userid=<?= $id; ?>" target="_blanks" title="Cobranças em Aberto"><i class="glyphicon glyphicon-money" ></i></a>
+                                    <a class="btn btn-xs btn-default" href="https://www.assertbh.com.br/report/reports/cobrancas.php?userid=<?= $id; ?>" target="_blanks" title="Cobranças em Aberto"><i class="glyphicon glyphicon-usd" ></i></a>
                                     <a id="delete_btn" class="btn btn-xs btn-danger" data-id="<?= $id; ?>" data-tabela="<?= $modulo; ?>" data-pasta="<?= $modulo; ?>"  title="Deletar"><i class="glyphicon glyphicon-trash"></i></a>
                                 </td>
                             </tr>
