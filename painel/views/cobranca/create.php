@@ -49,7 +49,7 @@ if(!$diaVencimento):
     $diaVencimento = date("d");
 endif;
 
-$vencimentoDefault = date("Y")."-".date("m")."-".str_pad($diaVencimento, 2, "0", STR_PAD_LEFT);
+$vencimentoDefault = str_pad($diaVencimento, 2, "0", STR_PAD_LEFT)."/".date("m")."/".date("Y");
 
 $vencimento = new DateTime();
 $condominio = new AdminCobranca();
