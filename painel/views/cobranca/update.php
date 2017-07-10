@@ -1,6 +1,6 @@
 <?php
 $ClienteData = filter_input_array(INPUT_POST, FILTER_DEFAULT);
-$idboleto = filter_input(INPUT_GET, 'id', FILTER_VALIDATE_INT);
+$idboleto = filter_input(INPUT_GET, 'id1', FILTER_VALIDATE_INT);
 $modulo = 'cobranca';
 $title = 'Cobrança';
 
@@ -31,7 +31,7 @@ if ($checkCreate && empty($cadastra)):
 endif;
 
 $readUnidade = new Read;
-$readUnidade->ExeRead("unidades", "WHERE id = :user", "user={$ClienteData['id1']}");
+$readUnidade->ExeRead("unidades", "WHERE id = :user", "user={$ClienteData['id_unidade']}");
 $readUnidade->getResult();
 
 $readCondominio = new Read;
