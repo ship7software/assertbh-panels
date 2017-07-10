@@ -3,11 +3,10 @@ $ClienteData = filter_input_array(INPUT_POST, FILTER_DEFAULT);
 $userId = filter_input(INPUT_GET, 'userid', FILTER_VALIDATE_INT);
 $modulo = 'unidades';
 $title = 'Unidade';
+require('_app/Models/AdminUnidade.class.php');
 
 if ($ClienteData && $ClienteData['SendPostForm']):
     unset($ClienteData['SendPostForm']);
-
-    require('_app/Models/AdminUnidade.class.php');
     $cadastra = new AdminUnidade();
     $cadastra->ExeUpdate($userId, $ClienteData);
     DSErro($cadastra->getError()[0], $cadastra->getError()[1]);
@@ -20,7 +19,6 @@ else:
         $ClienteData = $ReadUser->getResult()[0];
         $ClienteData['alterarInquilino'] = 1;
         unset($ClienteData['senha']);
-        require('_app/Models/AdminUnidade.class.php');
         $cadastra = new AdminUnidade();
         $cadastra->ExeUpdate($userId, $ClienteData);
         DSErro($cadastra->getError()[0], $cadastra->getError()[1]);
