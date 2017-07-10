@@ -289,7 +289,6 @@ endif;
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
 
-    <script src="assets/plugins/jQueryUI/jquery-ui.min.js"></script>
     <script type="text/javascript" src="__jsc/bootstrap.min.js"></script>
     <script>
         $.widget.bridge('uibutton', $.ui.button);
