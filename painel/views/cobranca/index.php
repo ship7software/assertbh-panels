@@ -71,7 +71,7 @@ $readUnidade->getResult();
                                 <td><a href="painel.php?exe=<?= $modulo; ?>/update&id=<?= $id; ?>"><?= $mes_ref ?></td>
                                 <td><a href="painel.php?exe=<?= $modulo; ?>/update&id=<?= $id; ?>"><?= date('d/m/Y', strtotime($data)); ?></td>
                                 <td><a href="painel.php?exe=<?= $modulo; ?>/update&id=<?= $id; ?>"><?= date('d/m/Y', strtotime($vencimento)); ?></td>
-                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id=<?= $id; ?>"><?= 'R$ '. number_format($valor, 2, ',', '.') ?></td>
+                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id=<?= $id; ?>"><?= 'R$ '. number_format($valorOriginal, 2, ',', '.') ?></td>
                                 <td><a href="painel.php?exe=<?= $modulo; ?>/update&id=<?= $id; ?>"><?= 'R$ '. number_format($valorTotal, 2, ',', '.') ?></td>
                                 <td><a href="painel.php?exe=<?= $modulo; ?>/update&id=<?= $id; ?>"><?= (!empty($pagamento))?date('d/m/Y', strtotime($pagamento)): ''; ?></td>
                                 <td><a href="painel.php?exe=<?= $modulo; ?>/update&id=<?= $id; ?>"><?= $valor_pago ?></td>
