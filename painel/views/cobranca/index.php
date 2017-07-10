@@ -68,16 +68,16 @@ $readUnidade->getResult();
                             extract($user);
                             ?>
                             <tr>
-                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id=<?= $id; ?>"><?= $mes_ref ?></td>
-                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id=<?= $id; ?>"><?= date('d/m/Y', strtotime($data)); ?></td>
-                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id=<?= $id; ?>"><?= date('d/m/Y', strtotime($vencimento)); ?></td>
-                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id=<?= $id; ?>"><?= 'R$ '. number_format($valorOriginal, 2, ',', '.') ?></td>
-                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id=<?= $id; ?>"><?= 'R$ '. number_format($valorTotal, 2, ',', '.') ?></td>
-                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id=<?= $id; ?>"><?= (!empty($pagamento))?date('d/m/Y', strtotime($pagamento)): ''; ?></td>
-                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id=<?= $id; ?>"><?= $valor_pago ?></td>
+                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>"><?= $mes_ref ?></td>
+                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>"><?= date('d/m/Y', strtotime($data)); ?></td>
+                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>"><?= date('d/m/Y', strtotime($vencimento)); ?></td>
+                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>"><?= 'R$ '. number_format($valorOriginal, 2, ',', '.') ?></td>
+                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>"><?= 'R$ '. number_format($valorTotal, 2, ',', '.') ?></td>
+                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>"><?= (!empty($pagamento))?date('d/m/Y', strtotime($pagamento)): ''; ?></td>
+                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>"><?= $valor_pago ?></td>
                                 <td>
                                     <a class="btn btn-xs btn-success" href="https://boleto-assertbh.mybluemix.net/gerar/boleto/<?= $id; ?>" title="Visualizar Boleto" target="_blank"><i class="glyphicon glyphicon-file" ></i> Boleto</a>
-                                    <a class="btn btn-xs btn-primary" href="painel.php?exe=<?= $modulo; ?>/update&id=<?= $id; ?>" title="Editar"><i class="glyphicon glyphicon-edit" ></i></a>
+                                    <a class="btn btn-xs btn-primary" href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>" title="Editar"><i class="glyphicon glyphicon-edit" ></i></a>
                                     <a id="delete_boletos" class="btn btn-xs btn-danger" data-id="<?= $id; ?>" data-idunidade="<?= $idunidade; ?>" data-tabela="<?= $modulo; ?>" data-pasta="<?= $modulo; ?>"  title="Deletar"><i class="glyphicon glyphicon-trash"></i></a>
                                 </td>
                             </tr>
