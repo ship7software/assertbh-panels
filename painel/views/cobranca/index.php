@@ -52,6 +52,7 @@ $readUnidade->getResult();
                         <th>Data Lançamento</th>
                         <th>Data Vencimento</th>
                         <th>Valor</th>
+                        <th>Valor Atualizado</th>
                         <th>Data Pagamento</th>
                         <th>Valor Pago</th>
                         <th>Ações</th>
@@ -71,6 +72,7 @@ $readUnidade->getResult();
                                 <td><a href="painel.php?exe=<?= $modulo; ?>/update&id=<?= $id; ?>"><?= date('d/m/Y', strtotime($data)); ?></td>
                                 <td><a href="painel.php?exe=<?= $modulo; ?>/update&id=<?= $id; ?>"><?= date('d/m/Y', strtotime($vencimento)); ?></td>
                                 <td><a href="painel.php?exe=<?= $modulo; ?>/update&id=<?= $id; ?>"><?= 'R$ '. number_format($valor, 2, ',', '.') ?></td>
+                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id=<?= $id; ?>"><?= 'R$ '. number_format($valorTotal, 2, ',', '.') ?></td>
                                 <td><a href="painel.php?exe=<?= $modulo; ?>/update&id=<?= $id; ?>"><?= (!empty($pagamento))?date('d/m/Y', strtotime($pagamento)): ''; ?></td>
                                 <td><a href="painel.php?exe=<?= $modulo; ?>/update&id=<?= $id; ?>"><?= $valor_pago ?></td>
                                 <td>

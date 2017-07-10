@@ -70,7 +70,7 @@ $readUnidade->getResult();
                                 <td><a href="#"><?= date('d/m/Y', strtotime($vencimento)); ?></td>
                                 <td><a href="#"><?= (!empty($vencimentoBoleto))?date('d/m/Y', strtotime($vencimentoBoleto)): date('d/m/Y', strtotime($vencimento)); ?></td>
                                 <td><a href="#"><?= $valorOriginal ?></td>
-                                <td><a href="#"><?= $valorAtualizado ?></td>
+                                <td><a href="#"><?= $valorTotal ?></td>
                                 <td><a href="#"><?= (!empty($pagamento))?date('d/m/Y', strtotime($pagamento)): ''; ?></td>
                                 <td><a href="#"><?= $valor_pago ?></td>
                                 <td>
