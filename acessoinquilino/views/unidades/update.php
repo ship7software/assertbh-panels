@@ -21,8 +21,6 @@ else:
         unset($ClienteData['senha']);
         $cadastra = new AdminUnidade();
         $cadastra->ExeUpdate($userId, $ClienteData);
-        DSErro($cadastra->getError()[0], $cadastra->getError()[1]);
-
     endif;
     $botaoCR = 'Cancelar';
     $botaoClass = 'fa fa-ban';
