@@ -49,8 +49,7 @@ $readUnidade->getResult();
                         <th>Data Vencimento Original</th>
                         <th>Data Vencimento Boleto</th>
                         <th>Valor</th>
-                        <th>Multa</th>
-                        <th>Juros</th>
+                        <th>Valor Atualizado</th>
                         <th>Data Pagamento</th>
                         <th>Valor Pago</th>
                         <th>Ações</th>
@@ -70,9 +69,8 @@ $readUnidade->getResult();
                                 <td><a href="#"><?= date('d/m/Y', strtotime($data)); ?></td>
                                 <td><a href="#"><?= date('d/m/Y', strtotime($vencimento)); ?></td>
                                 <td><a href="#"><?= (!empty($vencimentoBoleto))?date('d/m/Y', strtotime($vencimentoBoleto)): date('d/m/Y', strtotime($vencimento)); ?></td>
-                                <td><a href="#"><?= $valor ?></td>
-                                <td><a href="#"><?= $multa ?></td>
-                                <td><a href="#"><?= $juros ?></td>
+                                <td><a href="#"><?= $valorOriginal ?></td>
+                                <td><a href="#"><?= $valorAtualizado ?></td>
                                 <td><a href="#"><?= (!empty($pagamento))?date('d/m/Y', strtotime($pagamento)): ''; ?></td>
                                 <td><a href="#"><?= $valor_pago ?></td>
                                 <td>

@@ -72,6 +72,7 @@ $banco = new AdminCobranca();
                         <th>Unidade</th>
                         <th>Vencimento</th>
                         <th>Valor</th>
+                        <th>Valor Atualizado</th>
                         <th>Pagamento</th>
                         <th>Valor Pago</th>
                         <th>Remessa</th>
