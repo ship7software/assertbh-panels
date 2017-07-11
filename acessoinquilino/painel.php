@@ -196,9 +196,7 @@ endif;
     </script>
     <style>
         .sweet-alert {
-            overflow-y: scroll !important;
-            display: block;
-            margin-top: -303px !important;
+            margin-top: -263px !important;
             max-height: 90vh !important;
         }
     </style>
