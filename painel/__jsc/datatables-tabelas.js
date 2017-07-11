@@ -176,6 +176,24 @@ $(document).ready(function() {
     });
 });*/
 
+$(document).ready(function() {
+    $('#documentostable').DataTable({
+        "language": {
+            "url": "Portuguese-Brasil.json"
+        },
+        processing: true,
+        stateSave: true,
+        order: [[1, "asc"]],
+        columns: [
+            { "data": "data"},
+            { "data": "descricao" },
+            { "data": "tipo_doc" },
+            { "data": "arquivo" },
+            { "data": "acoes", "orderable": false, "searchable": false, "width":"60px"}
+        ]
+    });
+});
+
 $(document).on('click', '#delete_btn', function(){
     var thisElement = this;
     swal({
