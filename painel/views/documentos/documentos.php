@@ -26,7 +26,6 @@ $Condominio = new AdminDocumento();
         <div class="box-header with-border">
             <h3 class="box-title">Lista de <?= $title; ?>s do Condomínio <?=$Condominio->getCondominio($idcond)?></h3>
             <div class="box-tools pull-right">
-                <a href="painel.php?exe=<?= $modulo; ?>/create&id=<?= $idcond; ?>&tipo=<?= $tipodoc; ?>" title="Cadastrar Novo <?= $title; ?>" class="btn btn-primary btn-sm"><i class="fa fa-plus-square"></i> Cadastrar <?= $title; ?></a>
                 <a href="painel.php?exe=documentos/index&id=<?= $idcond; ?>" title="Retornar para Pastas" class="btn btn-danger btn-sm"><i class="fa fa-arrow-left"></i> Retornar para Pastas</a>
             </div>
         </div>
