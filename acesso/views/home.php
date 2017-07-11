@@ -27,7 +27,7 @@ foreach ($prop->getResult() as $user):
         echo '<script type="text/javascript">';
         echo 'setTimeout(function () { swal({  title: \'Informação\',
                     text: \''.$texto.'\',  
-                    type: \'success\',   
+                       
                     html: true,
                     showCancelButton: false,   
                     closeOnConfirm: true,   

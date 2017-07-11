@@ -4,6 +4,7 @@ $userId = filter_input(INPUT_GET, 'userid', FILTER_VALIDATE_INT);
 $id_cond = filter_input(INPUT_GET, 'id', FILTER_VALIDATE_INT);
 $modulo = 'proprietarios';
 $title = 'Proprietário';
+$returnPage = 'index';
 
 if ($ClienteData && $ClienteData['SendPostForm']):
     $ClienteData['imagem'] = ( $_FILES['imagem']['tmp_name'] ? $_FILES['imagem'] : 'null' );
@@ -32,6 +33,7 @@ endif;
 $checkCreate = filter_input(INPUT_GET, 'create', FILTER_VALIDATE_BOOLEAN);
 if ($checkCreate && empty($cadastra)):
     DSErro("O ".$title." foi cadastrado com sucesso no sistema!", DS_ACCEPT);
+    $returnPage = 'indexcond';
     $botaoCR = 'Retornar a Lista';
     $botaoClass = 'fa fa-ban';
 endif;
@@ -280,7 +282,7 @@ endif;
         <div class="box-footer">
             <div class="row form-group col-lg-12">
                 <span class="icon-input-btn"><span class="fa fa-hdd-o"></span><input type="submit" name="SendPostForm" value="Atualizar" class="btn btn-primary" /></span>
-                <a href="painel.php?exe=<?=$modulo?>/index&id=<?=$id_cond?>" class="btn btn-danger"><i class="<?=$botaoClass ?>"></i> <?=$botaoCR ?></a>
+                <a href="painel.php?exe=<?=$modulo?>/<?= $returnPage ?>&id=<?=$id_cond?>" class="btn btn-danger"><i class="<?=$botaoClass ?>"></i> <?=$botaoCR ?></a>
             </div>
             </form>
         </div><!-- /.box-footer-->

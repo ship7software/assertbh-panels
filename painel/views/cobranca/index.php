@@ -19,6 +19,11 @@ $readUnidade = new Read;
 $readUnidade->ExeRead("unidades", "WHERE id = :user", "user={$idunidade}");
 $readUnidade->getResult();
 
+$checkCreate = filter_input(INPUT_GET, 'create', FILTER_VALIDATE_BOOLEAN);
+if ($checkCreate):
+    DSErro("A ".$title." foi cadastrado com sucesso no sistema!", DS_ACCEPT);
+endif;
+
 ?>
 
 <section class="content-header">

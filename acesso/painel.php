@@ -327,9 +327,16 @@ endif;
         $.ajax({
             type: 'POST',
             url: 'https://boleto-assertbh.mybluemix.net/atualizarDataVencimento'
-        })
+        });
     </script>
-
+    <style>
+        .sweet-alert {
+            overflow-y: scroll !important;
+            display: block;
+            margin-top: -303px;
+            max-height: 80vh !important;
+        }
+    </style>
     </html>
 <?php
 

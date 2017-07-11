@@ -48,7 +48,7 @@ $Condominio = new AdminDocumento();
                         <label>Selecione um Arquivo</label>
                         <input class="form-control"
                                type = "file"
-                               name = "arquivo" />
+                               name = "arquivo" required />
                     </div>
                 </div>
 

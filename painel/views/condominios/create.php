@@ -571,7 +571,7 @@ endif;
                                             <input class="form-control"
                                                    type = "text"
                                                    name = "taxa_fundo1"
-                                                   value=0>
+                                                   value="0,00">
                                             <label class="radio-inline"><input type="radio" name="tipofundo1" value="1" checked="checked">Valor Fixo em R$(reais)</label>
                                             <label class="radio-inline"><input type="radio" name="tipofundo1" value="2" >% da Taxa de Condomínio</label>
                                         </div>

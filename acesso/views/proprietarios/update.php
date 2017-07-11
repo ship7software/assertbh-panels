@@ -276,7 +276,7 @@ if ($ClienteData['alterar'] && $sendPostForm):
                 echo '<script type="text/javascript">';
                 echo 'setTimeout(function () { swal({  title: \'Informação\',
                     text: \'Você precisa preencher todo o cadastro da propriedade: Condominio:'.$Condominio->getCondominio($id_condominio).' Bloco:'.$bloco.' Apto/Sala:'.$apto_sala.'\',  
-                    type: \'success\',    
+                        
                     showCancelButton: false,   
                     closeOnConfirm: true,   
                     confirmButtonText: \'OK\', 
@@ -302,7 +302,7 @@ if ($ClienteData['alterar'] && $sendPostForm):
         echo '<script type="text/javascript">';
         echo 'setTimeout(function () { swal({  title: \'Informação\',
                     text: \''.$texto.'\',  
-                    type: \'success\',   
+                       
                     html: true,
                     showCancelButton: false,   
                     closeOnConfirm: true,   

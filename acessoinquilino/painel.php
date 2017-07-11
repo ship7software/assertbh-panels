@@ -194,6 +194,14 @@ endif;
             url: 'https://boleto-assertbh.mybluemix.net/atualizarDataVencimento'
         })
     </script>
+    <style>
+        .sweet-alert {
+            overflow-y: scroll !important;
+            display: block;
+            margin-top: -283px;
+            max-height: 90vh !important;
+        }
+    </style>
     </html>
 <?php
 

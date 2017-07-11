@@ -10,7 +10,13 @@ $read = new Read;
 $read->ExeRead("condominios", "WHERE id = :userid", "userid={$id}");
 
 $cobrancas = new Read;
-$cobrancas->ExeRead("cobranca", "WHERE id_condominio = :userid", "userid={$id}");
+$cobrancas->FullRead("SELECT unid.bloco, unid.apto_sala, cob.mes_ref, DATE_FORMAT(cob.data,'%d/%m/%Y') as data, DATE_FORMAT(cob.vencimento,'%d/%m/%Y') as vencimento, cob.vencimentoBoleto, FORMAT(cob.valorTotal, 2, 'de_DE') as valorTotal, FORMAT(cob.valorOriginal, 2, 'de_DE') as valorOriginal
+FROM `cobranca` cob
+	JOIN condominios cond ON cond.id = cob.id_condominio
+    JOIN unidades unid ON unid.id = cob.id_unidade
+    JOIN proprietarios prop ON prop.id = cob.id_proprietario
+WHERE cob.baixa = 0 AND cob.id_condominio = :userid 
+ORDER BY unid.bloco, unid.apto_sala, cob.data", "userid={$id}");
 
 // create new PDF document
 $pdf = new TCPDF(PDF_PAGE_ORIENTATION, PDF_UNIT, PDF_PAGE_FORMAT, true, 'UTF-8', false);
@@ -63,39 +69,33 @@ $html = '<h2 style="text-align: center; text-decoration: underline">Cobranças e
 
 <table>
 	<tr>
-		<th><span style="font-weight: bold;">Nome: </span><br>'.$read->getResult()[0]['nome'].'</th>
+		<th style="width: 70%"><span style="font-weight: bold;">Condomínio: </span><br>'.$read->getResult()[0]['nome'].'</th>
+		<th><span style="font-weight: bold;">Data/Hora Geração: </span><br>'.date('d/m/Y H:i').'</th>
 	</tr>
-	<br>
-	<tr>
-		<th style="width: 70%"><span style="font-weight: bold;">Razão Social: </span><br>'.$read->getResult()[0]['razao_social'].'</th>
-		<th><span style="font-weight: bold;">Email: </span><br>'.$read->getResult()[0]['email'].'</th>
-	</tr>
-	<br>
-	<tr>
-		<th style="width: 50%"><span style="font-weight: bold;">CNPJ: </span><br>'.$read->getResult()[0]['cnpj'].'</th>
-		<th><span style="font-weight: bold;">Número de Unidades: </span><br>'.$read->getResult()[0]['numero_unidades'].'</th>
-	</tr>
-	<br>
-	<tr>
-		<th style="width: 70%"><span style="font-weight: bold;">Endereço: </span><br>'.$read->getResult()[0]['endereco'].'</th>
-		<th><span style="font-weight: bold;">Número: </span><br>'.$read->getResult()[0]['numero'].'</th>
-	</tr>
-	<br>
-	<tr>
-		<th><span style="font-weight: bold;">Complemento: </span><br>'.$read->getResult()[0]['complemento'].'</th>
-	</tr>
-	<br>
-	<tr>
-		<th style="width: 50%"><span style="font-weight: bold;">Bairro: </span><br>'.$read->getResult()[0]['bairro'].'</th>
-		<th><span style="font-weight: bold;">Cidade: </span><br>'.$read->getResult()[0]['cidade'].'</th>
-    </tr>	
-	<br>
-	<tr>
-		<th style="width: 50%"><span style="font-weight: bold;">Estado: </span><br>'.$read->getResult()[0]['estado'].'</th>
-		<th><span style="font-weight: bold;">CEP: </span><br>'.$read->getResult()[0]['cep'].'</th>
-  </tr>	
-</table>
-';
+	<br/><br/>';
+	$html = $html.'<table style="border: 1px solid black;">
+		<tr style="background: #ddd">
+			<td style="border: 1px solid black; font-weight: bold; width: 70px">Bloco</td>
+			<td style="border: 1px solid black; font-weight: bold; width: 80px">Apto/Sala</td>
+			<td style="border: 1px solid black; font-weight: bold;">Ref.</td>
+			<td style="border: 1px solid black; font-weight: bold; width: 100px">Lançamento</td>
+			<td style="border: 1px solid black; font-weight: bold">Vencimento</td>
+			<td style="border: 1px solid black; font-weight: bold; width: 100px; text-align: right">Valor</td>
+			<td style="border: 1px solid black; font-weight: bold; text-align: right">Valor Atualizado</td>
+		</tr>';
+		
+	foreach ($cobrancas->getResult() as $dados):
+			extract($dados);
+			$html = $html.'<tr>';
+			$html = $html.'<td style="border: 1px solid black;">'.$bloco.'</td>';
+			$html = $html.'<td style="border: 1px solid black;">'.$apto_sala.'</td>';
+			$html = $html.'<td style="border: 1px solid black;">'.$mes_ref.'</td>';
+			$html = $html.'<td style="border: 1px solid black;">'.$data.'</td>';
+			$html = $html.'<td style="border: 1px solid black;">'.$vencimento.'</td>';
+			$html = $html.'<td style="border: 1px solid black; text-align: right;">R$ '.$valorOriginal.'</td>';
+			$html = $html.'<td style="border: 1px solid black; text-align: right;">R$ '.$valorTotal.'</td></tr>';
+	endforeach;
+$html = $html.'	</table></table>';
 $pdf->writeHTML($html, true, false, true, false, '');
 
 

@@ -13,7 +13,12 @@ if ($ClienteData && $ClienteData['SendPostForm']):
     $cadastra->ExeCreate($ClienteData);
 
     if ($cadastra->getResult()):
-        header("Location: painel.php?exe={$modulo}/update&create=true&id1={$cadastra->getResult()}");
+        $curl = curl_init('http://boleto-assertbh.mybluemix.net/atualizarDataVencimento');
+        curl_setopt($curl, CURLOPT_POST, true);
+        curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+        $response = curl_exec($curl);
+        curl_close($curl);
+        header("Location: painel.php?exe={$modulo}/index&create=true&id={$idunidade}");
     else:
         DSErro($cadastra->getError()[0], $cadastra->getError()[1]);
     endif;

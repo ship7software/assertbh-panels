@@ -48,9 +48,6 @@ class AdminCondominio {
         $this->User = (int) $UserId;
         $this->Data = $Data;
         $this->normalizeFloatFields();
-        if (!$this->Data['senha']):
-            unset($this->Data['senha']);
-        endif;
 
         $this->checkData();
         if (is_array($this->Data['imagem'])):

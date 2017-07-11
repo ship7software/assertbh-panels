@@ -50,7 +50,7 @@ $condominio->getCondominio($id_cond);
 
                     <?php
                     $read = new Read;
-                    $read->ExeRead($modulo, "WHERE LOCATE({$id_cond},condominios) ORDER BY nome ASC");
+                    $read->ExeRead($modulo, "WHERE condominios like '%{$id_cond}%' ORDER BY nome ASC");
                     if ($read->getResult()):
                         foreach ($read->getResult() as $user):
                             extract($user);

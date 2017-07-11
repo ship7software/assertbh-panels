@@ -62,7 +62,7 @@ endif;
                         <input class="form-control"
                                id="upload"
                                type = "file"
-                               name = "imagem" />
+                               name = "imagem" required/>
                     </div>
                 </div>
 

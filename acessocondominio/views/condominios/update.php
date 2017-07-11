@@ -15,6 +15,13 @@ if ($ClienteData && $ClienteData['SendPostForm']):
     $cadastra = new AdminCondominio();
     $cadastra->ExeUpdate($userId, $ClienteData);
     DSErro($cadastra->getError()[0], $cadastra->getError()[1]);
+    $ReadUser = new Read;
+    $ReadUser->ExeRead($modulo, "WHERE id = :userid", "userid={$userId}");
+    if ($ReadUser->getResult()):
+        $ClienteData = $ReadUser->getResult()[0];
+        unset($ClienteData['senha']);
+        $imagem = $ClienteData['imagem'];
+    endif;
     $botaoCR = 'Retornar a Lista';
     $botaoClass = 'fa fa-arrow-left';
     $imagem = $cadastra->getImagem($userId);
@@ -23,7 +30,6 @@ else:
     $ReadUser->ExeRead($modulo, "WHERE id = :userid", "userid={$userId}");
     if ($ReadUser->getResult()):
         $ClienteData = $ReadUser->getResult()[0];
-        unset($ClienteData['senha']);
         $imagem = $ClienteData['imagem'];
     endif;
     $botaoCR = 'Cancelar';
@@ -848,14 +854,14 @@ endif;
                                         <input class="form-control mask-money2"
                                                type = "text"
                                                name = "subsindico_desc_valor"
-                                               value="<?php if (!empty($ClienteData['subsindico_desc_valor'])) echo number_format($ClienteData['subsindico_desc_valor'], 2, ',', '');  else echo '0,00'?>"
+                                               value="<?php if (!empty($ClienteData['subsindico_desc_valor'])) echo number_format($ClienteData['subsindico_desc_valor'], 2, ',', ''); else echo '0,00'?>"
                                                title = "Valor do Desconto"
                                                placeholder="Valor do Desconto" <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <div class="col-md-6">
+                                <div class="col-md-7">
                                     <label>Desconto em Despesas ?:</label>
                                     <label class="radio-inline"><input type="radio" name="subsindico_desc_despesas" value="1" <?=($ClienteData['subsindico_desc_despesas'] == 1 ? 'checked="checked"' : '')?>
                                             <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>Ordinárias</label>
@@ -863,14 +869,14 @@ endif;
                                             <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>Extraordinárias</label>
                                     <label class="radio-inline"><input type="radio" name="subsindico_desc_despesas" value="3" <?=($ClienteData['subsindico_desc_despesas'] == 3 ? 'checked="checked"' : '')?>
                                             <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>Ambos</label>
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="col-md-2">
+                                            
                                     <label class="radio-inline"><input type="radio" name="subsindico_desc_despesas" value="4" <?=($ClienteData['subsindico_desc_despesas'] == 4 ? 'checked="checked"' : '')?>
                                             <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>Não Aplicável</label>
                                 </div>
-                                <div class="col-md-3">
+                            </div>
+                            <div class="col-md-12">
+                                <div class="col-md-7">
+                                    <label>Outros Descontos:</label>
                                     <input class="form-control"
                                            type = "text"
                                            name = "subsindico_desc_desp_outro"
@@ -1125,7 +1131,7 @@ endif;
                                 <input class="form-control"
                                        type = "text"
                                        name = "taxa"
-                                       value="<?php if (!empty($ClienteData['taxa'])) echo $ClienteData['taxa']; else echo '0,00' ?>"
+                                       value="<?php if (!empty($ClienteData['taxa'])) echo number_format($ClienteData['taxa'], 2, ',', ''); else echo '0,00' ?>"
                                        title = "Taxa do Boleto"
                                        placeholder="Taxa do Boleto" <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>
                             </div>

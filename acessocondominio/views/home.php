@@ -19,7 +19,7 @@ if ($condominio->getResult()[0]['alterar'] == 0):
     echo '<script type="text/javascript">';
     echo 'setTimeout(function () { swal({  title: \'Informação\',
                 text: \'Você precisa preencher todo o cadastro !!!\',  
-                type: \'success\',    
+                    
                 showCancelButton: false,   
                 closeOnConfirm: true,   
                 confirmButtonText: \'OK\', 

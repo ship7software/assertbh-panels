@@ -12,6 +12,7 @@ if ($ClienteData && $ClienteData['SendPostForm']):
     $cadastra = new AdminCobranca();
     $cadastra->ExeUpdate($idboleto, $ClienteData);
     DSErro($cadastra->getError()[0], $cadastra->getError()[1]);
+
     $botaoCR = 'Retornar a Lista';
     $botaoClass = 'fa fa-arrow-left';
 else:
