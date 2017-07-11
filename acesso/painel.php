@@ -333,7 +333,7 @@ endif;
         .sweet-alert {
             overflow-y: scroll !important;
             display: block;
-            margin-top: -303px;
+            margin-top: -303px !important;
             max-height: 80vh !important;
         }
     </style>
