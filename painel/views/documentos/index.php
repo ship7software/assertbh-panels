@@ -30,7 +30,7 @@ $Condominio = new AdminDocumento();
             <h3 class="box-title">Lista de <?= $title; ?>s do Condomínio <?=$Condominio->getCondominio($idcondominio)?> </h3>
             <div class="box-tools pull-right">
                 <a href="painel.php?exe=<?= $modulo; ?>/create&id=<?= $idcondominio; ?>" title="Cadastrar Novo <?= $title; ?>" class="btn btn-primary btn-sm"><i class="fa fa-plus-square"></i> Cadastrar <?= $title; ?></a>
--->                <a href="painel.php?exe=condominios/index" title="Retornar para Condominios" class="btn btn-danger btn-sm"><i class="fa fa-arrow-left"></i> Retornar para Condominios</a>
+               <a href="painel.php?exe=condominios/index" title="Retornar para Condominios" class="btn btn-danger btn-sm"><i class="fa fa-arrow-left"></i> Retornar para Condominios</a>
             </div>
         </div>
         <div class="box-body">
