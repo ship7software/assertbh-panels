@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('#bannerstable').DataTable({
-        responsive: true,
+        responsive: false,
         "language": {
             "url": "Portuguese-Brasil.json"
         },
@@ -17,7 +17,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('#usuariostable').DataTable({
-        responsive: true,
+        responsive: false,
         "language": {
             "url": "Portuguese-Brasil.json"
         },
@@ -35,7 +35,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('#condominiostable').DataTable({
-        responsive: true,
+        responsive: false,
         "language": {
             "url": "Portuguese-Brasil.json"
         },
@@ -54,7 +54,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('#proprietariostable').DataTable({
-        responsive: true,
+        responsive: false,
         "language": {
             "url": "Portuguese-Brasil.json"
         },
@@ -73,7 +73,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('#unidadestable').DataTable({
-        responsive: true,
+        responsive: false,
         "language": {
             "url": "Portuguese-Brasil.json"
         },
@@ -92,7 +92,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('#documentostable').DataTable({
-        responsive: true,
+        responsive: false,
         "language": {
             "url": "Portuguese-Brasil.json"
         },
@@ -111,7 +111,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('#contatostable').DataTable({
-        responsive: true,
+        responsive: false,
         "language": {
             "url": "Portuguese-Brasil.json"
         },

@@ -1,6 +1,6 @@
-/*$(document).ready(function() {
+$(document).ready(function() {
     $('#usuariostable').DataTable({
-        responsive: true,
+        responsive: false,
         "language": {
             "url": "Portuguese-Brasil.json"
         },
@@ -18,7 +18,7 @@
 
 $(document).ready(function() {
     $('#condominiostable').DataTable({
-        responsive: true,
+        responsive: false,
         "language": {
             "url": "Portuguese-Brasil.json"
         },
@@ -37,7 +37,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('#proprietariostable').DataTable({
-        responsive: true,
+        responsive: false,
         "language": {
             "url": "Portuguese-Brasil.json"
         },
@@ -56,7 +56,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('#unidadestable').DataTable({
-        responsive: true,
+        responsive: false,
         "language": {
             "url": "Portuguese-Brasil.json"
         },
@@ -75,7 +75,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('#cobrancatable').DataTable({
-        responsive: true,
+        responsive: false,
         "language": {
             "url": "Portuguese-Brasil.json"
         },
@@ -96,7 +96,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('#cobrancastable').DataTable({
-        responsive: true,
+        responsive: false,
         "language": {
             "url": "Portuguese-Brasil.json"
         },
@@ -119,7 +119,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('#documentostable').DataTable({
-        responsive: true,
+        responsive: false,
         "language": {
             "url": "Portuguese-Brasil.json"
         },
@@ -138,7 +138,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('#contatostable').DataTable({
-        responsive: true,
+        responsive: false,
         "language": {
             "url": "Portuguese-Brasil.json"
         },
@@ -158,7 +158,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('#especies_titulotable').DataTable({
-        responsive: true,
+        responsive: false,
         "language": {
             "url": "Portuguese-Brasil.json"
         },
@@ -171,25 +171,6 @@ $(document).ready(function() {
             { "data": "codigo_especie" },
             { "data": "sigla_boleto" },
             { "data": "descricao" },
-            { "data": "acoes", "orderable": false, "searchable": false, "width":"60px"}
-        ]
-    });
-});*/
-
-$(document).ready(function() {
-    $('#documentostable').DataTable({
-        responsive: false,
-        "language": {
-            "url": "Portuguese-Brasil.json"
-        },
-        processing: true,
-        stateSave: true,
-        order: [[1, "asc"]],
-        columns: [
-            { "data": "data"},
-            { "data": "descricao" },
-            { "data": "tipo_doc" },
-            { "data": "arquivo" },
             { "data": "acoes", "orderable": false, "searchable": false, "width":"60px"}
         ]
     });
