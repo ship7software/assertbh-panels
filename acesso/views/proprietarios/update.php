@@ -129,6 +129,18 @@ endif;
                                value="<?php if (!empty($ClienteData['email'])) echo $ClienteData['email']; ?>"
                              >
                     </div>
+
+                    <div class="col-md-3">
+                        <label>Senha</label>
+                        <input class="form-control"
+                               type = "password"
+                               name = "senha"
+                               value="<?php if (!empty($ClienteData['senha'])) echo $ClienteData['senha']; ?>"
+                               title = "Informe a Senha do <?= $title; ?> [ de 6 a 12 caracteres! ]"
+                               pattern = ".{6,12}"
+                               required
+                               placeholder="Senha do <?= $title; ?>" <?php if ($ClienteData['alterar']) echo 'disabled="disabled"'; ?>>
+                    </div>
                 </div>
                 <hr>
                 <div class="row form-group">
