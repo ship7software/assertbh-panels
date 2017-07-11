@@ -178,6 +178,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('#documentostable').DataTable({
+        responsive: false,
         "language": {
             "url": "Portuguese-Brasil.json"
         },
