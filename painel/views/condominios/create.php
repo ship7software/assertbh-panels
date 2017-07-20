@@ -1043,6 +1043,7 @@ endif;
                         <div class="row form-group">
                             <div class="col-md-4">
                                 <label>Próximo Nosso Número</label>
+                                <div class="input-group">
                                 <input class="form-control"
                                        type = "text"
                                        name = "proximo_nosso_numero"
@@ -1050,16 +1051,31 @@ endif;
                                         <?php if($userLogin['email'] != 'admin@assertbh.com.br') echo 'disabled'; ?>
                                        title = "Informe o Próximo Nosso Número do <?= $title; ?>"
                                        placeholder="Próximo Nosso Número do <?= $title; ?>" >
+                                    <span class="input-group-addon">
+                                        <a href="/GUIA_PROXIMO_NOSSO_NUMERO.pdf" target="_blank">
+                                            <i class='glyphicon glyphicon-info-sign'></i>
+                                        </a>
+                                    </span>
+                                </div>
                             </div>
                             <div class="col-md-4">
                                 <label>Próximo Número Remessa</label>
-                                <input class="form-control"
-                                       type = "text"
-                                       name = "proximo_numero_remessa"
-                                        <?php if($userLogin['email'] != 'admin@assertbh.com.br') echo 'disabled'; ?>
-                                       value="<?php if (!empty($ClienteData['proximo_numero_remessa'])) echo $ClienteData['proximo_numero_remessa']; ?>"
-                                       title = "Informe o Próximo Número Remessa do <?= $title; ?>"
-                                       placeholder="Próximo Número Remessa do <?= $title; ?>" >
+                                <div class="input-group">
+                                    <input class="form-control"
+                                        type = "text"
+                                        name = "proximo_numero_remessa"
+                                            <?php if($userLogin['email'] != 'admin@assertbh.com.br') echo 'disabled'; ?>
+                                        value="<?php if (!empty($ClienteData['proximo_numero_remessa'])) echo $ClienteData['proximo_numero_remessa']; ?>"
+                                        title = "Informe o Próximo Número Remessa do <?= $title; ?>"
+                                        placeholder="Próximo Número Remessa do <?= $title; ?>" >
+                                    <span class="input-group-addon">
+                                        <a class='my-tool-tip' data-html="true" data-toggle="tooltip" data-placement="top" title="<div style='text-align: left'><b>Banco do Brasil:</b> Preencher com 1.<br/> <b>Itaú:</b> Preencher com 1.<br/> <b>Santander:</b> Preencher com 1.<br/>
+                                        <b>Caixa:</b> Preencher com 1.<br/> 
+                                        <b>Bradesco e SICOOB</b>: Campo não pode ser repetido. <br/> Caso não tenha conhecimento do último numero enviado, <br/> entrar em contato com o Gerente para solicitar a informação.</div>">
+                                            <i class='glyphicon glyphicon-info-sign'></i>
+                                        </a>
+                                    </span>
+                                </div>
                             </div>
                         </div>
 
@@ -1200,3 +1216,8 @@ endif;
         </div><!-- /.box-footer-->
     </div><!-- /.box -->
 </section><!-- /.content -->
+<style>
+.tooltip-inner {
+    max-width: 100% !important;
+}
+</style>

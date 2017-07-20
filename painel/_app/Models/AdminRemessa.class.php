@@ -14,11 +14,11 @@ class AdminRemessa {
 
     const Entity = 'Remessa';
 
-    public function ExeEnvia(array $Data) {
+    public function ExeEnvia(array $Data, $Name) {
         $this->Data = $Data;
 
         $uplaod = new Upload;
-        $uplaod->File($this->Data, null ,'remessas/', null);
+        $uplaod->File($this->Data, $Name ,'remessas/', null);
 
         if (isset($uplaod) && $uplaod->getResult()):
             $this->Data = $uplaod->getResult();
@@ -34,6 +34,10 @@ class AdminRemessa {
 
     public function getResult() {
         return $this->Result;
+    }
+
+    public function getData() {
+        return $this->Data;
     }
 
     public function getError() {

@@ -8,9 +8,10 @@ if ($ClienteData && $ClienteData['SendPostForm']):
     unset($ClienteData['SendPostForm']);
     if (!empty($_FILES['arquivo']['tmp_name'])):
         $enviaFotos = new AdminRemessa;
-        $enviaFotos->ExeEnvia($_FILES['arquivo']);
+        $fileName = 'RETORNO_REMESSA_'.date('YmdHis').'.ret'
+        $enviaFotos->ExeEnvia($_FILES['arquivo'], $fileName);
         if ($enviaFotos->getResult()):
-            header("Location:https://boleto-assertbh.mybluemix.net/processar/retorno/".$_FILES['arquivo']['name']);
+            header("Location:https://boleto-assertbh.mybluemix.net/processar/retorno/".$fileName);
         else:
             DSErro($enviaFotos->getError()[0], $enviaFotos->getError()[1]);
         endif;
