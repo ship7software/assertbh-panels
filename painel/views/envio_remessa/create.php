@@ -1,6 +1,7 @@
 <?php
 $ClienteData = filter_input_array(INPUT_POST, FILTER_DEFAULT);
 $title = 'Retorno de Remessa';
+$msg = filter_input(INPUT_GET, 'msg', FILTER_DEFAULT);
 
 require('_app/Models/AdminRemessa.class.php');
 if ($ClienteData && $ClienteData['SendPostForm']):
@@ -8,14 +9,20 @@ if ($ClienteData && $ClienteData['SendPostForm']):
     unset($ClienteData['SendPostForm']);
     if (!empty($_FILES['arquivo']['tmp_name'])):
         $enviaFotos = new AdminRemessa;
-        $fileName = 'RETORNO_REMESSA_'.date('YmdHis').'.ret'
+        $fileName = 'retorno-remessa-'.date('YmdHis');
         $enviaFotos->ExeEnvia($_FILES['arquivo'], $fileName);
         if ($enviaFotos->getResult()):
-            header("Location:https://boleto-assertbh.mybluemix.net/processar/retorno/".$fileName);
+            $path = $_FILES['arquivo']['name'];
+            $ext = pathinfo($path, PATHINFO_EXTENSION);
+            header("Location:https://boleto-assertbh.mybluemix.net/processar/retorno/".$fileName.'.'.$ext);
         else:
             DSErro($enviaFotos->getError()[0], $enviaFotos->getError()[1]);
         endif;
     endif;
+endif;
+
+if ($msg && !empty($msg)):
+    DSErro($msg, DS_ACCEPT);
 endif;
 
 ?>

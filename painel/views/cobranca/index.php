@@ -23,7 +23,7 @@ $checkCreate = filter_input(INPUT_GET, 'create', FILTER_VALIDATE_BOOLEAN);
 if ($checkCreate):
     DSErro("A ".$title." foi cadastrado com sucesso no sistema!", DS_ACCEPT);
 endif;
-
+$userLogin = $_SESSION['userloginPainel'];
 ?>
 
 <section class="content-header">
@@ -71,18 +71,22 @@ endif;
                     if ($read->getResult()):
                         foreach ($read->getResult() as $user):
                             extract($user);
+                            $link = '#';
+                            if ($userLogin['email'] == 'admin@assertbh.com.br'):
+                                $link = 'painel.php?exe='.$modulo.'/update&id1='.$id;
+                            endif;
                             ?>
                             <tr>
-                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>"><?= $mes_ref ?></td>
-                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>"><?= date('d/m/Y', strtotime($data)); ?></td>
-                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>"><?= date('d/m/Y', strtotime($vencimento)); ?></td>
-                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>"><?= 'R$ '. number_format($valorOriginal, 2, ',', '.') ?></td>
-                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>"><?= 'R$ '. number_format($valorTotal, 2, ',', '.') ?></td>
-                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>"><?= (!empty($pagamento))?date('d/m/Y', strtotime($pagamento)): ''; ?></td>
-                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>"><?= $valor_pago ?></td>
+                                <td><a href="<?= $link; ?>"><?= $mes_ref ?></td>
+                                <td><a href="<?= $link; ?>"><?= date('d/m/Y', strtotime($data)); ?></td>
+                                <td><a href="<?= $link; ?>"><?= date('d/m/Y', strtotime($vencimento)); ?></td>
+                                <td><a href="<?= $link; ?>"><?= 'R$ '. number_format($valorOriginal, 2, ',', '.') ?></td>
+                                <td><a href="<?= $link; ?>"><?= 'R$ '. number_format($valorTotal, 2, ',', '.') ?></td>
+                                <td><a href="<?= $link; ?>"><?= (!empty($pagamento))?date('d/m/Y', strtotime($pagamento)): ''; ?></td>
+                                <td><a href="<?= $link; ?>"><?= $valor_pago ?></td>
                                 <td>
                                     <a class="btn btn-xs btn-success" href="https://boleto-assertbh.mybluemix.net/gerar/boleto/<?= $id; ?>" title="Visualizar Boleto" target="_blank"><i class="glyphicon glyphicon-file" ></i> Boleto</a>
-                                    <a class="btn btn-xs btn-primary" href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>" title="Editar"><i class="glyphicon glyphicon-edit" ></i></a>
+                                    <a class="btn btn-xs btn-primary" href="<?= $link; ?>" title="Editar"><i class="glyphicon glyphicon-edit" ></i></a>
                                     <a id="delete_boletos" class="btn btn-xs btn-danger" data-id="<?= $id; ?>" data-idunidade="<?= $idunidade; ?>" data-tabela="<?= $modulo; ?>" data-pasta="<?= $modulo; ?>"  title="Deletar"><i class="glyphicon glyphicon-trash"></i></a>
                                 </td>
                             </tr>

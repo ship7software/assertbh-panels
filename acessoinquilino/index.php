@@ -64,7 +64,7 @@ require('_app/Config.inc.php');
 </div>
 
 <div class="footer">
-    <p>&copy 2015 Assertbh . All rights reserved | Design by <a href="http://www.httpro.com.br">HTTPro Solutions.</a></p>
+    <p>&copy 2015 Assertbh . All rights reserved</p>
 </div>
 
 </body>

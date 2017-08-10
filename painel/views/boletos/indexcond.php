@@ -10,6 +10,19 @@ $Proprietario = new AdminCobranca();
 $Condominio = new AdminCobranca();
 $Unidade = new AdminCobranca();
 $banco = new AdminCobranca();
+$userLogin = $_SESSION['userloginPainel'];
+$ClienteData = filter_input_array(INPUT_POST, FILTER_DEFAULT);
+if ($ClienteData && $ClienteData['SendFilterForm']):
+    unset($ClienteData['SendFilterForm']);
+    $dataInicio = $ClienteData['dataInicio'];
+    $dataInicio = date("Y-m-d", strtotime(str_replace('/', '-', $dataInicio)));
+    $dataFim = $ClienteData['dataFim'];
+    $dataFim = date("Y-m-d", strtotime(str_replace('/', '-', $dataFim)));
+
+    echo "<script type='text/javascript'>
+            window.open( '../report/reports/cobrancasPagamento.php?userid={$ClienteData['id_condominio']}&dataInicio={$dataInicio}&dataFim={$dataFim}' )
+        </script>";
+endif;
 
 ?>
 
@@ -37,25 +50,29 @@ $banco = new AdminCobranca();
 
             <div class="box box-info" style="margin-bottom: 30px;">
                 <div class="box-header with-border">
-                    <h3 class="box-title">Filtrar por Período: </h3>
+                    <h3 class="box-title">Período: </h3>
                     <div class="box-tools pull-left">
                         <form action = "" method = "post" name = "filtroForm" enctype="multipart/form-data">
+                            <input type="hidden" name="id_condominio" value="<?= $idcond ?>">
                             <div class="row form-inline">
+                                    <? 
+                                    $date30 = date("d/m/Y", strtotime(date('Y-m-d') . ' -30 days'));
+                                    ?>
 
                                     <label>Início:</label>
                                     <input class="form-control mask-date"
                                            type = "text"
-                                           name = "data"
-                                           value="<?= date("d/m/Y");?>"
+                                           name = "dataInicio"
+                                           value="<?= $date30 ?>"
                                            title = "Informe a Data de Início do Filtro ?>">
 
                                     <label>Fim:</label>
                                     <input class="form-control mask-date"
                                            type = "text"
-                                           name = "data"
+                                           name = "dataFim"
                                            value="<?= date("d/m/Y");?>"
                                            title = "Informe a Data de Início do Filtro ?>">
-                                <span class="icon-input-btn"><span class="fa fa-filter"></span><input type="submit" name="SendFilterForm" value="Filtrar" class="btn btn-primary" /></span>
+                                <span class="icon-input-btn"><span class="fa fa-print"></span><input type="submit" name="SendFilterForm" value="Gerar Relatório de Boletos Pagos" class="btn btn-primary" /></span>
                             </div>
                         </form>
                     </div>
@@ -84,21 +101,25 @@ $banco = new AdminCobranca();
                     <?php
 
                     $read = new Read;
-                    $read->ExeRead($modulo, "WHERE id_condominio = {$idcond}");
+                    $read->ExeRead($modulo, "WHERE id_condominio = {$idcond} AND baixa = 0");
                     if ($read->getResult()):
                         foreach ($read->getResult() as $user):
                             extract($user);
+                            $link = '#';
+                            if ($userLogin['email'] != 'admin@assertbh.com.br'):
+                                $link = 'painel.php?exe='.$modulo.'/update&id1='.$id.'&id2='.$idcond;
+                            endif;
                             ?>
                             <tr>
-                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>&id2=<?= $idcond; ?>"><?= date('d/m/Y', strtotime($data)); ?></td>
-                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>&id2=<?= $idcond; ?>"><?= $Proprietario->getProprietario($id_proprietario)?></td>
-                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>&id2=<?= $idcond; ?>"><?= $Condominio->getCondominio($id_condominio)?></td>
-                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>&id2=<?= $idcond; ?>"><?= $Unidade->getUnidade($id_unidade)?></td>
-                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>&id2=<?= $idcond; ?>"><?= date('d/m/Y', strtotime($vencimento)); ?></td>
-                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>&id2=<?= $idcond; ?>"><?= $valorOriginal ?></td>
-                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>&id2=<?= $idcond; ?>"><?= $valorTotal ?></td>
-                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>&id2=<?= $idcond; ?>"><?= (!empty($pagamento))?date('d/m/Y', strtotime($pagamento)): ''; ?></td>
-                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>&id2=<?= $idcond; ?>"><?= $valor_pago ?></td>
+                                <td><a href="<?= $link; ?>"><?= date('d/m/Y', strtotime($data)); ?></td>
+                                <td><a href="<?= $link; ?>"><?= $Proprietario->getProprietario($id_proprietario)?></td>
+                                <td><a href="<?= $link; ?>"><?= $Condominio->getCondominio($id_condominio)?></td>
+                                <td><a href="<?= $link; ?>"><?= $Unidade->getUnidade($id_unidade)?></td>
+                                <td><a href="<?= $link; ?>"><?= date('d/m/Y', strtotime($vencimento)); ?></td>
+                                <td><a href="<?= $link; ?>"><?= $valorOriginal ?></td>
+                                <td><a href="<?= $link; ?>"><?= $valorTotal ?></td>
+                                <td><a href="<?= $link; ?>"><?= (!empty($pagamento))?date('d/m/Y', strtotime($pagamento)): ''; ?></td>
+                                <td><a href="<?= $link; ?>"><?= $valor_pago ?></td>
                                 <td>
                                     <? if(!empty($id_remessa)) { ?>
                                         <a class="btn btn-xs btn-info" href="https://boleto-assertbh.mybluemix.net/remessa/<?= $id_remessa; ?>" title="Baixar Remessa" target="_blank"><i class="glyphicon glyphicon-floppy-save" ></i> Remessa</a>
