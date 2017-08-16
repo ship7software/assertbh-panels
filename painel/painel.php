@@ -7,6 +7,7 @@ require('_app/Config.inc.php');
 $login = new Login();
 $logoff = filter_input(INPUT_GET, 'logoff', FILTER_VALIDATE_BOOLEAN);
 $getexe = filter_input(INPUT_GET, 'exe', FILTER_DEFAULT);
+
 $curl = curl_init('http://assertbh-com-br.umbler.net/atualizarDataVencimento');
 curl_setopt($curl, CURLOPT_POST, true);
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
@@ -14,7 +15,6 @@ $response = curl_exec($curl);
 curl_close($curl);
 
 $curl = curl_init('http://assertbh-com-br.umbler.net/notificacao/naoLidas');
-curl_setopt($curl, CURLOPT_GET, true);
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 $response = curl_exec($curl);
 curl_close($curl);
@@ -129,9 +129,18 @@ endif;
                     <li><a href="painel.php?exe=unidades/index"><i class="fa fa-home fa-fw"></i> <span>Unidades</span></a></li>
                     <li><a href="painel.php?exe=boletos/index"><i class="fa fa-money fa-fw"></i> <span>Cobrança</span></a></li>
                     <li><a href="painel.php?exe=especies_titulo/index"><i class="fa fa-list-alt fa-fw"></i> <span>Espécie de Títulos</span></a></li>
-                    <li><a href="painel.php?exe=notificacao/index"><i class="fa fa-bell fa-fw"></i> <span>Notificações</span><span id="qtdeNotificacoesContainer"  class="pull-right-container">
-              <span id="qtdeNotificacoes" class="label label-primary pull-right"><?= $notificacao ?></span>
-            </span></a></li>
+                    <li><a href="painel.php?exe=notificacao/index"><i class="fa fa-bell fa-fw"></i>                    <span>Notificações</span>
+                        <?php 
+                            if (count($notificacao) > 0):
+                        ?>
+                        <span id="qtdeNotificacoesContainer"  class="pull-right-container">
+                            <span id="qtdeNotificacoes" class="label label-primary pull-right"><?= count($notificacao) ?>
+                            </span>
+                        </span>
+                        <?php 
+                            endif;
+                        ?>
+                    </a></li>
                     <li><a href="painel.php?exe=remessa/index"><i class="fa fa-file-archive-o fa-fw"></i> <span>Remessas</span></a></li>
                     <li><a href="painel.php?exe=envio_remessa/create"><i class="fa fa-upload fa-fw"></i> <span>Retorno de Remessa</span></a></li>
                     <!--<li><a href="painel.php?exe=boleto/update"><i class="fa fa-list-alt fa-fw"></i> <span>Config. Boleto</span></a></li>-->
