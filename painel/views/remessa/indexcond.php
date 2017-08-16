@@ -38,7 +38,7 @@ $title = 'Remessa';
 
                     <?php
                     $read = new Read;
-                    $read->ExeRead($modulo, "WHERE id_condominio = {$idcond} AND EXISTS(SELECT 1 FROM cobranca cob WHERE cob.id_remessa = remessa.id AND baixa = 0) ORDER BY dataGeracao DESC, id DESC");
+                    $read->ExeRead($modulo, "WHERE id_condominio = {$idcond} ORDER BY dataGeracao DESC, id DESC");
                     if ($read->getResult()):
                         foreach ($read->getResult() as $user):
                             extract($user);
@@ -50,13 +50,13 @@ $title = 'Remessa';
                                     </a>
                                 </td>
                                 <td>
-                                    <a target="_blank" href="https://boleto-assertbh.mybluemix.net/remessa/<?= $id; ?>">
+                                    <a target="_blank" href="http://assertbh-com-br.umbler.net/remessa/<?= $id; ?>">
                                         <?= $nomeArquivo ?>
                                     </a>
                                 </td>
                                 <td>
                                     <a class="btn btn-xs btn-success" href="painel.php?exe=remessa/boletos&nomeCondominio=<?= $nomeCondominio; ?>&id=<?= $id; ?>&arquivo=<?= $nomeArquivo ?>&idcond=<?= $idcond ?>" title="Boletos"><i class="glyphicon glyphicon-usd" ></i> Boletos</a>
-                                    <a target="_blank" class="btn btn-xs btn-primary" href="https://boleto-assertbh.mybluemix.net/remessa/<?= $id; ?>" title="Baixar"><i class="glyphicon glyphicon-download-alt" ></i> Baixar</a>
+                                    <a target="_blank" class="btn btn-xs btn-primary" href="http://assertbh-com-br.umbler.net/remessa/<?= $id; ?>" title="Baixar"><i class="glyphicon glyphicon-download-alt" ></i> Baixar</a>
                                 </td>
                             </tr>
 

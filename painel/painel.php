@@ -309,12 +309,12 @@ endif;
     <script>
         $.ajax({
             type: 'POST',
-            url: 'https://boleto-assertbh.mybluemix.net/atualizarDataVencimento'
+            url: 'http://assertbh-com-br.umbler.net/atualizarDataVencimento'
         })
 
         $.ajax({
             type: 'GET',
-            url: 'https://boleto-assertbh.mybluemix.net/notificacao/naoLidas',
+            url: 'http://assertbh-com-br.umbler.net/notificacao/naoLidas',
             dataType: 'json',
             success: function(naoLidas) {
                 $("#qtdeNotificacoes").html(naoLidas.length);

@@ -85,7 +85,7 @@ $userLogin = $_SESSION['userloginPainel'];
                                 <td><a href="<?= $link; ?>"><?= (!empty($pagamento))?date('d/m/Y', strtotime($pagamento)): ''; ?></td>
                                 <td><a href="<?= $link; ?>"><?= $valor_pago ?></td>
                                 <td>
-                                    <a class="btn btn-xs btn-success" href="https://boleto-assertbh.mybluemix.net/gerar/boleto/<?= $id; ?>" title="Visualizar Boleto" target="_blank"><i class="glyphicon glyphicon-file" ></i> Boleto</a>
+                                    <a class="btn btn-xs btn-success" href="http://assertbh-com-br.umbler.net/gerar/boleto/<?= $id; ?>" title="Visualizar Boleto" target="_blank"><i class="glyphicon glyphicon-file" ></i> Boleto</a>
                                     <a class="btn btn-xs btn-primary" href="<?= $link; ?>" title="Editar"><i class="glyphicon glyphicon-edit" ></i></a>
                                     <a id="delete_boletos" class="btn btn-xs btn-danger" data-id="<?= $id; ?>" data-idunidade="<?= $idunidade; ?>" data-tabela="<?= $modulo; ?>" data-pasta="<?= $modulo; ?>"  title="Deletar"><i class="glyphicon glyphicon-trash"></i></a>
                                 </td>

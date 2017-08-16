@@ -18,7 +18,7 @@ $read = new Read;
 $read->ExeRead("condominios", "WHERE id = :userid", "userid={$id}");
 
 $cobrancas = new Read;
-$cobrancas->FullRead("SELECT unid.bloco, unid.apto_sala, cob.mes_ref, DATE_FORMAT(cob.data,'%d/%m/%Y') as data, DATE_FORMAT(cob.vencimento,'%d/%m/%Y') as vencimento, DATE_FORMAT(cob.pagamento,'%d/%m/%Y') as pagamento, cob.vencimentoBoleto, FORMAT(cob.valor_pago, 2, 'de_DE') as valorPago, FORMAT(cob.valorOriginal, 2, 'de_DE'), FORMAT(cob.valor_pago - cob.valorOriginal, 2, 'de_DE') as jurosMulta as valorOriginal
+$cobrancas->FullRead("SELECT unid.bloco, unid.apto_sala, cob.mes_ref, DATE_FORMAT(cob.data,'%d/%m/%Y') as data, DATE_FORMAT(cob.vencimento,'%d/%m/%Y') as vencimento, DATE_FORMAT(cob.pagamento,'%d/%m/%Y') as pagamento, cob.vencimentoBoleto, FORMAT(cob.valor_pago, 2, 'de_DE') as valorPago, FORMAT(cob.valorOriginal, 2, 'de_DE') as valorOriginal, FORMAT(cob.valor_pago - cob.valorOriginal, 2, 'de_DE') as jurosMulta
 FROM `cobranca` cob
 	JOIN condominios cond ON cond.id = cob.id_condominio
     JOIN unidades unid ON unid.id = cob.id_unidade
@@ -86,13 +86,13 @@ $html = '<h2 style="text-align: center; text-decoration: underline">Cobranças P
 	<br/><br/>';
 	$html = $html.'<table style="border: 1px solid black;">
 		<tr style="background: #ddd">
-			<td style="border: 1px solid black; font-weight: bold; width: 70px">Bloco</td>
-			<td style="border: 1px solid black; font-weight: bold; width: 80px">Apto/Sala</td>
+			<td style="border: 1px solid black; font-weight: bold; width: 65px">Bloco</td>
+			<td style="border: 1px solid black; font-weight: bold; width: 65px">Apto<br/>Sala</td>
 			<td style="border: 1px solid black; font-weight: bold;">Ref.</td>
-			<td style="border: 1px solid black; font-weight: bold; width: 100px">Vencimento</td>
-			<td style="border: 1px solid black; font-weight: bold">Pagamento</td>
+			<td style="border: 1px solid black; font-weight: bold; width: 95px">Vencimento</td>
+			<td style="border: 1px solid black; font-weight: bold; width: 90px">Pagamento</td>
 			<td style="border: 1px solid black; font-weight: bold; width: 100px; text-align: right">Valor Original</td>
-			<td style="border: 1px solid black; font-weight: bold; width: 100px; text-align: right">Juros/Multa</td>
+			<td style="border: 1px solid black; font-weight: bold; width: 70px; text-align: right">Juros<br/>Multa</td>
 			<td style="border: 1px solid black; font-weight: bold; text-align: right">Valor Pago</td>
 		</tr>';
 		

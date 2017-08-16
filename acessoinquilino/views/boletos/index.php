@@ -74,7 +74,7 @@ $readUnidade->getResult();
                                 <td><a href="#"><?= (!empty($pagamento))?date('d/m/Y', strtotime($pagamento)): ''; ?></td>
                                 <td><a href="#"><?= $valor_pago ?></td>
                                 <td>
-                                    <a class="btn btn-xs btn-success" href="https://boleto-assertbh.mybluemix.net/gerar/boleto/<?= $id; ?>" title="Visualizar Boleto" target="_blank"><i class="glyphicon glyphicon-file" ></i>2&ordf; Via Boleto</a>
+                                    <a class="btn btn-xs btn-success" href="http://assertbh-com-br.umbler.net/gerar/boleto/<?= $id; ?>" title="Visualizar Boleto" target="_blank"><i class="glyphicon glyphicon-file" ></i>2&ordf; Via Boleto</a>
                                 </td>
                             </tr>
                             <?php

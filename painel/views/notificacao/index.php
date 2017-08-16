@@ -62,7 +62,7 @@ endif;
                                 <td>Não</td>
                                 <? } ?>
                                <td>
-                                    <a class="btn btn-xs btn-primary" href="https://boleto-assertbh.mybluemix.net/notificacao/<?= $id; ?>" title="Ver"><i class="glyphicon glyphicon-eye-open" ></i></a>
+                                    <a class="btn btn-xs btn-primary" href="http://assertbh-com-br.umbler.net/notificacao/<?= $id; ?>" title="Ver"><i class="glyphicon glyphicon-eye-open" ></i></a>
                                     <a id="delete_btn" class="btn btn-xs btn-danger" data-id="<?= $id; ?>" data-tabela="<?= $modulo; ?>" data-pasta="<?= $modulo; ?>"  title="Deletar"><i class="glyphicon glyphicon-trash"></i></a>
                                 </td>
                             </tr>

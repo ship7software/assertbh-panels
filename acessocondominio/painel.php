@@ -315,7 +315,7 @@ endif;
     <script>
         $.ajax({
             type: 'POST',
-            url: 'https://boleto-assertbh.mybluemix.net/atualizarDataVencimento'
+            url: 'http://assertbh-com-br.umbler.net/atualizarDataVencimento'
         })
     </script>
     </html>

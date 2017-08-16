@@ -380,7 +380,7 @@ if ($ClienteData['alterar'] && $sendPostForm):
             if ($alterar == 0):
                 echo '<script type="text/javascript">';
                 if ($ClienteData['alugado'] == 'Sim'):
-                    $link = 'https://boleto-assertbh.mybluemix.net/gerar/notificacao/inquilino/'.$userId.'?condominio='.$idcond;
+                    $link = 'http://assertbh-com-br.umbler.net/gerar/notificacao/inquilino/'.$userId.'?condominio='.$idcond;
                     echo '$.ajax({ type: "POST", url: "'.$link.'" });';
                 endif;
                 echo 'setTimeout(function () { swal({  title: \'Informação\',
@@ -409,7 +409,7 @@ if ($ClienteData['alterar'] && $sendPostForm):
 
         echo '<script type="text/javascript">';
         if ($ClienteData['alugado'] == 'Sim'):
-            $link = 'https://boleto-assertbh.mybluemix.net/gerar/notificacao/inquilino/'.$userId.'?condominio='.$idcond;
+            $link = 'http://assertbh-com-br.umbler.net/gerar/notificacao/inquilino/'.$userId.'?condominio='.$idcond;
             echo '$.ajax({ type: "POST", url: "'.$link.'" });';
         endif;
         echo 'setTimeout(function () { swal({  title: \'Informação\',

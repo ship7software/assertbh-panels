@@ -42,7 +42,7 @@ endif;
             <h3 class="box-title">Lista de <?= $title; ?>s</h3>
             <div class="box-tools pull-right">
                 <!--                <a href="painel.php?exe=<?/*= $modulo; */?>/create&id=<?/*= $idcond; */?>" title="Cadastrar Novo <?/*= $title; */?>" class="btn btn-primary btn-sm"><i class="fa fa-plus-square"></i> Cadastrar <?/*= $title; */?></a>
--->                <a href="https://boleto-assertbh.mybluemix.net/gerar/remessa/<?= $idcond; ?>" target="_blank" title="Gerar Arquivo de Envio <?= $title; ?>" class="btn btn-primary btn-sm"><i class="fa fa-plus-square"></i> Gerar Arquivo de Envio</a>
+-->                <a href="http://assertbh-com-br.umbler.net/gerar/remessa/<?= $idcond; ?>" target="_blank" title="Gerar Arquivo de Envio <?= $title; ?>" class="btn btn-primary btn-sm"><i class="fa fa-plus-square"></i> Gerar Arquivo de Envio</a>
                 <a href="painel.php?exe=boletos/index" title="Retornar para Condomínios" class="btn btn-danger btn-sm"><i class="fa fa-arrow-left"></i> Retornar para Condomínios</a>
             </div>
         </div>
@@ -122,14 +122,14 @@ endif;
                                 <td><a href="<?= $link; ?>"><?= $valor_pago ?></td>
                                 <td>
                                     <? if(!empty($id_remessa)) { ?>
-                                        <a class="btn btn-xs btn-info" href="https://boleto-assertbh.mybluemix.net/remessa/<?= $id_remessa; ?>" title="Baixar Remessa" target="_blank"><i class="glyphicon glyphicon-floppy-save" ></i> Remessa</a>
+                                        <a class="btn btn-xs btn-info" href="http://assertbh-com-br.umbler.net/remessa/<?= $id_remessa; ?>" title="Baixar Remessa" target="_blank"><i class="glyphicon glyphicon-floppy-save" ></i> Remessa</a>
                                         <? } ?>
                                     <? if(empty($id_remessa)) { ?>
                                        Não gerada
                                         <? } ?>
                                 </td>
                                 <td>
-                                    <a class="btn btn-xs btn-success" href="https://boleto-assertbh.mybluemix.net/gerar/boleto/<?= $id; ?>" title="Visualizar Boleto" target="_blank"><i class="glyphicon glyphicon-file" ></i> Boleto</a>
+                                    <a class="btn btn-xs btn-success" href="http://assertbh-com-br.umbler.net/gerar/boleto/<?= $id; ?>" title="Visualizar Boleto" target="_blank"><i class="glyphicon glyphicon-file" ></i> Boleto</a>
                                     <!--                                    <a class="btn btn-xs btn-primary" href="painel.php?exe=<?/*= $modulo; */?>/update&id1=<?/*= $id; */?>&id2=<?/*= $idcond; */?>" title="Editar"><i class="glyphicon glyphicon-edit" ></i></a>
                                     <a id="delete_btn" class="btn btn-xs btn-danger" data-id="<?/*= $id; */?>" data-tabela="<?/*= $modulo; */?>" data-pasta="<?/*= $modulo; */?>"  title="Deletar"><i class="glyphicon glyphicon-trash"></i></a>
 -->                                </td>

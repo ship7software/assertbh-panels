@@ -14,7 +14,7 @@ if ($ClienteData && $ClienteData['SendPostForm']):
         if ($enviaFotos->getResult()):
             $path = $_FILES['arquivo']['name'];
             $ext = pathinfo($path, PATHINFO_EXTENSION);
-            header("Location:https://boleto-assertbh.mybluemix.net/processar/retorno/".$fileName.'.'.$ext);
+            header("Location:http://assertbh-com-br.umbler.net/processar/retorno/".$fileName.'.'.$ext);
         else:
             DSErro($enviaFotos->getError()[0], $enviaFotos->getError()[1]);
         endif;
