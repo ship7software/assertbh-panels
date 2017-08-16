@@ -282,7 +282,7 @@ endif;
             <div class="pull-right hidden-xs">
                 <b>Version</b> 2.0
             </div>
-            <strong>Copyright &copy; 2014-2016 ASSERT BH</strong> All rights reserved.
+            <strong>Copyright &copy; 2017 ASSERTBH</strong> All rights reserved.
         </footer>
     </div><!-- /#wrapper -->
     </body>
