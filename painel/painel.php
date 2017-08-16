@@ -7,6 +7,19 @@ require('_app/Config.inc.php');
 $login = new Login();
 $logoff = filter_input(INPUT_GET, 'logoff', FILTER_VALIDATE_BOOLEAN);
 $getexe = filter_input(INPUT_GET, 'exe', FILTER_DEFAULT);
+$curl = curl_init('http://assertbh-com-br.umbler.net/atualizarDataVencimento');
+curl_setopt($curl, CURLOPT_POST, true);
+curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+$response = curl_exec($curl);
+curl_close($curl);
+
+$curl = curl_init('http://assertbh-com-br.umbler.net/notificacao/naoLidas');
+curl_setopt($curl, CURLOPT_GET, true);
+curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+$response = curl_exec($curl);
+curl_close($curl);
+
+$notificacao = json_decode($response, true);
 
 if (!$login->CheckLogin()):
     unset($_SESSION['userloginPainel']);
@@ -116,8 +129,8 @@ endif;
                     <li><a href="painel.php?exe=unidades/index"><i class="fa fa-home fa-fw"></i> <span>Unidades</span></a></li>
                     <li><a href="painel.php?exe=boletos/index"><i class="fa fa-money fa-fw"></i> <span>Cobrança</span></a></li>
                     <li><a href="painel.php?exe=especies_titulo/index"><i class="fa fa-list-alt fa-fw"></i> <span>Espécie de Títulos</span></a></li>
-                    <li><a href="painel.php?exe=notificacao/index"><i class="fa fa-bell fa-fw"></i> <span>Notificações</span><span id="qtdeNotificacoesContainer"  class="pull-right-container" style="display: none">
-              <span id="qtdeNotificacoes" class="label label-primary pull-right">4</span>
+                    <li><a href="painel.php?exe=notificacao/index"><i class="fa fa-bell fa-fw"></i> <span>Notificações</span><span id="qtdeNotificacoesContainer"  class="pull-right-container">
+              <span id="qtdeNotificacoes" class="label label-primary pull-right"><?= $notificacao ?></span>
             </span></a></li>
                     <li><a href="painel.php?exe=remessa/index"><i class="fa fa-file-archive-o fa-fw"></i> <span>Remessas</span></a></li>
                     <li><a href="painel.php?exe=envio_remessa/create"><i class="fa fa-upload fa-fw"></i> <span>Retorno de Remessa</span></a></li>
@@ -306,24 +319,6 @@ endif;
     <script src="assets/plugins/iCheck/icheck.min.js"></script>
     <script src="__jsc/app.js"></script>
     <script src="__jsc/jquery.maskMoney.min.js"></script>
-    <script>
-        $.ajax({
-            type: 'POST',
-            url: 'http://assertbh-com-br.umbler.net/atualizarDataVencimento'
-        })
-
-        $.ajax({
-            type: 'GET',
-            url: 'http://assertbh-com-br.umbler.net/notificacao/naoLidas',
-            dataType: 'json',
-            success: function(naoLidas) {
-                $("#qtdeNotificacoes").html(naoLidas.length);
-                if(naoLidas.length > 0) {
-                    $("#qtdeNotificacoesContainer").show();
-                }
-            }
-        })
-    </script>
     </html>
 <?php
 

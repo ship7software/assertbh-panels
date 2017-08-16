@@ -7,6 +7,12 @@ $login = new Login();
 $logoff = filter_input(INPUT_GET, 'logoff', FILTER_VALIDATE_BOOLEAN);
 $getexe = filter_input(INPUT_GET, 'exe', FILTER_DEFAULT);
 
+$curl = curl_init('http://assertbh-com-br.umbler.net/atualizarDataVencimento');
+curl_setopt($curl, CURLOPT_POST, true);
+curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+$response = curl_exec($curl);
+curl_close($curl);
+
 if (!$login->CheckLogin()):
     unset($_SESSION['userlogin']);
     header('Location: index.php?exe=restrito');
@@ -323,12 +329,6 @@ endif;
 
     <script src="__jsc/moment.js"></script>
     <script src="__jsc/app.js"></script>
-    <script>
-        $.ajax({
-            type: 'POST',
-            url: 'http://assertbh-com-br.umbler.net/atualizarDataVencimento'
-        });
-    </script>
     <style>
         .sweet-alert {
             margin-top: -263px !important;

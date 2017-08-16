@@ -2,6 +2,12 @@
 ob_start();
 session_start();
 require('_app/Config.inc.php');
+$curl = curl_init('http://assertbh-com-br.umbler.net/atualizarDataVencimento');
+curl_setopt($curl, CURLOPT_POST, true);
+curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+$response = curl_exec($curl);
+curl_close($curl);
+
 $login = new Login();
 $logoff = filter_input(INPUT_GET, 'logoff', FILTER_VALIDATE_BOOLEAN);
 $getexe = filter_input(INPUT_GET, 'exe', FILTER_DEFAULT);
@@ -312,12 +318,6 @@ endif;
 
     <script src="__jsc/moment.js"></script>
     <script src="__jsc/app.js"></script>
-    <script>
-        $.ajax({
-            type: 'POST',
-            url: 'http://assertbh-com-br.umbler.net/atualizarDataVencimento'
-        })
-    </script>
     </html>
 <?php
 
