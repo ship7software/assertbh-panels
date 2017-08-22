@@ -105,13 +105,13 @@ endif;
                                placeholder="Bloco do <?= $title; ?>"  disabled="disabled">
                     </div>
                     <div class="col-md-4">
-                        <label>Apartamento/Sala</label>
+                        <label>Unidade</label>
                         <input class="form-control"
                                type = "text"
                                name = "apto_sala"
                                value="<?php if (!empty($ClienteData['apto_sala'])) echo $ClienteData['apto_sala']; ?>"
-                               title = "Informe o Apartamento/Sala da <?= $title; ?>"
-                               placeholder="Apartamento/Sala do <?= $title; ?>"  disabled="disabled">
+                               title = "Informe o Unidade da <?= $title; ?>"
+                               placeholder="Unidade do <?= $title; ?>"  disabled="disabled">
                     </div>
                 </div>
                 <hr>

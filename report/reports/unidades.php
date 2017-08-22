@@ -73,7 +73,7 @@ $html = '<h2 style="text-align: center; text-decoration: underline">Ficha de Uni
 	<br>
 	<tr>
 		<th style="width: 50%"><span style="font-weight: bold;">Bloco: </span><br>'.$unidade->getResult()[0]['bloco'].'</th>
-		<th><span style="font-weight: bold;">Apartamento/Sala: </span><br>'.$unidade->getResult()[0]['apto_sala'].'</th>
+		<th><span style="font-weight: bold;">Unidade: </span><br>'.$unidade->getResult()[0]['apto_sala'].'</th>
 	</tr>
 	<br>
 	<tr>
