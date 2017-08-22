@@ -63,7 +63,7 @@ $banco = new AdminCobranca();
         <div class="box-header with-border">
             <h3 class="box-title">Atualização de <?=$title?></h3>
             <h4>Condomínio: <?= $condominio->getCondominio($readUnidade->getResult()[0]['id_condominio']); ?> - Unidade: Bloco: <?= $readUnidade->getResult()[0]['bloco']; ?> -
-                Apto/Sala: <?= $readUnidade->getResult()[0]['apto_sala']; ?> - Proprietário: <?= $proprietario->getProprietario($readUnidade->getResult()[0]['id_proprietario']); ?></h4>
+                Unidade: <?= $readUnidade->getResult()[0]['apto_sala']; ?> - Proprietário: <?= $proprietario->getProprietario($readUnidade->getResult()[0]['id_proprietario']); ?></h4>
 
         </div>
         <div class="box-body">

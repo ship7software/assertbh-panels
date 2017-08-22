@@ -24,7 +24,7 @@ $Condominio = new AdminDocumento();
     <div class="box">
         <div class="box-header with-border">
             <h3 class="box-title">Lista de <?= $title; ?>s do Condomínio <?=$Condominio->getCondominio($unidade->getResult()[0]['id_condominio'])?> </h3>
-            <h4>Unidade: Bloco: <?= $unidade->getResult()[0]['bloco']; ?> / Apto/Sala: <?= $unidade->getResult()[0]['apto_sala']; ?></h4>
+            <h4>Unidade: Bloco: <?= $unidade->getResult()[0]['bloco']; ?> / Unidade: <?= $unidade->getResult()[0]['apto_sala']; ?></h4>
             <div class="box-tools pull-right">
                 <a href="painel.php?exe=unidades/index&userid=<?= $unidade->getResult()[0]['id_proprietario']; ?>" title="Retornar para Unidades" class="btn btn-danger btn-sm"><i class="fa fa-arrow-left"></i> Retornar para Unidades</a>
             </div>

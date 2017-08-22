@@ -384,7 +384,7 @@ if ($ClienteData['alterar'] && $sendPostForm):
                     echo '$.ajax({ type: "POST", url: "'.$link.'" });';
                 endif;
                 echo 'setTimeout(function () { swal({  title: \'Informação\',
-                    text: \'Você precisa preencher todo o cadastro da propriedade: Condominio:'.$Condominio->getCondominio($id_condominio).' Bloco:'.$bloco.' Apto/Sala:'.$apto_sala.'\',  
+                    text: \'Você precisa preencher todo o cadastro da propriedade: Condominio:'.$Condominio->getCondominio($id_condominio).' Bloco:'.$bloco.' Unidade:'.$apto_sala.'\',  
                         
                     showCancelButton: false,   
                     closeOnConfirm: true,   

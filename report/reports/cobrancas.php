@@ -76,7 +76,7 @@ $html = '<h2 style="text-align: center; text-decoration: underline">Cobranças e
 	$html = $html.'<table style="border: 1px solid black;">
 		<tr style="background: #ddd">
 			<td style="border: 1px solid black; font-weight: bold; width: 70px">Bloco</td>
-			<td style="border: 1px solid black; font-weight: bold; width: 80px">Apto/Sala</td>
+			<td style="border: 1px solid black; font-weight: bold; width: 80px">Unidade</td>
 			<td style="border: 1px solid black; font-weight: bold;">Ref.</td>
 			<td style="border: 1px solid black; font-weight: bold; width: 100px">Lançamento</td>
 			<td style="border: 1px solid black; font-weight: bold">Vencimento</td>

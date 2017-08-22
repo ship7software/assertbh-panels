@@ -22,7 +22,7 @@ $Condominio = new AdminDocumento();
     <div class="box">
         <div class="box-header with-border">
             <h3 class="box-title">Lista de <?= $title; ?>s do Condomínio <?=$Condominio->getCondominio($idcondominio)?> </h3>
-            <h4>Unidade: Bloco: <?= $bloco; ?> / Apto/Sala: <?= $apto_sala ?></h4>
+            <h4>Unidade: Bloco: <?= $bloco; ?> / Unidade: <?= $apto_sala ?></h4>
             <div class="box-tools pull-right">
              </div>
         </div>

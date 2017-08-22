@@ -81,7 +81,7 @@ endif;
                             if ($alterar == 0):
                                 echo '<script type="text/javascript">';
                                 echo 'setTimeout(function () { swal({  title: \'Informação\',
-                                    text: \'Você precisa preencher todo o cadastro da propriedade: Condominio:'.$Condominio->getCondominio($id_condominio).' Bloco:'.$bloco.' Apto/Sala:'.$apto_sala.'\',  
+                                    text: \'Você precisa preencher todo o cadastro da propriedade: Condominio:'.$Condominio->getCondominio($id_condominio).' Bloco:'.$bloco.' Unidade:'.$apto_sala.'\',  
                                         
                                     showCancelButton: false,   
                                     closeOnConfirm: true,   
@@ -97,7 +97,7 @@ endif;
                             ?>
                             <tr>
                                 <td><a href="painel.php?exe=<?= $modulo; ?>/update&userid=<?= $id; ?>&idprop=<?= $userid; ?>&idcond="<?= $id_condominio; ?>><?= $Condominio->getCondominio($id_condominio)?></td>
-                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&userid=<?= $id; ?>&idprop=<?= $userid; ?>&idcond="<?= $id_condominio; ?>>Bloco:<?=$bloco?> - Apto/Sala:<?=$apto_sala?></td>
+                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&userid=<?= $id; ?>&idprop=<?= $userid; ?>&idcond="<?= $id_condominio; ?>>Bloco:<?=$bloco?> - Unidade:<?=$apto_sala?></td>
                                 <td><a href="painel.php?exe=<?= $modulo; ?>/update&userid=<?= $id; ?>&idprop=<?= $userid; ?>&idcond="<?= $id_condominio; ?>><?= $contato_emergencia ?></td>
                                 <td>
                                     <a class="btn btn-xs btn-success" href="painel.php?exe=documentos/index&unidadeid=<?= $id; ?>" title="Documentos"><i class="glyphicon glyphicon-file" ></i> Acesso Documentos</a>

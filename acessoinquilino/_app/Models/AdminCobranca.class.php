@@ -86,7 +86,7 @@ class AdminCobranca {
         $readUnidade = new Read;
         $readUnidade->ExeRead("unidades", "WHERE id = :user", "user={$this->Unidade}");
 
-        return('Bloco: '.$readUnidade->getResult()[0]['bloco'].' - '.'Apto/Sala: '.$readUnidade->getResult()[0]['apto_sala'] );
+        return('Bloco: '.$readUnidade->getResult()[0]['bloco'].' - '.'Unidade: '.$readUnidade->getResult()[0]['apto_sala'] );
     }
 
     public function getBanco($UserId) {

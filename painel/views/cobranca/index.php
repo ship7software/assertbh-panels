@@ -45,7 +45,7 @@ $userLogin = $_SESSION['userloginPainel'];
                 <a href="painel.php?exe=unidades/indexcond&id=<?=$readUnidade->getResult()[0]['id_condominio']?>" title="Retornar para Unidades" class="btn btn-danger btn-sm"><i class="fa fa-arrow-left"></i> Retornar para Unidades</a>
             </div>
             <h4>Condomínio: <?= $condominio->getCondominio($readUnidade->getResult()[0]['id_condominio']); ?> - Unidade: Bloco: <?= $readUnidade->getResult()[0]['bloco']; ?> -
-                Apto/Sala: <?= $readUnidade->getResult()[0]['apto_sala']; ?> - Proprietário: <?= $proprietario->getProprietario($readUnidade->getResult()[0]['id_proprietario']); ?></h4>
+                Unidade: <?= $readUnidade->getResult()[0]['apto_sala']; ?> - Proprietário: <?= $proprietario->getProprietario($readUnidade->getResult()[0]['id_proprietario']); ?></h4>
         </div>
         <div class="box-body">
 

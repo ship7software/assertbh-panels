@@ -287,7 +287,7 @@ if ($ClienteData['alterar'] && $sendPostForm):
             if ($alterar == 0):
                 echo '<script type="text/javascript">';
                 echo 'setTimeout(function () { swal({  title: \'Informação\',
-                    text: \'Você precisa preencher todo o cadastro da propriedade: Condominio:'.$Condominio->getCondominio($id_condominio).' Bloco:'.$bloco.' Apto/Sala:'.$apto_sala.'\',  
+                    text: \'Você precisa preencher todo o cadastro da propriedade: Condominio:'.$Condominio->getCondominio($id_condominio).' Bloco:'.$bloco.' Unidade:'.$apto_sala.'\',  
                         
                     showCancelButton: false,   
                     closeOnConfirm: true,   

@@ -36,7 +36,7 @@ $readUnidade->getResult();
         <div class="box-header with-border">
             <h3 class="box-title">Lista de <?= $title; ?>s</h3>
             <h4>Condomínio: <?= $condominio->getCondominio($readUnidade->getResult()[0]['id_condominio']); ?> - Unidade: Bloco: <?= $readUnidade->getResult()[0]['bloco']; ?> -
-                Apto/Sala: <?= $readUnidade->getResult()[0]['apto_sala']; ?></h4>
+                Unidade: <?= $readUnidade->getResult()[0]['apto_sala']; ?></h4>
         </div>
         <div class="box-body">
 

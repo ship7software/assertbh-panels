@@ -39,7 +39,7 @@ $readUnidade->getResult();
                 <a href="painel.php?exe=unidades/index&userid=<?=$readUnidade->getResult()[0]['id_proprietario']?>" title="Retornar para Propriedades" class="btn btn-danger btn-sm"><i class="fa fa-arrow-left"></i> Retornar para Propriedades</a>
             </div>
             <h4>Condomínio: <?= $condominio->getCondominio($readUnidade->getResult()[0]['id_condominio']); ?> - Unidade: Bloco: <?= $readUnidade->getResult()[0]['bloco']; ?> -
-                Apto/Sala: <?= $readUnidade->getResult()[0]['apto_sala']; ?></h4>
+                Unidade: <?= $readUnidade->getResult()[0]['apto_sala']; ?></h4>
         </div>
         <div class="box-body">
 

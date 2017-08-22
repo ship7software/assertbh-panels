@@ -57,7 +57,7 @@ endif;
                             <tr>
                                 <td><a href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>&id2=<?= $idcond; ?>"><?= $Proprietario->getProprietario($id_proprietario)?></td>
                                 <td><a href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>&id2=<?= $idcond; ?>"><?= $Condominio->getCondominio($id_condominio)?></td>
-                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>&id2=<?= $idcond; ?>">Bloco:<?=$bloco?> - Apto/Sala:<?=$apto_sala?></td>
+                                <td><a href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>&id2=<?= $idcond; ?>">Bloco:<?=$bloco?> - Unidade:<?=$apto_sala?></td>
                                 <td><a href="painel.php?exe=<?= $modulo; ?>/update&id1=<?= $id; ?>&id2=<?= $idcond; ?>"><?= $telefone_emergencia ?></td>
                                 <td>
                                     <a class="btn btn-xs btn-success" href="painel.php?exe=cobranca/index&id=<?= $id; ?>" title="Boletos"><i class="glyphicon glyphicon-usd" ></i> Boletos</a>
