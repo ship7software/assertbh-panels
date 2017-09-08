@@ -41,6 +41,8 @@ if(!$mes_ref):
         case "11":    $mes_ref = "Novembro";    break;
         case "12":    $mes_ref = "Dezembro";    break; 
     }
+
+    $mes_ref = $mes_ref."/".date("Y");
 endif;
 
 $readUnidade = new Read;
@@ -88,8 +90,19 @@ $banco = new AdminCobranca();
         </div>
         <div class="box-body">
             <script>
-                function atualizarDataVencimento(evt) {
-                    console.log({ evt });
+                $(document).ready(function() {
+                    $("#mes_ref").on('change', function(evt){
+                        var parts = evt.target.value.split('/');
+                        var mes = parts[0];
+                        var ano = new Date().getFullYear().toString();
+                        if (parts.length > 1) {
+                            ano = parts[1];
+                        }
+
+                        atualizarDataVencimento(mes, ano);
+                    });
+                });
+                function atualizarDataVencimento(pMes, pAno) {
                     var dia = $("#vencimentoPadrao").val();
                     var meses = {};
                     meses['Janeiro'] = '01';
@@ -105,19 +118,12 @@ $banco = new AdminCobranca();
                     meses['Novembro'] = '11';
                     meses['Dezembro'] = '12';
 
-                    var mes = meses[$("#mes_ref").val()]
+                    var mes = meses[pMes]
 
-                    console.log({
-                        mes, dia, concat: new Date().getFullYear() + mes + dia
-                    });
-
-                    var vencimento = moment(new Date().getFullYear() + mes + "01", "YYYYMMDD");
+                    var vencimento = moment(pAno + mes + "01", "YYYYMMDD");
                     var now = moment();
                     var isPast = vencimento.isBefore(now.startOf('month'));
                     vencimento.add(dia, 'd').add(-1, 'd')
-                    if (isPast) {
-                        vencimento.add(1, 'y');
-                    }
 
                     $("#vencimento").val(vencimento.format('DD/MM/YYYY'));
                 }
@@ -135,7 +141,7 @@ $banco = new AdminCobranca();
                                type = "text"
                                oninput="atualizarDataVencimento"
                                name="mes_ref" id="mes_ref" required 
-                               value="<?php if (!empty($mes_ref)) echo mes_ref; ?>"
+                               value="<?php if (!empty($mes_ref)) echo $mes_ref; ?>"
                                title = "Informe o Mês de Referência"
                                placeholder="Mês de Referência">
                     </div>
