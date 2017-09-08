@@ -24,7 +24,7 @@ FROM `cobranca` cob
     JOIN unidades unid ON unid.id = cob.id_unidade
     JOIN proprietarios prop ON prop.id = cob.id_proprietario
 WHERE cob.baixa = 1 AND cob.id_condominio = :userid AND cob.pagamento >= :dataInicio AND cob.pagamento <= :dataFim
-ORDER BY cob.pagamento, unid.bloco, unid.apto_sala", "userid={$id}&dataInicio={$dataInicio}&dataFim={$dataFim}");
+ORDER BY unid.bloco, unid.apto_sala, cob.pagamento", "userid={$id}&dataInicio={$dataInicio}&dataFim={$dataFim}");
 
 // create new PDF document
 $pdf = new TCPDF(PDF_PAGE_ORIENTATION, PDF_UNIT, PDF_PAGE_FORMAT, true, 'UTF-8', false);
@@ -87,7 +87,7 @@ $html = '<h2 style="text-align: center; text-decoration: underline">Cobranças P
 	$html = $html.'<table style="border: 1px solid black;">
 		<tr style="background: #ddd">
 			<td style="border: 1px solid black; font-weight: bold; width: 65px">Bloco</td>
-			<td style="border: 1px solid black; font-weight: bold; width: 65px">Apto<br/>Sala</td>
+			<td style="border: 1px solid black; font-weight: bold; width: 70px">Unidade</td>
 			<td style="border: 1px solid black; font-weight: bold;">Ref.</td>
 			<td style="border: 1px solid black; font-weight: bold; width: 95px">Vencimento</td>
 			<td style="border: 1px solid black; font-weight: bold; width: 90px">Pagamento</td>

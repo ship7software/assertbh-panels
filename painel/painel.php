@@ -237,6 +237,14 @@ endif;
                 autoclose: true
             });
 
+            $('.mask-monthdate').datepicker({
+                format: "MM/yyyy",
+                startView: 1,
+                minViewMode: 1,
+                language: "pt-BR",
+                autoclose: true
+            });
+
             function cpfCnpj(v){
 
                 //Remove tudo o que não é dígito
