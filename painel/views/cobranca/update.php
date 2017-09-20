@@ -68,7 +68,19 @@ $banco = new AdminCobranca();
         </div>
         <div class="box-body">
             <script>
-                function atualizarDataVencimento() {
+                $(document).ready(function() {
+                    $("#mes_ref").on('change', function(evt){
+                        var parts = evt.target.value.split('/');
+                        var mes = parts[0];
+                        var ano = new Date().getFullYear().toString();
+                        if (parts.length > 1) {
+                            ano = parts[1];
+                        }
+
+                        atualizarDataVencimento(mes, ano);
+                    });
+                });
+                function atualizarDataVencimento(pMes, pAno) {
                     var dia = $("#vencimentoPadrao").val();
                     var meses = {};
                     meses['Janeiro'] = '01';
@@ -84,19 +96,12 @@ $banco = new AdminCobranca();
                     meses['Novembro'] = '11';
                     meses['Dezembro'] = '12';
 
-                    var mes = meses[$("#mes_ref").val()]
+                    var mes = meses[pMes]
 
-                    console.log({
-                        mes, dia, concat: new Date().getFullYear() + mes + dia
-                    });
-
-                    var vencimento = moment(new Date().getFullYear() + mes + "01", "YYYYMMDD");
+                    var vencimento = moment(pAno + mes + "01", "YYYYMMDD");
                     var now = moment();
                     var isPast = vencimento.isBefore(now.startOf('month'));
                     vencimento.add(dia, 'd').add(-1, 'd')
-                    if (isPast) {
-                        vencimento.add(1, 'y');
-                    }
 
                     $("#vencimento").val(vencimento.format('DD/MM/YYYY'));
                 }
@@ -111,21 +116,13 @@ $banco = new AdminCobranca();
                 <div class="row form-group">
                     <div class="col-md-3">
                         <label>Mês de Referência</label>
-                        <select class="form-control" name="mes_ref" id="mes_ref" required>
-                            <option disabled="disabled" <?php if (empty($ClienteData['mes_ref'])) echo 'selected="selected"';?>>Selecione o Mês</option>
-                            <option value="Janeiro" <?php if ($ClienteData['mes_ref'] == 'Janeiro') echo 'selected="selected"';?>>Janeiro</option>
-                            <option value="Fevereiro" <?php if ($ClienteData['mes_ref'] == 'Fevereiro') echo 'selected="selected"';?>>Fevereiro</option>
-                            <option value="Março" <?php if ($ClienteData['mes_ref'] == 'Março') echo 'selected="selected"';?>>Março</option>
-                            <option value="Abril" <?php if ($ClienteData['mes_ref'] == 'Abril') echo 'selected="selected"';?>>Abril</option>
-                            <option value="Maio" <?php if ($ClienteData['mes_ref'] == 'Maio') echo 'selected="selected"';?>>Maio</option>
-                            <option value="Junho" <?php if ($ClienteData['mes_ref'] == 'Junho') echo 'selected="selected"';?>>Junho</option>
-                            <option value="Julho" <?php if ($ClienteData['mes_ref'] == 'Julho') echo 'selected="selected"';?>>Julho</option>
-                            <option value="Agosto" <?php if ($ClienteData['mes_ref'] == 'Agosto') echo 'selected="selected"';?>>Agosto</option>
-                            <option value="Setembro" <?php if ($ClienteData['mes_ref'] == 'Setembro') echo 'selected="selected"';?>>Setembro</option>
-                            <option value="Outubro" <?php if ($ClienteData['mes_ref'] == 'Outubro') echo 'selected="selected"';?>>Outubro</option>
-                            <option value="Novembro" <?php if ($ClienteData['mes_ref'] == 'Novembro') echo 'selected="selected"';?>>Novembro</option>
-                            <option value="Dezembro" <?php if ($ClienteData['mes_ref'] == 'Dezembro') echo 'selected="selected"';?>>Dezembro</option>
-                        </select>
+                        <input class="form-control mask-monthdate"
+                               type = "text"
+                               oninput="atualizarDataVencimento"
+                               name="mes_ref" id="mes_ref" required 
+                               value="<?php if (!empty($ClienteData['mes_ref'])) echo $ClienteData['mes_ref']; ?>"
+                               title = "Informe o Mês de Referência"
+                               placeholder="Mês de Referência">
                     </div>
                     <div class="col-md-3">
                         <label>Data de Lançamento:</label>
