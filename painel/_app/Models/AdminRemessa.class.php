@@ -11,6 +11,7 @@ class AdminRemessa {
     private $Data;
     private $Error;
     private $Result;
+    private $Remessa;
 
     const Entity = 'Remessa';
 
@@ -30,6 +31,36 @@ class AdminRemessa {
             $this->Result = false;
         endif;
 
+    }
+
+
+
+    public function ExeDelete($RemessaId) {
+        $this->$Remessa = (int) $RemessaId;
+
+        $readDados = new Read;
+        $readDados->ExeRead(self::Entity, "WHERE id = :id", "id={$this->$Remessa}");
+
+        if (!$readDados->getResult()):
+            $this->Error = ['Oppsss, você tentou remover um registro que não existe no sistema!', DS_ERROR];
+            $this->Result = false;
+        else:
+            $this->Delete();
+        endif;
+    }
+
+    private function Delete() {
+        $Delete = new Delete;
+        $Delete->ExeDelete(self::Entity, "WHERE id = :id", "id={$this->Cobranca}");
+        if ($Delete->getResult()):
+            $atualiza = new Update;
+            $data = array(
+                'id_remessa' => null
+            );
+            $atualiza->ExeUpdate("cobranca",  "WHERE id_remessa = :id", "id={$this->Cobranca}");
+
+            $this->Result = true;
+        endif;
     }
 
     public function getResult() {
