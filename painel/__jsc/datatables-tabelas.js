@@ -213,6 +213,48 @@ $(document).on('click', '#delete_btn', function(){
     );
 });
 
+
+$(document).on('click', '#delete_remessa', function(){
+    var thisElement = this;
+    swal({
+            title: "Deseja excluir essa remessa ?",
+            text: "Esse registro não poderá ser recuperado !",
+            type: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#DD6B55",
+            confirmButtonText: "Sim, delete !",
+            cancelButtonText: "Não, cancele !",
+            closeOnConfirm: false,
+            closeOnCancel: false
+        },
+
+        function(isConfirm){
+            if (isConfirm) {
+                var id = $(thisElement).data('id');
+                var idcondominio = $(thisElement).data('idcondominio');
+                var nomecond = $(thisElement).data('nomecond');
+                var tabela = $(thisElement).data('tabela');
+                var pasta = $(thisElement).data('pasta');
+                $.ajax( {
+                    "type": "DELETE",
+                    "url": "painel.php?exe="+pasta+"/indexcond&id="+idcondominio+"&nomecondominio="+nomecond+"&delete="+id,
+                    "success": function(){
+                        swal("Deletado!", "O registro foi deletado com sucesso.", "success");
+                        $(document).ajaxStop(function(){
+                            setTimeout("window.location = 'painel.php?exe="+pasta+"/indexcond&id="+idcondominio+"&nomecondominio="+nomecond+"'",1000);
+                        });
+                    }
+                } );
+
+            } else {
+                swal("Cancelado!", "O registro não foi deletado. :)", "error");
+
+            }
+
+        }
+    );
+});
+
 $(document).on('click', '#delete_boletos', function(){
     var thisElement = this;
     swal({
