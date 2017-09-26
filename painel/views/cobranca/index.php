@@ -67,7 +67,7 @@ $userLogin = $_SESSION['userloginPainel'];
                     <tbody>
                     <?php
                     $read = new Read;
-                    $read->ExeRead($modulo, "WHERE id_unidade = {$idunidade} ORDER BY data ");
+                    $read->ExeRead($modulo, "WHERE id_unidade = {$idunidade} AND baixa = 0 ORDER BY data ");
                     if ($read->getResult()):
                         foreach ($read->getResult() as $user):
                             extract($user);
