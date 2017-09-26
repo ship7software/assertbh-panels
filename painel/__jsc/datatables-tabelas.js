@@ -241,7 +241,7 @@ $(document).on('click', '#delete_remessa', function(){
                     "success": function(){
                         swal("Deletado!", "O registro foi deletado com sucesso.", "success");
                         $(document).ajaxStop(function(){
-                            setTimeout("window.location = 'painel.php?exe="+pasta+"/indexcond&id="+idcondominio+"&nomecondominio="+nomecond+"'",1000);
+                            setTimeout("window.location = 'painel.php?exe="+pasta+"/indexcond&id="+idcondominio+"&nomeCondominio="+nomecond+"'",1000);
                         });
                     }
                 } );
