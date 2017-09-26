@@ -57,7 +57,7 @@ class AdminRemessa {
             $data = array(
                 'id_remessa' => null
             );
-            $atualiza->ExeUpdate("cobranca",  "WHERE id_remessa = :id", "id={$this->Remessa}");
+            $atualiza->ExeUpdate("cobranca", $data,  "WHERE id_remessa = :id", "id={$this->Remessa}");
 
             $this->Result = true;
         endif;
