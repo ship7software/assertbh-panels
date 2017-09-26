@@ -53,12 +53,6 @@ class AdminRemessa {
         $Delete = new Delete;
         $Delete->ExeDelete(self::Entity, "WHERE id = :id", "id={$this->Remessa}");
         if ($Delete->getResult()):
-            $atualiza = new Update;
-            $data = array(
-                'id_remessa' => null
-            );
-            $atualiza->ExeUpdate("cobranca", $data,  "WHERE id_remessa = :id", "id={$this->Remessa}");
-
             $this->Result = true;
         endif;
     }
