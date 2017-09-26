@@ -237,7 +237,7 @@ $(document).on('click', '#delete_remessa', function(){
                 var pasta = $(thisElement).data('pasta');
                 $.ajax( {
                     "type": "DELETE",
-                    "url": "painel.php?exe="+pasta+"/indexcond&id="+idcondominio+"&nomecondominio="+nomecond+"&delete="+id,
+                    "url": "painel.php?exe="+pasta+"/indexcond&id="+idcondominio+"&nomeCondominio="+nomecond+"&delete="+id,
                     "success": function(){
                         swal("Deletado!", "O registro foi deletado com sucesso.", "success");
                         $(document).ajaxStop(function(){

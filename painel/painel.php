@@ -317,7 +317,7 @@ endif;
     <script src="assets/plugins/DataTables/extensions/Responsive/js/responsive.bootstrap.min.js"></script>
     <script src="__jsc/dataTables.responsive.min.js"></script>
 
-    <script type="text/javascript" src="__jsc/datatables-tabelas.js?version=201709-1"></script>
+    <script type="text/javascript" src="__jsc/datatables-tabelas.js?version=201709-2"></script>
 
     <script type="text/javascript" src="__jsc/fnReloadAjax.js"></script>
 
