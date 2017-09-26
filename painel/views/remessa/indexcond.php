@@ -66,7 +66,7 @@ endif;
                                 <td>
                                     <a class="btn btn-xs btn-success" href="painel.php?exe=remessa/boletos&nomeCondominio=<?= $nomeCondominio; ?>&id=<?= $id; ?>&arquivo=<?= $nomeArquivo ?>&idcond=<?= $idcond ?>" title="Boletos"><i class="glyphicon glyphicon-usd" ></i> Boletos</a>
                                     <a target="_blank" class="btn btn-xs btn-primary" href="http://assertbh-com-br.umbler.net/remessa/<?= $id; ?>" title="Baixar"><i class="glyphicon glyphicon-download-alt" ></i> Baixar</a>
-                                    <a id="delete_btn" class="btn btn-xs btn-danger" data-id="<?= $id; ?>" data-idcondominio="<?= $idcond; ?>" data-tabela="<?= $modulo; ?>" data-pasta="<?= $modulo; ?>" data-nomecond="<?= $nomeCondominio; ?>"  title="Deletar"><i class="glyphicon glyphicon-trash"></i></a>
+                                    <a id="delete_remessa" class="btn btn-xs btn-danger" data-id="<?= $id; ?>" data-idcondominio="<?= $idcond; ?>" data-tabela="<?= $modulo; ?>" data-pasta="<?= $modulo; ?>" data-nomecond="<?= $nomeCondominio; ?>"  title="Deletar"><i class="glyphicon glyphicon-trash"></i></a>
                                 </td>
                             </tr>
 
