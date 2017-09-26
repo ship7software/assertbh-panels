@@ -13,7 +13,7 @@ class AdminRemessa {
     private $Result;
     private $Remessa;
 
-    const Entity = 'Remessa';
+    const Entity = 'remessa';
 
     public function ExeEnvia(array $Data, $Name) {
         $this->Data = $Data;
